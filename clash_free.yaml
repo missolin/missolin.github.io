@@ -35,29 +35,65 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇨🇳中国·159ms
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
+- name: 🇭🇰香港·273ms
+  type: hysteria2
+  server: f60ef7cf-tmm5c0-trdynx-1rk9y.hk3.hyhuawei.com
+  port: 443
+  password: 88f6e3c4-1d01-11ef-812c-f23c91cfbbc9
+  skip-cert-verify: false
+- name: 🇨🇦加拿大·296ms
+  type: vless
+  server: 104.18.46.234
+  port: 2095
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
-- name: 🌐未知·463ms
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tlssecurity=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇦加拿大·346ms
+  type: vless
+  server: 104.18.39.218
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇭🇰香港·387ms
+  type: hysteria2
+  server: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com
+  port: 443
+  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
+  sni: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇭🇰香港·406ms
   type: hysteria2
   server: 5e367597-tmm5c0-typ01r-1p0be.hk3.hyhuawei.com
   port: 443
   password: 55cce5a4-56b7-11ee-af82-f23c9164ca5d
-  sni: 5e367597-tmm5c0-typ01r-1p0be.hk3.hyhuawei.com
-  skip-cert-verify: true
-- name: 🌐未知·527ms
-  type: trojan
-  server: pet-antelope.rooster465.autos
-  port: 443
-  password: UX82473651
-  sni: pet-antelope.rooster465.autos
   skip-cert-verify: false
-- name: 🌐未知·841ms
+- name: 🇺🇸美国·447ms
+  type: vless
+  server: 108.162.198.178
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇫🇷法国·466ms
+  type: ss
+  server: 15.237.255.137
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦加拿大·486ms
   type: vless
   server: 104.18.39.218
   port: 2052
@@ -68,78 +104,10 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐未知·1031ms
-  type: hysteria2
-  server: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
-  port: 443
-  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
-  sni: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
-  skip-cert-verify: true
-- name: 🇨🇳中国·1080ms
+- name: 🇨🇦加拿大·527ms
   type: vless
-  server: 112.49.63.11
-  port: 33102
-  uuid: 0f47a872-b140-46f5-aef8-f46993f5fc01
-  tls: true
-  servername: sgg.knhqf.com
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🌐未知·1121ms
-  type: hysteria2
-  server: nl-hy-test.tcp-reset-club.net
-  port: 443
-  password: 529f1911-04d5-4427-94b9-c851fd459a27
-  sni: tcp-reset-club.net
-  skip-cert-verify: false
-- name: 🌐未知·1167ms
-  type: vless
-  server: adheres-scruple.quick-cdn.net
-  port: 443
-  uuid: b9f1fce4-3d74-4933-ab81-f8073224a016
-  tls: true
-  servername: adheres-scruple.quick-cdn.net
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: adheres-scruple.quick-cdn.net
-- name: 🌐未知·1370ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🌐未知·1475ms
-  type: vless
-  server: cf.877774.xyz
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐未知·1708ms
-  type: hysteria2
-  server: a91af2af-tmm5c0-twnp5a-ahsb.hk3.hyhuawei.com
-  port: 443
-  password: 2e42c1ee-aaaa-11ec-bb74-f23c9164ca5d
-  sni: a91af2af-tmm5c0-twnp5a-ahsb.hk3.hyhuawei.com
-  skip-cert-verify: false
-- name: 🌐未知·1715ms
-  type: hysteria2
-  server: 99a517d4-tmm5c0-u2e9xs-2b2n.los.hyhuawei.com
-  port: 443
-  password: fcd39788-ca23-11ed-86e2-f23c913c8d2b
-  sni: 99a517d4-tmm5c0-u2e9xs-2b2n.los.hyhuawei.com
-  skip-cert-verify: true
-- name: 🌐未知·1738ms
-  type: vless
-  server: 104.18.39.218
-  port: 2095
+  server: 172.64.229.2
+  port: 2082
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
   network: ws
@@ -147,7 +115,14 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐未知·1764ms
+- name: 🇰🇷韩国·538ms
+  type: trojan
+  server: amazing-peacock.rooster465.autos
+  port: 443
+  password: UX82473651
+  sni: amazing-peacock.rooster465.autos
+  skip-cert-verify: false
+- name: 🇨🇦加拿大·670ms
   type: vless
   server: cf.090227.xyz
   port: 443
@@ -159,124 +134,16 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐未知·1986ms
-  type: hysteria2
-  server: 6143c1d7-tmm5c0-tr9h64-1f1f1.los.hyhuawei.com
-  port: 443
-  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
-  sni: 6143c1d7-tmm5c0-tr9h64-1f1f1.los.hyhuawei.com
-  skip-cert-verify: true
-- name: 🌐未知·2067ms
-  type: hysteria2
-  server: 324d64f1-tmm5c0-tnsc3a-1f0gu.hk3.hyhuawei.com
-  port: 443
-  password: 3085fcf8-a69c-11ec-bd7c-f23c913c8d2b
-  sni: 324d64f1-tmm5c0-tnsc3a-1f0gu.hk3.hyhuawei.com
-  skip-cert-verify: false
-- name: 🌐未知·2129ms
-  type: vless
-  server: 104.18.39.218
-  port: 8880
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐未知·2396ms
-  type: vless
-  server: s11.shahankhan.ir
-  port: 8080
-  uuid: 6fddf57a-313c-4d4a-8ae1-939b207a1588
-  tls: false
-  network: tcp
-- name: 🌐未知·2484ms
-  type: hysteria2
-  server: 150-230-252-217.liao.kdns.fr
-  port: 50160
-  password: 9cfc9458e48c028ec03ff86ebc71c744
-  sni: 150-230-252-217.liao.kdns.fr
-  skip-cert-verify: false
-- name: 🌐未知·2512ms
-  type: vmess
-  server: goldcnmltyljgfwgov.vip60.wogcnmnnagfwgov.com
-  port: 11260
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇺🇸美国·2563ms
-  type: ss
-  server: 34.229.138.196
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇷🇴罗马尼亚·2763ms
-  type: hysteria2
-  server: 77.74.123.104
-  port: 8443
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  sni: grape-test-italy.dynuddns.net
-  skip-cert-verify: false
-- name: 🌐未知·2774ms
-  type: vless
-  server: argo6.5671234.xyz
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  tls: true
-  servername: argo6.5671234.xyz
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-    headers:
-      Host: argo6.5671234.xyz
-- name: 🌐未知·2819ms
-  type: hysteria2
-  server: 11158b9a-tmm5c0-u3xqxa-1q91p.nw4.hyhuawei.com
-  port: 443
-  password: c11ff50c-f582-11ee-94df-f23c9164ca5d
-  skip-cert-verify: false
-- name: 🌐未知·2909ms
-  type: vless
-  server: 104.18.39.218
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐未知·2957ms
-  type: vless
-  server: v2ray.aizgl.com
-  port: 443
-  uuid: 4b21fbc7-00c2-4665-9788-02153832f9e5
-  tls: true
-  servername: v2ray.aizgl.com
-  network: ws
-  ws-opts:
-    path: /xray-ws
-    headers:
-      Host: v2ray.aizgl.com
-- name: 🇫🇮芬兰·3119ms
-  type: hysteria2
-  server: 144.31.212.253
-  port: 443
-  password: cf83b611-6cba-4535-adcb-8da06c6a9146
-  sni: vps155-edge.kermemehori.ru
-  skip-cert-verify: false
-- name: 🌐未知·3272ms
+- name: 🇺🇸美国·699ms
   type: hysteria2
   server: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
   port: 443
   password: 91df5a86-fcdd-11ef-94aa-f23c913c8d2b
   sni: 49fe8226-tmm5c0-tuklme-ueq.los.hyhuawei.com
   skip-cert-verify: true
-- name: 🌐未知·3297ms
+- name: 🇭🇰香港·702ms
   type: vless
-  server: 172.66.152.4
+  server: 45.192.201.140
   port: 443
   uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
   tls: true
@@ -286,28 +153,111 @@ proxies:
     path: /e8e2cecb6188f7fb
     headers:
       Host: argo6.5671234.xyz
-- name: 🌐未知·3384ms
+- name: 🇺🇸美国·736ms
+  type: trojan
+  server: ultimate-jaguar.rooster465.autos
+  port: 443
+  password: UX82473651
+  sni: ultimate-jaguar.rooster465.autos
+  skip-cert-verify: false
+- name: 🇨🇦加拿大·812ms
+  type: vless
+  server: cf.877774.xyz
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇺🇸美国·821ms
+  type: hysteria2
+  server: 6143c1d7-tmm5c0-tr9h64-1f1f1.los.hyhuawei.com
+  port: 443
+  password: 61c4be90-6235-11ec-a8bf-f23c91cfbbc9
+  sni: 6143c1d7-tmm5c0-tr9h64-1f1f1.los.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇮🇪爱尔兰·841ms
+  type: trojan
+  server: sacred-anemone.rooster465.autos
+  port: 443
+  password: UX82473651
+  sni: sacred-anemone.rooster465.autos
+  skip-cert-verify: false
+- name: 🇸🇬新加坡·843ms
+  type: hysteria2
+  server: 138.2.73.238
+  port: 50160
+  password: f87376e17da040ed04c9665ce8972930
+  sni: 138.2.73.238
+  skip-cert-verify: true
+- name: 🇺🇸美国·858ms
   type: hysteria2
   server: 6f9a8496-tmm5c0-txkkcl-1fli7.los.hyhuawei.com
   port: 443
   password: 0abd5d38-fdf1-11ed-bade-f23c91369f2d
   sni: 6f9a8496-tmm5c0-txkkcl-1fli7.los.hyhuawei.com
   skip-cert-verify: true
-- name: 🌐未知·3539ms
-  type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
-- name: 🌐未知·3568ms
+- name: 🇷🇴罗马尼亚·934ms
   type: hysteria2
-  server: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com
+  server: 162.249.127.154
+  port: 8443
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  sni: hop-germany-september.dynuddns.com
+  skip-cert-verify: false
+- name: 🇨🇦加拿大·1019ms
+  type: vless
+  server: 172.67.76.40
   port: 443
-  password: 3fed19ea-1671-11f0-bd2e-f23c9164ca5d
-  sni: 2dd0472e-tmm5c0-twj07b-fm2v.hk3.hyhuawei.com
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇺🇸美国·1028ms
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.2fa.cat
+  sni: www.cloudflare.com
   skip-cert-verify: true
-- name: 🌐未知·3580ms
+- name: 🇭🇰香港·1051ms
+  type: vless
+  server: 43.129.80.179
+  port: 8443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇸🇬新加坡·1093ms
+  type: vless
+  server: 43.174.193.1
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇳🇱荷兰·1112ms
+  type: hysteria2
+  server: 109.235.49.234
+  port: 443
+  password: 529f1911-04d5-4427-94b9-c851fd459a27
+  sni: tcp-reset-club.net
+  skip-cert-verify: false
+- name: 🇯🇵日本·1146ms
   type: vless
   server: bounded-crammed.video-streams.org
   port: 443
@@ -319,118 +269,313 @@ proxies:
     path: /ws
     headers:
       Host: bounded-crammed.video-streams.org
-- name: 🌐未知·3699ms
+- name: 🇷🇴罗马尼亚·1148ms
   type: hysteria2
-  server: de1.xiaoliyu.cyou
-  port: 4433
-  password: 6a3fe9d0-0d68-4f29-ae99-5771d4217a45
-  sni: 127.0.0.1
+  server: 77.74.123.104
+  port: 8443
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  sni: grape-test-italy.dynuddns.net
   skip-cert-verify: true
-- name: 🌐未知·3748ms
+- name: 🇳🇱荷兰·1167ms
+  type: vless
+  server: cool-place.failspace.top
+  port: 443
+  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
+  tls: true
+  servername: cool-place.failspace.top
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇯🇵日本·1182ms
+  type: vless
+  server: ghosts-spasm.quick-cdn.net
+  port: 443
+  uuid: bc97af40-e59a-4d96-b0a3-349c35e45b48
+  tls: true
+  servername: ghosts-spasm.quick-cdn.net
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: ghosts-spasm.quick-cdn.net
+- name: 🇺🇸美国·1202ms
   type: hysteria2
-  server: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
+  server: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
   port: 443
-  password: ae5338ae-9a70-58c9-3d47-7d54a5675715
-  sni: bd452e87-tmm5c0-tv7dx2-py5w.hk3.hyhuawei.com
-  skip-cert-verify: false
-- name: 🌐未知·3827ms
-  type: trojan
-  server: inviting-ferret.rooster465.autos
-  port: 443
-  password: UX82473651
-  sni: inviting-ferret.rooster465.autos
+  password: 20f87b02-0eaa-11eb-8684-f23c913c8d2b
+  sni: b774a499-tmm5c0-tphvvu-gacy.los.hyhuawei.com
   skip-cert-verify: true
-- name: 🌐未知·4700ms
+- name: 🇫🇷法国·1210ms
+  type: hysteria2
+  server: 62.210.7.139
+  port: 60111
+  password: github.com/Alvin9999-newpac/fanqiang
+  skip-cert-verify: true
+- name: 🇯🇵日本·1214ms
+  type: vless
+  server: minimize-evenness.cdn-content.com
+  port: 443
+  uuid: 7313aaa5-a2e0-4072-a699-34e73d68e288
+  tls: true
+  servername: minimize-evenness.cdn-content.com
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: minimize-evenness.cdn-content.com
+- name: 🇭🇰香港·1223ms
   type: hysteria2
   server: 31.57.248.176
   port: 50160
   password: b0917015b656b3dd2286b5633af0c5c1
   skip-cert-verify: true
+- name: 🇫🇮芬兰·1231ms
+  type: hysteria2
+  server: 144.31.212.253
+  port: 443
+  password: cf83b611-6cba-4535-adcb-8da06c6a9146
+  sni: vps155-edge.kermemehori.ru
+  skip-cert-verify: false
+- name: 🇮🇪爱尔兰·1335ms
+  type: vless
+  server: 23.95.225.10
+  port: 8443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇨🇦加拿大·1340ms
+  type: vless
+  server: 172.64.229.2
+  port: 8880
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇮🇱以色列·1394ms
+  type: vless
+  server: 185.253.75.119
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇯🇵日本·1413ms
+  type: vless
+  server: adheres-scruple.quick-cdn.net
+  port: 443
+  uuid: 30141b47-419a-4338-9fae-4b10ec6bc24e
+  tls: true
+  servername: adheres-scruple.quick-cdn.net
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: adheres-scruple.quick-cdn.net
+- name: 🇬🇧英国·1441ms
+  type: vless
+  server: 159.65.51.189
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇨🇦加拿大·1527ms
+  type: vless
+  server: 104.20.36.205
+  port: 443
+  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  tls: true
+  servername: argo6.5671234.xyz
+  network: ws
+  ws-opts:
+    path: /e8e2cecb6188f7fb
+    headers:
+      Host: argo6.5671234.xyz
+- name: 🇰🇷韩国·1606ms
+  type: hysteria2
+  server: 43.201.103.218
+  port: 443
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+  sni: www.bing.com
+  skip-cert-verify: true
+- name: 🇺🇸美国·1744ms
+  type: vless
+  server: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  port: 443
+  uuid: 0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+  tls: true
+  servername: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+  network: ws
+  ws-opts:
+    path: /ws/0b3c3f4f-843a-5b0a-98fe-132c88fbefc0
+    headers:
+      Host: 86153507-1976-48f1-ac86-e8ab274470a8.fly.dev
+- name: 🇨🇦加拿大·1872ms
+  type: vless
+  server: 172.66.152.4
+  port: 443
+  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  tls: true
+  servername: argo6.5671234.xyz
+  network: ws
+  ws-opts:
+    path: /e8e2cecb6188f7fb
+    headers:
+      Host: argo6.5671234.xyz
+- name: 🇸🇬新加坡·1899ms
+  type: trojan
+  server: pet-antelope.rooster465.autos
+  port: 443
+  password: UX82473651
+  sni: pet-antelope.rooster465.autos
+  skip-cert-verify: false
+- name: 🇨🇦加拿大·1985ms
+  type: vless
+  server: argo6.5671234.xyz
+  port: 443
+  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
+  tls: true
+  servername: argo6.5671234.xyz
+  network: ws
+  ws-opts:
+    path: /e8e2cecb6188f7fb
+    headers:
+      Host: argo6.5671234.xyz
+- name: 🇸🇬新加坡·3557ms
+  type: trojan
+  server: inviting-ferret.rooster465.autos
+  port: 443
+  password: UX82473651
+  sni: inviting-ferret.rooster465.autos
+  skip-cert-verify: false
+- name: 🇨🇳中国·4101ms
+  type: vmess
+  server: sbgfgov.vip18.wogacnmnagfwgov.com
+  port: 11218
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  alterId: 2
+  cipher: auto
+  tls: false
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇨🇳中国·159ms
-  - 🌐未知·463ms
-  - 🌐未知·527ms
-  - 🌐未知·841ms
-  - 🌐未知·1031ms
-  - 🇨🇳中国·1080ms
-  - 🌐未知·1121ms
-  - 🌐未知·1167ms
-  - 🌐未知·1370ms
-  - 🌐未知·1475ms
-  - 🌐未知·1708ms
-  - 🌐未知·1715ms
-  - 🌐未知·1738ms
-  - 🌐未知·1764ms
-  - 🌐未知·1986ms
-  - 🌐未知·2067ms
-  - 🌐未知·2129ms
-  - 🌐未知·2396ms
-  - 🌐未知·2484ms
-  - 🌐未知·2512ms
-  - 🇺🇸美国·2563ms
-  - 🇷🇴罗马尼亚·2763ms
-  - 🌐未知·2774ms
-  - 🌐未知·2819ms
-  - 🌐未知·2909ms
-  - 🌐未知·2957ms
-  - 🇫🇮芬兰·3119ms
-  - 🌐未知·3272ms
-  - 🌐未知·3297ms
-  - 🌐未知·3384ms
-  - 🌐未知·3539ms
-  - 🌐未知·3568ms
-  - 🌐未知·3580ms
-  - 🌐未知·3699ms
-  - 🌐未知·3748ms
-  - 🌐未知·3827ms
-  - 🌐未知·4700ms
+  - 🇭🇰香港·273ms
+  - 🇨🇦加拿大·296ms
+  - 🇨🇦加拿大·346ms
+  - 🇭🇰香港·387ms
+  - 🇭🇰香港·406ms
+  - 🇺🇸美国·447ms
+  - 🇫🇷法国·466ms
+  - 🇨🇦加拿大·486ms
+  - 🇨🇦加拿大·527ms
+  - 🇰🇷韩国·538ms
+  - 🇨🇦加拿大·670ms
+  - 🇺🇸美国·699ms
+  - 🇭🇰香港·702ms
+  - 🇺🇸美国·736ms
+  - 🇨🇦加拿大·812ms
+  - 🇺🇸美国·821ms
+  - 🇮🇪爱尔兰·841ms
+  - 🇸🇬新加坡·843ms
+  - 🇺🇸美国·858ms
+  - 🇷🇴罗马尼亚·934ms
+  - 🇨🇦加拿大·1019ms
+  - 🇺🇸美国·1028ms
+  - 🇭🇰香港·1051ms
+  - 🇸🇬新加坡·1093ms
+  - 🇳🇱荷兰·1112ms
+  - 🇯🇵日本·1146ms
+  - 🇷🇴罗马尼亚·1148ms
+  - 🇳🇱荷兰·1167ms
+  - 🇯🇵日本·1182ms
+  - 🇺🇸美国·1202ms
+  - 🇫🇷法国·1210ms
+  - 🇯🇵日本·1214ms
+  - 🇭🇰香港·1223ms
+  - 🇫🇮芬兰·1231ms
+  - 🇮🇪爱尔兰·1335ms
+  - 🇨🇦加拿大·1340ms
+  - 🇮🇱以色列·1394ms
+  - 🇯🇵日本·1413ms
+  - 🇬🇧英国·1441ms
+  - 🇨🇦加拿大·1527ms
+  - 🇰🇷韩国·1606ms
+  - 🇺🇸美国·1744ms
+  - 🇨🇦加拿大·1872ms
+  - 🇸🇬新加坡·1899ms
+  - 🇨🇦加拿大·1985ms
+  - 🇸🇬新加坡·3557ms
+  - 🇨🇳中国·4101ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳中国·159ms
-  - 🌐未知·463ms
-  - 🌐未知·527ms
-  - 🌐未知·841ms
-  - 🌐未知·1031ms
-  - 🇨🇳中国·1080ms
-  - 🌐未知·1121ms
-  - 🌐未知·1167ms
-  - 🌐未知·1370ms
-  - 🌐未知·1475ms
-  - 🌐未知·1708ms
-  - 🌐未知·1715ms
-  - 🌐未知·1738ms
-  - 🌐未知·1764ms
-  - 🌐未知·1986ms
-  - 🌐未知·2067ms
-  - 🌐未知·2129ms
-  - 🌐未知·2396ms
-  - 🌐未知·2484ms
-  - 🌐未知·2512ms
-  - 🇺🇸美国·2563ms
-  - 🇷🇴罗马尼亚·2763ms
-  - 🌐未知·2774ms
-  - 🌐未知·2819ms
-  - 🌐未知·2909ms
-  - 🌐未知·2957ms
-  - 🇫🇮芬兰·3119ms
-  - 🌐未知·3272ms
-  - 🌐未知·3297ms
-  - 🌐未知·3384ms
-  - 🌐未知·3539ms
-  - 🌐未知·3568ms
-  - 🌐未知·3580ms
-  - 🌐未知·3699ms
-  - 🌐未知·3748ms
-  - 🌐未知·3827ms
-  - 🌐未知·4700ms
+  - 🇭🇰香港·273ms
+  - 🇨🇦加拿大·296ms
+  - 🇨🇦加拿大·346ms
+  - 🇭🇰香港·387ms
+  - 🇭🇰香港·406ms
+  - 🇺🇸美国·447ms
+  - 🇫🇷法国·466ms
+  - 🇨🇦加拿大·486ms
+  - 🇨🇦加拿大·527ms
+  - 🇰🇷韩国·538ms
+  - 🇨🇦加拿大·670ms
+  - 🇺🇸美国·699ms
+  - 🇭🇰香港·702ms
+  - 🇺🇸美国·736ms
+  - 🇨🇦加拿大·812ms
+  - 🇺🇸美国·821ms
+  - 🇮🇪爱尔兰·841ms
+  - 🇸🇬新加坡·843ms
+  - 🇺🇸美国·858ms
+  - 🇷🇴罗马尼亚·934ms
+  - 🇨🇦加拿大·1019ms
+  - 🇺🇸美国·1028ms
+  - 🇭🇰香港·1051ms
+  - 🇸🇬新加坡·1093ms
+  - 🇳🇱荷兰·1112ms
+  - 🇯🇵日本·1146ms
+  - 🇷🇴罗马尼亚·1148ms
+  - 🇳🇱荷兰·1167ms
+  - 🇯🇵日本·1182ms
+  - 🇺🇸美国·1202ms
+  - 🇫🇷法国·1210ms
+  - 🇯🇵日本·1214ms
+  - 🇭🇰香港·1223ms
+  - 🇫🇮芬兰·1231ms
+  - 🇮🇪爱尔兰·1335ms
+  - 🇨🇦加拿大·1340ms
+  - 🇮🇱以色列·1394ms
+  - 🇯🇵日本·1413ms
+  - 🇬🇧英国·1441ms
+  - 🇨🇦加拿大·1527ms
+  - 🇰🇷韩国·1606ms
+  - 🇺🇸美国·1744ms
+  - 🇨🇦加拿大·1872ms
+  - 🇸🇬新加坡·1899ms
+  - 🇨🇦加拿大·1985ms
+  - 🇸🇬新加坡·3557ms
+  - 🇨🇳中国·4101ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
