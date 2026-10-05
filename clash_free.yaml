@@ -35,52 +35,10 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇨🇳中国·137ms
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-- name: 🌐未知·398ms
-  type: vmess
-  server: sbgfgov.vip5.wogacnmnagfwgov.com
-  port: 11205
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇺🇸美国·519ms
-  type: ss
-  server: 18.208.223.39
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇲🇽墨西哥·574ms
-  type: ss
-  server: 147.78.1.234
-  port: 16673
-  cipher: aes-128-gcm
-  password: 67c57ae584eecd70396fcd7ca7521130
-- name: 🌐未知·648ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🌐未知·838ms
-  type: hysteria2
-  server: s3.huhiuh.space
-  port: 18642
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇨🇦加拿大·842ms
+- name: 🇨🇦加拿大·286ms
   type: vless
-  server: 104.18.39.218
-  port: 2095
+  server: 172.64.158.146
+  port: 80
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   tls: false
   network: ws
@@ -88,50 +46,87 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐未知·866ms
+- name: 🇨🇦加拿大·326ms
   type: vless
-  server: e3k67dwms3-51255166202-direct.tavafog.com
-  port: 443
-  uuid: e3k67dwms3
-  tls: true
-  servername: e3k67dwms3-51255166202-direct.tavafog.com
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇳🇱荷兰·904ms
-  type: vless
-  server: 193.142.59.180
-  port: 10829
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  servername: u695098u3b5ab61cs124.gogocs.xyz
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇷🇴罗马尼亚·952ms
+  server: 104.18.39.218
+  port: 2082
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐未知·346ms
   type: hysteria2
-  server: 77.74.123.105
-  port: 8443
-  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
-  sni: grape-test-italy.dynuddns.net
-  skip-cert-verify: false
-- name: 🌐未知·1292ms
-  type: vless
-  server: s880.gogocs.xyz
+  server: c8dc0c18-tmrpc0-tt8rqc-jjv2.hk3.hyhuawei.com
   port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  servername: u695098u07fcba7ds79.kukuss.top
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🌐未知·1445ms
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  sni: c8dc0c18-tmrpc0-tt8rqc-jjv2.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🇨🇦加拿大·363ms
   type: vless
-  server: s128.okgg.top
-  port: 10829
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  servername: u695098u3b5ab61cs124.gogocs.xyz
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🌐未知·2006ms
+  server: 162.159.48.32
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🇨🇦加拿大·443ms
+  type: vless
+  server: 104.18.39.218
+  port: 2052
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  tls: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560security=tls
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐未知·444ms
+  type: trojan
+  server: node1.luoye.ee
+  port: 443
+  password: a72513ad-90f9-4ae0-8ef5-c25b7fb81d77
+  sni: node1.luoye.ee
+  skip-cert-verify: false
+- name: 🇮🇱以色列·571ms
+  type: ss
+  server: 45.144.172.123
+  port: 10771
+  cipher: aes-256-gcm
+  password: 78235e7dc55e9ad1
+- name: 🇫🇷法国·608ms
+  type: ss
+  server: 35.181.55.52
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🌐未知·610ms
+  type: hysteria2
+  server: 755802e4-tmm5c0-trnd2c-jjv2.hk3.hyhuawei.com
+  port: 443
+  password: 31676725-b0fd-fed2-c857-2da8ce5a6e4f
+  sni: 755802e4-tmm5c0-trnd2c-jjv2.hk3.hyhuawei.com
+  skip-cert-verify: true
+- name: 🌐未知·636ms
+  type: trojan
+  server: sa245.moldscience.cc
+  port: 20019
+  password: b837a998138d4c0a
+  sni: sa245.moldscience.cc
+  skip-cert-verify: false
+- name: 🇺🇸美国·743ms
+  type: trojan
+  server: 192.9.158.245
+  port: 20019
+  password: b837a998138d4c0a
+  sni: sa245.moldscience.cc
+  skip-cert-verify: false
+- name: 🌐未知·757ms
   type: vless
   server: s881.wagahaha.xyz
   port: 443
@@ -140,70 +135,198 @@ proxies:
   servername: u695098u07fcba7ds79.kukuss.top
   flow: xtls-rprx-vision
   network: tcp
-- name: 🌐未知·2256ms
-  type: vless
-  server: nl-new-ded-once.failspace.top
-  port: 443
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  tls: true
-  servername: nl-new-ded-once.failspace.top
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🌐未知·2516ms
-  type: vless
-  server: motri-at-new.failspace.top
-  port: 443
-  uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277
-  tls: true
-  servername: motri-at-new.failspace.top
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🌐未知·2656ms
-  type: vless
-  server: argo6.5671234.xyz
-  port: 443
-  uuid: 08aaab35-a42d-4755-a03e-20c18cb1b3e8
-  tls: true
-  network: ws
-  ws-opts:
-    path: /e8e2cecb6188f7fb
-- name: 🌐未知·2920ms
+- name: 🇨🇳中国·797ms
   type: vmess
-  server: goldcnmltyljgfwgov.vip60.wogcnmnnagfwgov.com
-  port: 11260
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
   cipher: auto
   tls: false
-- name: 🌐未知·3123ms
+- name: 🌐未知·800ms
+  type: trojan
+  server: 23.149.28.8.sslip.io
+  port: 8443
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  sni: 23.149.28.8.sslip.io
+  skip-cert-verify: true
+- name: 🇨🇦加拿大·904ms
+  type: vless
+  server: 104.27.88.172
+  port: 80
+  uuid: 50414e45-4c5f-5a45-5553-52108a2d5224
+  tls: false
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-nr6wpa.app-tp57xz.workers.dev
+- name: 🇯🇵日本·956ms
+  type: ss
+  server: 212.192.221.129
+  port: 10771
+  cipher: aes-256-gcm
+  password: 9cfaa78d51ac366f
+- name: 🌐未知·988ms
+  type: vless
+  server: s880.gogocs.xyz
+  port: 443
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  tls: true
+  servername: u695098u07fcba7ds79.kukuss.top
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇨🇦加拿大·1097ms
+  type: vless
+  server: 188.114.96.3
+  port: 443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
+- name: 🇷🇴罗马尼亚·1255ms
+  type: hysteria2
+  server: 103.126.51.49
+  port: 8443
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: ocober-romania-new.yyuyy.com
+  skip-cert-verify: false
+- name: 🌐未知·1295ms
   type: hysteria2
   server: hk2.xiaoliyu.cyou
   port: 4433
   password: 19f72087-4591-4d72-930b-2697078ec2be
+  sni: hk2.xiaoliyu.cyou
   skip-cert-verify: true
-- name: 🌐未知·3325ms
+- name: 🇩🇪德国·1422ms
   type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
+  server: 46.101.110.88
+  port: 443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
+- name: 🇩🇪德国·1423ms
+  type: vless
+  server: 209.38.225.184
+  port: 443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
+- name: 🇩🇪德国·1506ms
+  type: vless
+  server: 159.195.5.79
+  port: 2083
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
+- name: 🌐未知·1520ms
+  type: vless
+  server: e3k67dwms3-51255166202-direct.tavafog.com
+  port: 443
+  uuid: e3k67dwms3
+  tls: true
+  servername: e3k67dwms3-51255166202-direct.tavafog.com
+  flow: xtls-rprx-vision
   network: tcp
-- name: 🌐未知·4037ms
-  type: vmess
-  server: silversbgfgov.vip41.wogbcnmnagfwgov.com
-  port: 11241
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🌐未知·4128ms
-  type: trojan
-  server: sa245.moldscience.cc
-  port: 20019
-  password: b837a998138d4c0a
-  sni: sa245.moldscience.cc
-  skip-cert-verify: false
-- name: 🌐未知·4398ms
+- name: 🇨🇦加拿大·1582ms
+  type: vless
+  server: 188.114.97.3
+  port: 2087
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
+- name: 🌐未知·1691ms
+  type: hysteria2
+  server: brb.nnpy.org
+  port: 11100
+  password: df8d55f9-fb51-442d-902a-bf8160dc051b
+  sni: brb.nnpy.org
+  skip-cert-verify: true
+- name: 🇧🇷巴西·1811ms
+  type: vless
+  server: 179.253.254.66
+  port: 8443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
+- name: 🇨🇦加拿大·1928ms
+  type: vless
+  server: 104.26.4.2
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  tls: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🇺🇸美国·2153ms
+  type: vless
+  server: 153.75.81.16
+  port: 443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
+- name: 🇸🇬新加坡·2506ms
+  type: vless
+  server: 128.199.128.117
+  port: 443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
+- name: 🇸🇬新加坡·2606ms
+  type: vless
+  server: 139.180.220.7
+  port: 443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
+- name: 🌐未知·2656ms
   type: vmess
   server: silversbgfgov.vip30.wogbcnmnagfwgov.com
   port: 11230
@@ -211,71 +334,104 @@ proxies:
   alterId: 2
   cipher: auto
   tls: false
-- name: 🌐未知·4399ms
-  type: vmess
-  server: sbgfgov.vip21.wogacnmnagfwgov.com
-  port: 11221
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
+- name: 🌐未知·2786ms
+  type: vless
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   tls: false
+  network: tcp
+- name: 🇰🇷韩国·2977ms
+  type: vless
+  server: 161.118.153.136
+  port: 443
+  uuid: f49d04d6-aaa7-4013-b323-bc35b78230db
+  tls: true
+  servername: s4ws.ragingbull.de5.net
+  network: ws
+  ws-opts:
+    path: /wsrb7k2m
+    headers:
+      Host: s4ws.ragingbull.de5.net
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇨🇳中国·137ms
-  - 🌐未知·398ms
-  - 🇺🇸美国·519ms
-  - 🇲🇽墨西哥·574ms
-  - 🌐未知·648ms
-  - 🌐未知·838ms
-  - 🇨🇦加拿大·842ms
-  - 🌐未知·866ms
-  - 🇳🇱荷兰·904ms
-  - 🇷🇴罗马尼亚·952ms
-  - 🌐未知·1292ms
-  - 🌐未知·1445ms
-  - 🌐未知·2006ms
-  - 🌐未知·2256ms
-  - 🌐未知·2516ms
+  - 🇨🇦加拿大·286ms
+  - 🇨🇦加拿大·326ms
+  - 🌐未知·346ms
+  - 🇨🇦加拿大·363ms
+  - 🇨🇦加拿大·443ms
+  - 🌐未知·444ms
+  - 🇮🇱以色列·571ms
+  - 🇫🇷法国·608ms
+  - 🌐未知·610ms
+  - 🌐未知·636ms
+  - 🇺🇸美国·743ms
+  - 🌐未知·757ms
+  - 🇨🇳中国·797ms
+  - 🌐未知·800ms
+  - 🇨🇦加拿大·904ms
+  - 🇯🇵日本·956ms
+  - 🌐未知·988ms
+  - 🇨🇦加拿大·1097ms
+  - 🇷🇴罗马尼亚·1255ms
+  - 🌐未知·1295ms
+  - 🇩🇪德国·1422ms
+  - 🇩🇪德国·1423ms
+  - 🇩🇪德国·1506ms
+  - 🌐未知·1520ms
+  - 🇨🇦加拿大·1582ms
+  - 🌐未知·1691ms
+  - 🇧🇷巴西·1811ms
+  - 🇨🇦加拿大·1928ms
+  - 🇺🇸美国·2153ms
+  - 🇸🇬新加坡·2506ms
+  - 🇸🇬新加坡·2606ms
   - 🌐未知·2656ms
-  - 🌐未知·2920ms
-  - 🌐未知·3123ms
-  - 🌐未知·3325ms
-  - 🌐未知·4037ms
-  - 🌐未知·4128ms
-  - 🌐未知·4398ms
-  - 🌐未知·4399ms
+  - 🌐未知·2786ms
+  - 🇰🇷韩国·2977ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳中国·137ms
-  - 🌐未知·398ms
-  - 🇺🇸美国·519ms
-  - 🇲🇽墨西哥·574ms
-  - 🌐未知·648ms
-  - 🌐未知·838ms
-  - 🇨🇦加拿大·842ms
-  - 🌐未知·866ms
-  - 🇳🇱荷兰·904ms
-  - 🇷🇴罗马尼亚·952ms
-  - 🌐未知·1292ms
-  - 🌐未知·1445ms
-  - 🌐未知·2006ms
-  - 🌐未知·2256ms
-  - 🌐未知·2516ms
+  - 🇨🇦加拿大·286ms
+  - 🇨🇦加拿大·326ms
+  - 🌐未知·346ms
+  - 🇨🇦加拿大·363ms
+  - 🇨🇦加拿大·443ms
+  - 🌐未知·444ms
+  - 🇮🇱以色列·571ms
+  - 🇫🇷法国·608ms
+  - 🌐未知·610ms
+  - 🌐未知·636ms
+  - 🇺🇸美国·743ms
+  - 🌐未知·757ms
+  - 🇨🇳中国·797ms
+  - 🌐未知·800ms
+  - 🇨🇦加拿大·904ms
+  - 🇯🇵日本·956ms
+  - 🌐未知·988ms
+  - 🇨🇦加拿大·1097ms
+  - 🇷🇴罗马尼亚·1255ms
+  - 🌐未知·1295ms
+  - 🇩🇪德国·1422ms
+  - 🇩🇪德国·1423ms
+  - 🇩🇪德国·1506ms
+  - 🌐未知·1520ms
+  - 🇨🇦加拿大·1582ms
+  - 🌐未知·1691ms
+  - 🇧🇷巴西·1811ms
+  - 🇨🇦加拿大·1928ms
+  - 🇺🇸美国·2153ms
+  - 🇸🇬新加坡·2506ms
+  - 🇸🇬新加坡·2606ms
   - 🌐未知·2656ms
-  - 🌐未知·2920ms
-  - 🌐未知·3123ms
-  - 🌐未知·3325ms
-  - 🌐未知·4037ms
-  - 🌐未知·4128ms
-  - 🌐未知·4398ms
-  - 🌐未知·4399ms
+  - 🌐未知·2786ms
+  - 🇰🇷韩国·2977ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
