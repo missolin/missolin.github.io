@@ -35,64 +35,158 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇩🇪德国·468ms
+- name: 🇷🇺俄罗斯·550ms
   type: ss
-  server: 3.67.197.81
+  server: 176.32.39.52
+  port: 20880
+  cipher: aes-256-gcm
+  password: 8ad9d72a5571df86
+- name: 🇨🇦加拿大·590ms
+  type: vless
+  server: 104.17.64.70
+  port: 8880
+  uuid: 220046c3-0081-4c22-a648-83a52bc3a0d5
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net
+    headers:
+      Host: yellow-sky-38b3.154-d73.workers.dev
+- name: 🇺🇸美国·621ms
+  type: ss
+  server: 54.221.120.243
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇲🇽墨西哥·572ms
-  type: ss
-  server: 147.78.1.141
-  port: 16672
-  cipher: aes-128-gcm
-  password: 67c57ae584eecd70396fcd7ca7521130
-- name: 🇩🇪德国·736ms
-  type: ss
-  server: 3.75.231.76
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇰🇷韩国·801ms
-  type: ss
-  server: 43.201.250.101
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-- name: 🇷🇴罗马尼亚·1009ms
+- name: 🇨🇳中国·766ms
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 🇷🇴罗马尼亚·1000ms
   type: hysteria2
-  server: 162.249.126.40
+  server: 77.74.123.109
   port: 8443
-  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
-  sni: hop-germany-september.dynuddns.com
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  sni: grape-test-italy.dynuddns.net
   skip-cert-verify: false
-- name: 🇫🇷法国·1111ms
+- name: 🇷🇴罗马尼亚·1038ms
+  type: hysteria2
+  server: 103.126.51.55
+  port: 8443
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: ocober-romania-new.yyuyy.com
+  skip-cert-verify: false
+- name: 🇺🇸美国·1041ms
+  type: trojan
+  server: 23.149.28.8.sslip.io
+  port: 8443
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  sni: 23.149.28.8.sslip.io
+  skip-cert-verify: true
+- name: 🇺🇸美国·1302ms
   type: vless
-  server: tyxyrytyro-51255165170-direct.araghchy.com
+  server: psf-3.weedly.top
+  port: 80
+  uuid: b0fae3b7-02de-4002-b8ca-b7159fe33841
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: machinemag.ir
+- name: 🇧🇷巴西·1372ms
+  type: hysteria2
+  server: top.bostnet.xyz
   port: 443
-  uuid: tyxyrytyro
-  tls: true
-  servername: tyxyrytyro-51255165170-direct.araghchy.com
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇺🇸美国·1112ms
+  password: 83rwy5zazcx1f4i6
+  skip-cert-verify: true
+- name: 🇷🇴罗马尼亚·1429ms
+  type: hysteria2
+  server: 77.74.123.107
+  port: 8443
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  sni: grape-test-italy.dynuddns.net
+  skip-cert-verify: false
+- name: 🇺🇸美国·1606ms
   type: vless
-  server: 13.143.172.203
-  port: 2087
-  uuid: 88aefb0c-cdbf-489f-9e6b-9be5b5fd5a11
-  tls: true
-  servername: 13.143.172.203
-  network: tcp
-- name: 🇺🇸美国·1125ms
+  server: psf-2.weedly.top
+  port: 80
+  uuid: e4ed5619-5e91-442a-92f1-755a7f6331b8
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: beat.ir
+- name: 🇷🇴罗马尼亚·1702ms
+  type: hysteria2
+  server: 77.74.123.108
+  port: 8443
+  password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z
+  sni: grape-test-italy.dynuddns.net
+  skip-cert-verify: false
+- name: 🇮🇳印度·1702ms
+  type: hysteria2
+  server: 144.24.109.215
+  port: 51000
+  password: 06133d56-2d98-4ca5-b9d3-bbf2d65bc238
+  sni: cn.cremedelamer.com
+  skip-cert-verify: true
+- name: 🇷🇴罗马尼亚·1757ms
+  type: hysteria2
+  server: 103.126.51.54
+  port: 8443
+  password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0
+  sni: ocober-romania-new.yyuyy.com
+  skip-cert-verify: false
+- name: 🇯🇵日本·1883ms
   type: vless
-  server: s2317.kukuss.top
+  server: 13.115.139.162
   port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
   tls: true
-  servername: u695098uf24555c7s2316.gogocs.xyz
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇺🇸美国·1411ms
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇯🇵日本·2000ms
+  type: vless
+  server: 35.78.243.103
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  tls: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇨🇿捷克·2093ms
+  type: hysteria2
+  server: cz.h2.cleanersaz.help
+  port: 443
+  password: c-E0lamG8OnEj9M_uh3oJPmIXqYIVGctO-NHELF1TmNYs7Jl
+  sni: cz.h2.cleanersaz.help
+  skip-cert-verify: false
+- name: 🇨🇦加拿大·2261ms
+  type: vless
+  server: 104.17.154.214
+  port: 443
+  uuid: 489f1717-d3c7-4940-ad68-bdbdbab857f4
+  tls: true
+  servername: x.m-90.xyz
+  network: ws
+  ws-opts:
+    path: t.me/TEAMNETGRATISCOL
+    headers:
+      Host: x.m-90.xyz
+- name: 🇺🇸美国·2372ms
   type: vless
   server: s2318.okgg.top
   port: 443
@@ -101,112 +195,116 @@ proxies:
   servername: u695098uf24555c7s2316.gogocs.xyz
   flow: xtls-rprx-vision
   network: tcp
-- name: 🇺🇸美国·1432ms
-  type: vless
-  server: s490.kukuss.top
-  port: 33414
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  servername: u695098u5cabc3b2s489.gogocs.xyz
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇷🇴罗马尼亚·1625ms
+- name: 🇷🇴罗马尼亚·2696ms
   type: hysteria2
   server: 162.249.126.39
   port: 8443
   password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
   sni: hop-germany-september.dynuddns.com
   skip-cert-verify: false
-- name: 🇨🇳中国·1797ms
-  type: vmess
-  server: sbgfgov.vip5.wogacnmnagfwgov.com
-  port: 11205
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇨🇳中国·1834ms
-  type: vmess
-  server: sbgfgov.vip7.wogacnmnagfwgov.com
-  port: 11207
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇨🇳中国·3148ms
+- name: 🇯🇵日本·2978ms
+  type: hysteria2
+  server: 8.209.247.109
+  port: 443
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇨🇳中国·3171ms
   type: vless
-  server: jp.sofast.live
-  port: 52683
-  uuid: 5aaa5259-f924-4682-a4a3-149d472a9dcc
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   tls: false
   network: tcp
-- name: 🇩🇪德国·3369ms
+- name: 🇺🇸美国·3398ms
   type: vless
-  server: s251.wagahaha.xyz
+  server: 8.47.69.0
+  port: 2053
+  uuid: 9d672694-c146-422e-b3b5-3717a38a0fcc
+  tls: true
+  servername: vless.api-music-fa.com
+  network: ws
+  ws-opts:
+    path: /api/voip/updates/static/fr2035
+    headers:
+      Host: fr.api-music-fa.com
+- name: 🇷🇴罗马尼亚·3748ms
+  type: hysteria2
+  server: 162.249.126.40
+  port: 8443
+  password: 9Me_Jx935gnHx13_Nx45M_NYXe037js_Be4z
+  sni: hop-germany-september.dynuddns.com
+  skip-cert-verify: false
+- name: 🇺🇸美国·4178ms
+  type: vless
+  server: s2317.kukuss.top
   port: 443
   uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
   tls: true
-  servername: u695098u47d2e9bes71.gogocs.xyz
+  servername: u695098uf24555c7s2316.gogocs.xyz
   flow: xtls-rprx-vision
   network: tcp
-  ws-opts:
-    headers:
-      Host: 47d2e9bes71.gogocs.xyz
-- name: 🇩🇪德国·3650ms
-  type: vless
-  server: s249.freessr.bid
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  servername: u695098u47d2e9bes71.gogocs.xyz
-  flow: xtls-rprx-vision
-  network: tcp
-  ws-opts:
-    headers:
-      Host: 47d2e9bes71.gogocs.xyz
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇩🇪德国·468ms
-  - 🇲🇽墨西哥·572ms
-  - 🇩🇪德国·736ms
-  - 🇰🇷韩国·801ms
-  - 🇷🇴罗马尼亚·1009ms
-  - 🇫🇷法国·1111ms
-  - 🇺🇸美国·1112ms
-  - 🇺🇸美国·1125ms
-  - 🇺🇸美国·1411ms
-  - 🇺🇸美国·1432ms
-  - 🇷🇴罗马尼亚·1625ms
-  - 🇨🇳中国·1797ms
-  - 🇨🇳中国·1834ms
-  - 🇨🇳中国·3148ms
-  - 🇩🇪德国·3369ms
-  - 🇩🇪德国·3650ms
+  - 🇷🇺俄罗斯·550ms
+  - 🇨🇦加拿大·590ms
+  - 🇺🇸美国·621ms
+  - 🇨🇳中国·766ms
+  - 🇷🇴罗马尼亚·1000ms
+  - 🇷🇴罗马尼亚·1038ms
+  - 🇺🇸美国·1041ms
+  - 🇺🇸美国·1302ms
+  - 🇧🇷巴西·1372ms
+  - 🇷🇴罗马尼亚·1429ms
+  - 🇺🇸美国·1606ms
+  - 🇷🇴罗马尼亚·1702ms
+  - 🇮🇳印度·1702ms
+  - 🇷🇴罗马尼亚·1757ms
+  - 🇯🇵日本·1883ms
+  - 🇯🇵日本·2000ms
+  - 🇨🇿捷克·2093ms
+  - 🇨🇦加拿大·2261ms
+  - 🇺🇸美国·2372ms
+  - 🇷🇴罗马尼亚·2696ms
+  - 🇯🇵日本·2978ms
+  - 🇨🇳中国·3171ms
+  - 🇺🇸美国·3398ms
+  - 🇷🇴罗马尼亚·3748ms
+  - 🇺🇸美国·4178ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇩🇪德国·468ms
-  - 🇲🇽墨西哥·572ms
-  - 🇩🇪德国·736ms
-  - 🇰🇷韩国·801ms
-  - 🇷🇴罗马尼亚·1009ms
-  - 🇫🇷法国·1111ms
-  - 🇺🇸美国·1112ms
-  - 🇺🇸美国·1125ms
-  - 🇺🇸美国·1411ms
-  - 🇺🇸美国·1432ms
-  - 🇷🇴罗马尼亚·1625ms
-  - 🇨🇳中国·1797ms
-  - 🇨🇳中国·1834ms
-  - 🇨🇳中国·3148ms
-  - 🇩🇪德国·3369ms
-  - 🇩🇪德国·3650ms
+  - 🇷🇺俄罗斯·550ms
+  - 🇨🇦加拿大·590ms
+  - 🇺🇸美国·621ms
+  - 🇨🇳中国·766ms
+  - 🇷🇴罗马尼亚·1000ms
+  - 🇷🇴罗马尼亚·1038ms
+  - 🇺🇸美国·1041ms
+  - 🇺🇸美国·1302ms
+  - 🇧🇷巴西·1372ms
+  - 🇷🇴罗马尼亚·1429ms
+  - 🇺🇸美国·1606ms
+  - 🇷🇴罗马尼亚·1702ms
+  - 🇮🇳印度·1702ms
+  - 🇷🇴罗马尼亚·1757ms
+  - 🇯🇵日本·1883ms
+  - 🇯🇵日本·2000ms
+  - 🇨🇿捷克·2093ms
+  - 🇨🇦加拿大·2261ms
+  - 🇺🇸美国·2372ms
+  - 🇷🇴罗马尼亚·2696ms
+  - 🇯🇵日本·2978ms
+  - 🇨🇳中国·3171ms
+  - 🇺🇸美国·3398ms
+  - 🇷🇴罗马尼亚·3748ms
+  - 🇺🇸美国·4178ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
