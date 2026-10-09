@@ -35,126 +35,58 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇸🇬新加坡·360ms
-  type: ss
-  server: 54.169.240.70
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-- name: 🇩🇪德国·416ms
-  type: ss
-  server: 3.79.59.187
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇩🇪德国·453ms
+- name: 🇨🇦加拿大·582ms
+  type: vless
+  server: 104.21.6.82
+  port: 8080
+  uuid: 03a8d415-1d9c-470d-9e2d-ea0fd6aef9c0
+  tls: false
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiSWdvVk5ETHBhRnNQamIiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyYTAyOjg5ODoxNDY6NjQ6Ol0iXX0=?ed=2560
+    headers:
+      Host: server7.wimig16819.workers.dev
+- name: 🇩🇪德国·626ms
   type: ss
   server: 3.77.34.196
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇰🇷韩国·461ms
-  type: hysteria2
-  server: 150-230-252-217.liao.kdns.fr
-  port: 50160
-  password: 9cfc9458e48c028ec03ff86ebc71c744
-  sni: 150-230-252-217.liao.kdns.fr
-  skip-cert-verify: false
-- name: 🇺🇸美国·482ms
+- name: 🇺🇸美国·694ms
   type: ss
-  server: 3.80.84.187
+  server: 47.85.168.157
   port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇫🇷法国·546ms
-  type: ss
-  server: 13.36.241.80
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇭🇰香港·553ms
-  type: hysteria2
-  server: s3.huhiuh.space
-  port: 18642
-  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇯🇵日本·680ms
-  type: hysteria2
-  server: 8.211.175.236
-  port: 8443
-  password: u63SxILNwtrQZ7Y1ZrFaZfsA
-  sni: bing.com
-  skip-cert-verify: true
-- name: 🇪🇸西班牙·687ms
-  type: ss
-  server: 5.188.181.201
-  port: 9054
-  cipher: aes-256-cfb
-  password: VcFuyXvND2yQWSFY
-- name: 🇺🇸美国·795ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇺🇸美国·833ms
+  cipher: 2022-blake3-chacha20-poly1305
+  password: 3NBsnBLanPfG6i3S2GTHineswr6EeSJPb0PCeMQoGoA=
+- name: 🇨🇦加拿大·781ms
   type: vless
-  server: s2317.kukuss.top
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  servername: u695098uf24555c7s2316.gogocs.xyz
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇺🇸美国·854ms
-  type: vless
-  server: s2318.okgg.top
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  servername: u695098uf24555c7s2316.gogocs.xyz
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇬🇧英国·931ms
-  type: trojan
-  server: gb.tronsg.com
-  port: 443
-  password: Trojan@82164024
-  sni: gb.tronsg.com
-  skip-cert-verify: false
-- name: 🇦🇹奥地利·939ms
-  type: hysteria2
-  server: 5.254.51.109
-  port: 9443
-  password: Hc9_NX924RE_Mn948rgrwiub_m93V84nll
-  sni: keyhop-voxility-at.dynuddns.com
-  skip-cert-verify: false
-- name: 🇷🇴罗马尼亚·1024ms
-  type: vless
-  server: 46.183.16.4
-  port: 2087
-  uuid: 69d76969-4c52-40f5-ac1d-303571634362
-  tls: true
-  servername: ro1.b0w.ir
-  network: ws
-- name: 🇨🇳中国·1025ms
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
+  server: 173.245.49.114
+  port: 2086
+  uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053
   tls: false
-- name: 🇯🇵日本·1050ms
-  type: hysteria2
-  server: rb.mangshe.xyz
-  port: 2060
-  password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be
-  sni: 127.0.0.1
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·1157ms
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ==
+    headers:
+      Host: misty-bread-fd96.salehinezhadali.workers.dev
+- name: 🇺🇸美国·802ms
+  type: ss
+  server: 54.83.117.150
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇨🇦加拿大·969ms
+  type: vless
+  server: cf2.466688.xyz
+  port: 8880
+  uuid: f989cbf4-40d2-41d2-8a00-1fe4e29b2192
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.SG.CMLiussss.net@https://t.me/QiangLieTuiJian
+    headers:
+      Host: ancient-rice-c180.455-8ad.workers.dev
+- name: 🇳🇱荷兰·1692ms
   type: vless
   server: s1244.csgfw.top
   port: 10829
@@ -166,26 +98,57 @@ proxies:
   ws-opts:
     headers:
       Host: eb8953b4s861.gogocs.xyz
-- name: 🇪🇸西班牙·1374ms
+- name: 🇨🇳中国·2048ms
+  type: vmess
+  server: goldcnmltyljgfwgov.vip67.wogcnmnnagfwgov.com
+  port: 11267
+  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 🇸🇬新加坡·2088ms
+  type: ss
+  server: 13.212.141.33
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+- name: 🇺🇸美国·2090ms
+  type: ss
+  server: 54.221.120.243
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇫🇷法国·2270ms
+  type: hysteria2
+  server: 62.210.147.2
+  port: 43115
+  password: github.com/Alvin9999-newpac/fanqiang
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇨🇦加拿大·2970ms
   type: vless
-  server: 185.220.249.44
-  port: 2053
-  uuid: 6d1590ed-4c0f-4bbc-931d-2431737615dd
-  tls: true
-  servername: 185.220.249.44
+  server: 104.21.89.181
+  port: 8880
+  uuid: d6c595c9-bff4-4510-893a-dfa3c87fa0cd
+  tls: false
   network: ws
   ws-opts:
-    path: /ws-cdn1-vless
+    path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: es.fastmirror-labs.xyz
-- name: 🇸🇬新加坡·1680ms
-  type: trojan
-  server: 43.156.36.253
+      Host: lucky-cell-d20c.78-107.workers.dev
+- name: 🇭🇰香港·3968ms
+  type: vless
+  server: s151.gogocs.xyz
   port: 443
-  password: WvH8ooM9hom4KOOJHFJz1x5umE0aV4R0
-  sni: tx-hy2
-  skip-cert-verify: true
-- name: 🇨🇳中国·2435ms
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  tls: true
+  servername: u695098u54d73951s298.kukuss.top
+  flow: xtls-rprx-vision
+  network: tcp
+  ws-opts:
+    headers:
+      Host: 54d73951s298.kukuss.top
+- name: 🇨🇳中国·4331ms
   type: vless
   server: us22.sofast.live
   port: 58011
@@ -197,54 +160,40 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇸🇬新加坡·360ms
-  - 🇩🇪德国·416ms
-  - 🇩🇪德国·453ms
-  - 🇰🇷韩国·461ms
-  - 🇺🇸美国·482ms
-  - 🇫🇷法国·546ms
-  - 🇭🇰香港·553ms
-  - 🇯🇵日本·680ms
-  - 🇪🇸西班牙·687ms
-  - 🇺🇸美国·795ms
-  - 🇺🇸美国·833ms
-  - 🇺🇸美国·854ms
-  - 🇬🇧英国·931ms
-  - 🇦🇹奥地利·939ms
-  - 🇷🇴罗马尼亚·1024ms
-  - 🇨🇳中国·1025ms
-  - 🇯🇵日本·1050ms
-  - 🇳🇱荷兰·1157ms
-  - 🇪🇸西班牙·1374ms
-  - 🇸🇬新加坡·1680ms
-  - 🇨🇳中国·2435ms
+  - 🇨🇦加拿大·582ms
+  - 🇩🇪德国·626ms
+  - 🇺🇸美国·694ms
+  - 🇨🇦加拿大·781ms
+  - 🇺🇸美国·802ms
+  - 🇨🇦加拿大·969ms
+  - 🇳🇱荷兰·1692ms
+  - 🇨🇳中国·2048ms
+  - 🇸🇬新加坡·2088ms
+  - 🇺🇸美国·2090ms
+  - 🇫🇷法国·2270ms
+  - 🇨🇦加拿大·2970ms
+  - 🇭🇰香港·3968ms
+  - 🇨🇳中国·4331ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬新加坡·360ms
-  - 🇩🇪德国·416ms
-  - 🇩🇪德国·453ms
-  - 🇰🇷韩国·461ms
-  - 🇺🇸美国·482ms
-  - 🇫🇷法国·546ms
-  - 🇭🇰香港·553ms
-  - 🇯🇵日本·680ms
-  - 🇪🇸西班牙·687ms
-  - 🇺🇸美国·795ms
-  - 🇺🇸美国·833ms
-  - 🇺🇸美国·854ms
-  - 🇬🇧英国·931ms
-  - 🇦🇹奥地利·939ms
-  - 🇷🇴罗马尼亚·1024ms
-  - 🇨🇳中国·1025ms
-  - 🇯🇵日本·1050ms
-  - 🇳🇱荷兰·1157ms
-  - 🇪🇸西班牙·1374ms
-  - 🇸🇬新加坡·1680ms
-  - 🇨🇳中国·2435ms
+  - 🇨🇦加拿大·582ms
+  - 🇩🇪德国·626ms
+  - 🇺🇸美国·694ms
+  - 🇨🇦加拿大·781ms
+  - 🇺🇸美国·802ms
+  - 🇨🇦加拿大·969ms
+  - 🇳🇱荷兰·1692ms
+  - 🇨🇳中国·2048ms
+  - 🇸🇬新加坡·2088ms
+  - 🇺🇸美国·2090ms
+  - 🇫🇷法国·2270ms
+  - 🇨🇦加拿大·2970ms
+  - 🇭🇰香港·3968ms
+  - 🇨🇳中国·4331ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
