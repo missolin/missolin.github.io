@@ -35,127 +35,136 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇸🇬新加坡·498ms
-  type: trojan
-  server: fond-mammoth.rooster465.autos
-  port: 443
-  password: UX82473651
-  sni: fond-mammoth.rooster465.autos
-  skip-cert-verify: false
-- name: 🇨🇳中国·500ms
-  type: vmess
-  server: silversbgfgov.vip30.wogbcnmnagfwgov.com
-  port: 11230
-  uuid: 605956ee-544d-308e-8b90-51e67c6ea8da
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇺🇸美国·681ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇭🇰香港·1007ms
+- name: 🌐未知·584ms
   type: hysteria2
   server: s3.huhiuh.space
   port: 18642
   password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  skip-cert-verify: true
+- name: 🇷🇺俄罗斯·590ms
+  type: ss
+  server: 194.87.196.107
+  port: 40440
+  cipher: aes-256-gcm
+  password: 4938e975724d0ed1
+- name: 🇮🇱以色列·919ms
+  type: hysteria2
+  server: 129.159.156.109
+  port: 50160
+  password: f25f19f29ce3fb53a35bf1b35b452a43
   sni: www.bing.com
   skip-cert-verify: true
-- name: 🇺🇸美国·1106ms
+- name: 🇷🇺俄罗斯·1067ms
   type: vless
-  server: s2317.kukuss.top
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  server: 196.240.125.251
+  port: 8443
+  uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8
   tls: true
-  servername: u695098uf24555c7s2316.gogocs.xyz
+  servername: api-v1-6ac7858f.vmagnum.win
   flow: xtls-rprx-vision
   network: tcp
-- name: 🇫🇷法国·1510ms
-  type: ss
-  server: 52.47.99.71
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇺🇦乌克兰·2225ms
+- name: 🇩🇪德国·1160ms
   type: vless
-  server: 95.133.247.98
-  port: 995
-  uuid: df275727-c25a-450b-99c3-29e4e6b0b6b9
-  tls: true
-  servername: love-paris.roxa.org
-  network: ws
-  ws-opts:
-    path: /api/v1
-    headers:
-      Host: love-paris.roxa.org
-    v2ray-http-upgrade: true
-- name: 🇨🇳中国·2344ms
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
+  server: 91.107.162.52
+  port: 59791
+  uuid: 6562121a-fa15-448d-a880-b127a1095875
   tls: false
-- name: 🇺🇸美国·2758ms
+  network: http
+- name: 🌐未知·1499ms
+  type: ss
+  server: 86.107.50.183
+  port: 30111
+  cipher: aes-256-gcm
+  password: 78235e7dc55e9ad1
+- name: 🌐未知·1608ms
   type: vless
-  server: s2318.okgg.top
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  server: nl.alpheratzz.org
+  port: 8443
+  uuid: 8de76932-518a-4ac8-ac92-be6b1f17ddd8
   tls: true
-  servername: u695098uf24555c7s2316.gogocs.xyz
+  servername: api-v1-6ac7858f.vmagnum.win
   flow: xtls-rprx-vision
   network: tcp
-- name: 🇨🇳中国·2892ms
+- name: 🌐未知·1884ms
+  type: hysteria2
+  server: sg4.vatilon.cc
+  port: 10004
+  password: aec8e5e3-bb81-4b22-8802-0b88c54997b3
+  sni: sg4.vatilon.cc
+  skip-cert-verify: true
+- name: 🌐未知·1906ms
+  type: hysteria2
+  server: polandsixsebenrkn010.qcloud.surf
+  port: 21384
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  sni: polandsixsebenrkn010.qcloud.surf
+  skip-cert-verify: true
+- name: 🌐未知·2636ms
   type: vless
   server: us22.sofast.live
   port: 58011
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   tls: false
   network: tcp
-- name: 🇸🇬新加坡·3446ms
-  type: trojan
-  server: musical-mouse.rooster465.autos
+- name: 🇨🇦加拿大·4272ms
+  type: vless
+  server: 104.16.10.84
   port: 443
-  password: UX82473651
-  sni: musical-mouse.rooster465.autos
-  skip-cert-verify: true
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐未知·4299ms
+  type: trojan
+  server: www.speedtest.net
+  port: 443
+  password: humanity
+  sni: www.calmlunch.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.calmlunch.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇸🇬新加坡·498ms
-  - 🇨🇳中国·500ms
-  - 🇺🇸美国·681ms
-  - 🇭🇰香港·1007ms
-  - 🇺🇸美国·1106ms
-  - 🇫🇷法国·1510ms
-  - 🇺🇦乌克兰·2225ms
-  - 🇨🇳中国·2344ms
-  - 🇺🇸美国·2758ms
-  - 🇨🇳中国·2892ms
-  - 🇸🇬新加坡·3446ms
+  - 🌐未知·584ms
+  - 🇷🇺俄罗斯·590ms
+  - 🇮🇱以色列·919ms
+  - 🇷🇺俄罗斯·1067ms
+  - 🇩🇪德国·1160ms
+  - 🌐未知·1499ms
+  - 🌐未知·1608ms
+  - 🌐未知·1884ms
+  - 🌐未知·1906ms
+  - 🌐未知·2636ms
+  - 🇨🇦加拿大·4272ms
+  - 🌐未知·4299ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬新加坡·498ms
-  - 🇨🇳中国·500ms
-  - 🇺🇸美国·681ms
-  - 🇭🇰香港·1007ms
-  - 🇺🇸美国·1106ms
-  - 🇫🇷法国·1510ms
-  - 🇺🇦乌克兰·2225ms
-  - 🇨🇳中国·2344ms
-  - 🇺🇸美国·2758ms
-  - 🇨🇳中国·2892ms
-  - 🇸🇬新加坡·3446ms
+  - 🌐未知·584ms
+  - 🇷🇺俄罗斯·590ms
+  - 🇮🇱以色列·919ms
+  - 🇷🇺俄罗斯·1067ms
+  - 🇩🇪德国·1160ms
+  - 🌐未知·1499ms
+  - 🌐未知·1608ms
+  - 🌐未知·1884ms
+  - 🌐未知·1906ms
+  - 🌐未知·2636ms
+  - 🇨🇦加拿大·4272ms
+  - 🌐未知·4299ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
