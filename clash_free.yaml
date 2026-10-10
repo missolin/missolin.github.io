@@ -35,67 +35,135 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇰🇷韩国·1237ms
+- name: 🇨🇳中国·177ms
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 🇰🇷韩国·184ms
   type: ss
   server: 43.155.223.71
   port: 8388
   cipher: aes-256-gcm
   password: UsIv5aKJabiqnYtY8IfWd6FfgjzrJlfZ
-- name: 🇯🇵日本·1371ms
-  type: trojan
-  server: allowed-poodle.rooster465.autos
+- name: 🇺🇸美国·267ms
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 22073
+  cipher: aes-256-gcm
+  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
+- name: 🇯🇵日本·388ms
+  type: hysteria2
+  server: 8.209.247.109
   port: 443
-  password: UX82473651
-  sni: allowed-poodle.rooster465.autos
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  skip-cert-verify: true
+- name: 🇬🇧英国·439ms
+  type: ss
+  server: 13.40.25.145
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇰🇷韩国·466ms
+  type: hysteria2
+  server: 150-230-252-217.liao.kdns.fr
+  port: 50160
+  password: 9cfc9458e48c028ec03ff86ebc71c744
+  sni: 150-230-252-217.liao.kdns.fr
   skip-cert-verify: false
-- name: 🇯🇵日本·2098ms
-  type: trojan
-  server: evident-ant.rooster465.autos
-  port: 443
-  password: UX82473651
-  sni: evident-ant.rooster465.autos
-  skip-cert-verify: false
-- name: 🇺🇸美国·2551ms
+- name: 🇨🇦加拿大·471ms
   type: vless
-  server: s2318.okgg.top
-  port: 443
-  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
-  tls: true
-  servername: u695098uf24555c7s2316.gogocs.xyz
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇨🇦加拿大·3467ms
-  type: vless
-  server: 172.64.144.82
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  tls: true
-  servername: lucasjow.us.ci
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: false
   network: ws
   ws-opts:
+    path: /fp
     headers:
-      Host: lucasjow.us.ci
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇺🇸美国·748ms
+  type: trojan
+  server: 23.149.28.8.sslip.io
+  port: 8443
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  sni: 23.149.28.8.sslip.io
+  skip-cert-verify: true
+- name: 🇺🇸美国·1136ms
+  type: vless
+  server: s482.wagahaha.xyz
+  port: 10829
+  uuid: 30e52776-55ac-3cb4-8d36-e2910f07e2c3
+  tls: true
+  servername: u695098u764943ccs478.gogocs.xyz
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇺🇦乌克兰·1278ms
+  type: vless
+  server: 95.133.247.98
+  port: 995
+  uuid: df275727-c25a-450b-99c3-29e4e6b0b6b9
+  tls: true
+  servername: love-paris.roxa.org
+  network: ws
+  ws-opts:
+    path: /api/v1
+    headers:
+      Host: love-paris.roxa.org
+    v2ray-http-upgrade: true
+- name: 🇭🇰香港·2035ms
+  type: vmess
+  server: v36.hdacd.com
+  port: 30836
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 🇨🇳中国·2115ms
+  type: vless
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  tls: false
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇰🇷韩国·1237ms
-  - 🇯🇵日本·1371ms
-  - 🇯🇵日本·2098ms
-  - 🇺🇸美国·2551ms
-  - 🇨🇦加拿大·3467ms
+  - 🇨🇳中国·177ms
+  - 🇰🇷韩国·184ms
+  - 🇺🇸美国·267ms
+  - 🇯🇵日本·388ms
+  - 🇬🇧英国·439ms
+  - 🇰🇷韩国·466ms
+  - 🇨🇦加拿大·471ms
+  - 🇺🇸美国·748ms
+  - 🇺🇸美国·1136ms
+  - 🇺🇦乌克兰·1278ms
+  - 🇭🇰香港·2035ms
+  - 🇨🇳中国·2115ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷韩国·1237ms
-  - 🇯🇵日本·1371ms
-  - 🇯🇵日本·2098ms
-  - 🇺🇸美国·2551ms
-  - 🇨🇦加拿大·3467ms
+  - 🇨🇳中国·177ms
+  - 🇰🇷韩国·184ms
+  - 🇺🇸美国·267ms
+  - 🇯🇵日本·388ms
+  - 🇬🇧英国·439ms
+  - 🇰🇷韩国·466ms
+  - 🇨🇦加拿大·471ms
+  - 🇺🇸美国·748ms
+  - 🇺🇸美国·1136ms
+  - 🇺🇦乌克兰·1278ms
+  - 🇭🇰香港·2035ms
+  - 🇨🇳中国·2115ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
