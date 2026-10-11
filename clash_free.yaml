@@ -35,115 +35,7 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇨🇦加拿大·464ms
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: false
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇷🇺俄罗斯·627ms
-  type: ss
-  server: 46.29.166.27
-  port: 20221
-  cipher: aes-256-gcm
-  password: 6b39ae3234dfd68b
-- name: 🇰🇷韩国·754ms
-  type: ss
-  server: 15.164.245.92
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-- name: 🇺🇸美国·957ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇫🇷法国·1163ms
-  type: hysteria2
-  server: 62.210.147.2
-  port: 43115
-  password: github.com/Alvin9999-newpac/fanqiang
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇺🇸美国·1548ms
-  type: ss
-  server: ruot.ayucloudservices.nl
-  port: 22073
-  cipher: aes-256-gcm
-  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
-- name: 🇺🇸美国·1742ms
-  type: vless
-  server: 140.248.186.45
-  port: 443
-  uuid: XpnTeam-13
-  tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇺🇸美国·1794ms
-  type: vless
-  server: 199.232.78.160
-  port: 443
-  uuid: XpnTeam-13
-  tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇺🇸美国·1799ms
-  type: vless
-  server: 199.232.78.170
-  port: 443
-  uuid: XpnTeam-13
-  tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇨🇦加拿大·1896ms
-  type: vless
-  server: 104.17.98.5
-  port: 443
-  uuid: 49ccad64-c854-4f33-b334-793cf0d02b74
-  tls: true
-  servername: newcscf.jisucf.cloudns.ch
-  network: ws
-  ws-opts:
-    headers:
-      Host: newcscf.jisucf.cloudns.ch
-- name: 🇬🇧英国·1971ms
-  type: ss
-  server: 13.40.25.145
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇨🇦加拿大·2950ms
-  type: vless
-  server: 104.19.164.155
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇨🇳中国·3171ms
+- name: 🇨🇳中国·322ms
   type: vmess
   server: 112.132.215.108
   port: 50002
@@ -151,43 +43,93 @@ proxies:
   alterId: 64
   cipher: auto
   tls: false
+- name: 🇬🇧英国·587ms
+  type: ss
+  server: 13.40.25.145
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇯🇵日本·605ms
+  type: hysteria2
+  server: 8.209.247.109
+  port: 443
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇭🇰香港·632ms
+  type: hysteria2
+  server: s3.huhiuh.space
+  port: 18642
+  password: user317_windows:c70565e9-a99f-40ef-b96c-469a3949eed2
+  sni: s3.huhiuh.space
+  skip-cert-verify: true
+- name: 🇷🇺俄罗斯·672ms
+  type: ss
+  server: 46.29.166.27
+  port: 20221
+  cipher: aes-256-gcm
+  password: 6b39ae3234dfd68b
+- name: 🇨🇳中国·788ms
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 22073
+  cipher: aes-256-gcm
+  password: bd962c9a-d6f2-4561-bd80-34206c4d5279
+- name: 🇺🇸美国·829ms
+  type: trojan
+  server: 23.149.28.8.sslip.io
+  port: 8443
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  sni: 23.149.28.8.sslip.io
+  skip-cert-verify: true
+- name: 🇳🇱荷兰·1238ms
+  type: vless
+  server: 146.0.75.155
+  port: 995
+  uuid: 34066ca5-7755-4443-8fce-84d5ff435eef
+  tls: true
+  servername: nider-bel.mysynology.net
+  network: ws
+  ws-opts:
+    path: /api/v1
+    headers:
+      Host: nider-bel.mysynology.net
+    v2ray-http-upgrade: true
+- name: 🇷🇺俄罗斯·4342ms
+  type: ss
+  server: 176.32.35.102
+  port: 20111
+  cipher: aes-256-gcm
+  password: bdb313adf74c2ede
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇨🇦加拿大·464ms
-  - 🇷🇺俄罗斯·627ms
-  - 🇰🇷韩国·754ms
-  - 🇺🇸美国·957ms
-  - 🇫🇷法国·1163ms
-  - 🇺🇸美国·1548ms
-  - 🇺🇸美国·1742ms
-  - 🇺🇸美国·1794ms
-  - 🇺🇸美国·1799ms
-  - 🇨🇦加拿大·1896ms
-  - 🇬🇧英国·1971ms
-  - 🇨🇦加拿大·2950ms
-  - 🇨🇳中国·3171ms
+  - 🇨🇳中国·322ms
+  - 🇬🇧英国·587ms
+  - 🇯🇵日本·605ms
+  - 🇭🇰香港·632ms
+  - 🇷🇺俄罗斯·672ms
+  - 🇨🇳中国·788ms
+  - 🇺🇸美国·829ms
+  - 🇳🇱荷兰·1238ms
+  - 🇷🇺俄罗斯·4342ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇦加拿大·464ms
-  - 🇷🇺俄罗斯·627ms
-  - 🇰🇷韩国·754ms
-  - 🇺🇸美国·957ms
-  - 🇫🇷法国·1163ms
-  - 🇺🇸美国·1548ms
-  - 🇺🇸美国·1742ms
-  - 🇺🇸美国·1794ms
-  - 🇺🇸美国·1799ms
-  - 🇨🇦加拿大·1896ms
-  - 🇬🇧英国·1971ms
-  - 🇨🇦加拿大·2950ms
-  - 🇨🇳中国·3171ms
+  - 🇨🇳中国·322ms
+  - 🇬🇧英国·587ms
+  - 🇯🇵日本·605ms
+  - 🇭🇰香港·632ms
+  - 🇷🇺俄罗斯·672ms
+  - 🇨🇳中国·788ms
+  - 🇺🇸美国·829ms
+  - 🇳🇱荷兰·1238ms
+  - 🇷🇺俄罗斯·4342ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
