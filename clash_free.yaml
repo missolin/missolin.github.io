@@ -35,52 +35,81 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇷🇺俄罗斯·930ms
+- name: 🇰🇷韩国·510ms
   type: vless
-  server: nl.alpheratzz.org
-  port: 8443
-  uuid: 1bda2ae7-b597-4704-95a8-29c0f76324ba
+  server: 168.110.110.16
+  port: 443
+  uuid: 235e318a-8bcb-4480-b256-7b65cc5d0b0a
   tls: true
-  servername: api-v1-6aca6fae.vmagnum.win
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇨🇭瑞士·1117ms
-  type: vless
-  server: lte.homyak.app
-  port: 41826
-  uuid: 2eb3f6a0-df6e-49b6-994c-177acdd50a97
-  tls: true
-  servername: sweden.homyak.app
   network: ws
   ws-opts:
-    path: /
+    path: /Tokyo1
     headers:
-      Host: lte.homyak.app
-    v2ray-http-upgrade: true
-- name: 🇯🇵日本·1227ms
-  type: trojan
-  server: jp.tronsg.com
-  port: 443
-  password: Trojan@82164024
-  sni: jp.tronsg.com
+      Host: jp.lovehk.xyz
+- name: 🇷🇺俄罗斯·1004ms
+  type: hysteria2
+  server: 194.87.118.184
+  port: 2053
+  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
+  sni: match-stream.lovkisport.blog
   skip-cert-verify: false
+- name: 🇷🇺俄罗斯·1064ms
+  type: vless
+  server: 87.242.94.237
+  port: 8443
+  uuid: 7b859f9e-0e6a-475f-b5e3-5d671b043164
+  tls: true
+  servername: lada.locallynet.org
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇳🇱荷兰·1098ms
+  type: vless
+  server: 146.0.75.155
+  port: 995
+  uuid: 34066ca5-7755-4443-8fce-84d5ff435eef
+  tls: true
+  servername: nider-bel.mysynology.net
+  network: ws
+  ws-opts:
+    path: /api/v1
+    headers:
+      Host: nider-bel.mysynology.net
+    v2ray-http-upgrade: true
+- name: 🇯🇵日本·1443ms
+  type: hysteria2
+  server: open.2ml.bid
+  port: 443
+  password: my_super_password_123
+  skip-cert-verify: false
+- name: 🇸🇬新加坡·3441ms
+  type: ss
+  server: 54.179.192.171
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇷🇺俄罗斯·930ms
-  - 🇨🇭瑞士·1117ms
-  - 🇯🇵日本·1227ms
+  - 🇰🇷韩国·510ms
+  - 🇷🇺俄罗斯·1004ms
+  - 🇷🇺俄罗斯·1064ms
+  - 🇳🇱荷兰·1098ms
+  - 🇯🇵日本·1443ms
+  - 🇸🇬新加坡·3441ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇷🇺俄罗斯·930ms
-  - 🇨🇭瑞士·1117ms
-  - 🇯🇵日本·1227ms
+  - 🇰🇷韩国·510ms
+  - 🇷🇺俄罗斯·1004ms
+  - 🇷🇺俄罗斯·1064ms
+  - 🇳🇱荷兰·1098ms
+  - 🇯🇵日本·1443ms
+  - 🇸🇬新加坡·3441ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
