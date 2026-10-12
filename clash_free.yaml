@@ -35,7 +35,7 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇰🇷韩国·510ms
+- name: 🇰🇷韩国·488ms
   type: vless
   server: 168.110.110.16
   port: 443
@@ -46,23 +46,63 @@ proxies:
     path: /Tokyo1
     headers:
       Host: jp.lovehk.xyz
-- name: 🇷🇺俄罗斯·1004ms
+- name: 🇨🇦加拿大·583ms
+  type: ss
+  server: 3.99.191.16
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇷🇺俄罗斯·657ms
+  type: ss
+  server: 176.32.32.108
+  port: 20119
+  cipher: aes-256-gcm
+  password: d8a115ba7ee0d990
+- name: 🇯🇵日本·1572ms
+  type: hysteria2
+  server: open.2ml.bid
+  port: 5443
+  password: my_super_password_123
+  skip-cert-verify: false
+- name: 🇺🇦乌克兰·1677ms
+  type: hysteria2
+  server: 87.76.134.44
+  port: 3231
+  password: 43212c32-01f2-4356-b216-67dc1c178262
+  sni: pl2-bkjbu.vpvr4ib84nuv6hdkt.ru
+  skip-cert-verify: true
+- name: 🇷🇺俄罗斯·1790ms
   type: hysteria2
   server: 194.87.118.184
   port: 2053
   password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
   sni: match-stream.lovkisport.blog
   skip-cert-verify: false
-- name: 🇷🇺俄罗斯·1064ms
+- name: 🌐未知·1914ms
   type: vless
-  server: 87.242.94.237
-  port: 8443
-  uuid: 7b859f9e-0e6a-475f-b5e3-5d671b043164
+  server: 104.18.43.174
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
   tls: true
-  servername: lada.locallynet.org
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇳🇱荷兰·1098ms
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐未知·2366ms
+  type: vless
+  server: 162.159.128.96
+  port: 443
+  uuid: f90e2825-6433-46b0-91a2-971f335b887a
+  tls: true
+  servername: ws-japan-ga-01.xyy123.bid
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ws-japan-ga-01.xyy123.bid
+- name: 🇳🇱荷兰·2776ms
   type: vless
   server: 146.0.75.155
   port: 995
@@ -75,41 +115,67 @@ proxies:
     headers:
       Host: nider-bel.mysynology.net
     v2ray-http-upgrade: true
-- name: 🇯🇵日本·1443ms
+- name: 🇯🇵日本·3067ms
   type: hysteria2
   server: open.2ml.bid
   port: 443
   password: my_super_password_123
+  sni: open.2ml.bid
   skip-cert-verify: false
-- name: 🇸🇬新加坡·3441ms
-  type: ss
-  server: 54.179.192.171
-  port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+- name: 🇨🇳中国·3397ms
+  type: vless
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  tls: false
+  network: tcp
+- name: 🌐未知·4607ms
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇰🇷韩国·510ms
-  - 🇷🇺俄罗斯·1004ms
-  - 🇷🇺俄罗斯·1064ms
-  - 🇳🇱荷兰·1098ms
-  - 🇯🇵日本·1443ms
-  - 🇸🇬新加坡·3441ms
+  - 🇰🇷韩国·488ms
+  - 🇨🇦加拿大·583ms
+  - 🇷🇺俄罗斯·657ms
+  - 🇯🇵日本·1572ms
+  - 🇺🇦乌克兰·1677ms
+  - 🇷🇺俄罗斯·1790ms
+  - 🌐未知·1914ms
+  - 🌐未知·2366ms
+  - 🇳🇱荷兰·2776ms
+  - 🇯🇵日本·3067ms
+  - 🇨🇳中国·3397ms
+  - 🌐未知·4607ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷韩国·510ms
-  - 🇷🇺俄罗斯·1004ms
-  - 🇷🇺俄罗斯·1064ms
-  - 🇳🇱荷兰·1098ms
-  - 🇯🇵日本·1443ms
-  - 🇸🇬新加坡·3441ms
+  - 🇰🇷韩国·488ms
+  - 🇨🇦加拿大·583ms
+  - 🇷🇺俄罗斯·657ms
+  - 🇯🇵日本·1572ms
+  - 🇺🇦乌克兰·1677ms
+  - 🇷🇺俄罗斯·1790ms
+  - 🌐未知·1914ms
+  - 🌐未知·2366ms
+  - 🇳🇱荷兰·2776ms
+  - 🇯🇵日本·3067ms
+  - 🇨🇳中国·3397ms
+  - 🌐未知·4607ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
