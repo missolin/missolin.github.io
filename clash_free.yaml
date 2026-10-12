@@ -35,62 +35,87 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇰🇷韩国·488ms
-  type: vless
-  server: 168.110.110.16
+- name: 🇺🇸美国·391ms
+  type: vmess
+  server: 154.64.239.22
+  port: 26421
+  uuid: 9fa732d6-dcd6-47bb-c255-094bad71765d
+  alterId: 0
+  cipher: auto
+  tls: false
+- name: 🇨🇦加拿大·520ms
+  type: ss
+  server: 3.96.190.88
   port: 443
-  uuid: 235e318a-8bcb-4480-b256-7b65cc5d0b0a
-  tls: true
-  network: ws
-  ws-opts:
-    path: /Tokyo1
-    headers:
-      Host: jp.lovehk.xyz
-- name: 🇨🇦加拿大·583ms
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸美国·690ms
+  type: trojan
+  server: 23.149.28.8.sslip.io
+  port: 8443
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  sni: 23.149.28.8.sslip.io
+  skip-cert-verify: true
+- name: 🇺🇸美国·820ms
+  type: hysteria2
+  server: starlink-ft.251313.xyz
+  port: 443
+  password: https://xship.best
+  sni: xship.top
+  skip-cert-verify: true
+- name: 🇨🇳中国·915ms
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 🇨🇦加拿大·1128ms
   type: ss
   server: 3.99.191.16
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇷🇺俄罗斯·657ms
-  type: ss
-  server: 176.32.32.108
-  port: 20119
-  cipher: aes-256-gcm
-  password: d8a115ba7ee0d990
-- name: 🇯🇵日本·1572ms
+- name: 🇦🇺澳洲·1163ms
   type: hysteria2
-  server: open.2ml.bid
-  port: 5443
-  password: my_super_password_123
-  skip-cert-verify: false
-- name: 🇺🇦乌克兰·1677ms
-  type: hysteria2
-  server: 87.76.134.44
-  port: 3231
-  password: 43212c32-01f2-4356-b216-67dc1c178262
-  sni: pl2-bkjbu.vpvr4ib84nuv6hdkt.ru
-  skip-cert-verify: true
-- name: 🇷🇺俄罗斯·1790ms
-  type: hysteria2
-  server: 194.87.118.184
-  port: 2053
-  password: 7ab3c77e-8fcc-4848-918f-cae3d4eac794
-  sni: match-stream.lovkisport.blog
-  skip-cert-verify: false
-- name: 🌐未知·1914ms
-  type: vless
-  server: 104.18.43.174
+  server: vpn-au-001.fastervpn.world
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: vpn-au-001.fastervpn.world
+  skip-cert-verify: true
+- name: 🇺🇸美国·1633ms
+  type: vless
+  server: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
+  port: 443
+  uuid: b8e59255-d392-c427-535d-bc1f8f444c4e
   tls: true
-  servername: lucasjow.us.ci
+  servername: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /ws/b8e59255-d392-c427-535d-bc1f8f444c4e
     headers:
-      Host: lucasjow.us.ci
-- name: 🌐未知·2366ms
+      Host: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
+- name: 🇯🇵日本·1726ms
+  type: hysteria2
+  server: open.2ml.bid
+  port: 443
+  password: my_super_password_123
+  sni: open.2ml.bid
+  skip-cert-verify: false
+- name: 🇺🇸美国·1797ms
+  type: vless
+  server: vodiwalkerpanel-production-a2bf.up.railway.app
+  port: 443
+  uuid: 382603f1-4e48-a891-af91-e7640fd8efed
+  tls: true
+  servername: vodiwalkerpanel-production-a2bf.up.railway.app
+  network: ws
+  ws-opts:
+    path: /ws/382603f1-4e48-a891-af91-e7640fd8efed
+    headers:
+      Host: vodiwalkerpanel-production-a2bf.up.railway.app
+- name: 🇨🇦加拿大·2541ms
   type: vless
   server: 162.159.128.96
   port: 443
@@ -102,80 +127,48 @@ proxies:
     path: /
     headers:
       Host: ws-japan-ga-01.xyy123.bid
-- name: 🇳🇱荷兰·2776ms
-  type: vless
-  server: 146.0.75.155
-  port: 995
-  uuid: 34066ca5-7755-4443-8fce-84d5ff435eef
-  tls: true
-  servername: nider-bel.mysynology.net
-  network: ws
-  ws-opts:
-    path: /api/v1
-    headers:
-      Host: nider-bel.mysynology.net
-    v2ray-http-upgrade: true
-- name: 🇯🇵日本·3067ms
+- name: 🇰🇷韩国·2546ms
   type: hysteria2
-  server: open.2ml.bid
-  port: 443
-  password: my_super_password_123
-  sni: open.2ml.bid
-  skip-cert-verify: false
-- name: 🇨🇳中国·3397ms
-  type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
-- name: 🌐未知·4607ms
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
+  server: 152.70.237.123
+  port: 2053
+  password: maintell
+  sni: 152.70.237.123
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇰🇷韩国·488ms
-  - 🇨🇦加拿大·583ms
-  - 🇷🇺俄罗斯·657ms
-  - 🇯🇵日本·1572ms
-  - 🇺🇦乌克兰·1677ms
-  - 🇷🇺俄罗斯·1790ms
-  - 🌐未知·1914ms
-  - 🌐未知·2366ms
-  - 🇳🇱荷兰·2776ms
-  - 🇯🇵日本·3067ms
-  - 🇨🇳中国·3397ms
-  - 🌐未知·4607ms
+  - 🇺🇸美国·391ms
+  - 🇨🇦加拿大·520ms
+  - 🇺🇸美国·690ms
+  - 🇺🇸美国·820ms
+  - 🇨🇳中国·915ms
+  - 🇨🇦加拿大·1128ms
+  - 🇦🇺澳洲·1163ms
+  - 🇺🇸美国·1633ms
+  - 🇯🇵日本·1726ms
+  - 🇺🇸美国·1797ms
+  - 🇨🇦加拿大·2541ms
+  - 🇰🇷韩国·2546ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷韩国·488ms
-  - 🇨🇦加拿大·583ms
-  - 🇷🇺俄罗斯·657ms
-  - 🇯🇵日本·1572ms
-  - 🇺🇦乌克兰·1677ms
-  - 🇷🇺俄罗斯·1790ms
-  - 🌐未知·1914ms
-  - 🌐未知·2366ms
-  - 🇳🇱荷兰·2776ms
-  - 🇯🇵日本·3067ms
-  - 🇨🇳中国·3397ms
-  - 🌐未知·4607ms
+  - 🇺🇸美国·391ms
+  - 🇨🇦加拿大·520ms
+  - 🇺🇸美国·690ms
+  - 🇺🇸美国·820ms
+  - 🇨🇳中国·915ms
+  - 🇨🇦加拿大·1128ms
+  - 🇦🇺澳洲·1163ms
+  - 🇺🇸美国·1633ms
+  - 🇯🇵日本·1726ms
+  - 🇺🇸美国·1797ms
+  - 🇨🇦加拿大·2541ms
+  - 🇰🇷韩国·2546ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
