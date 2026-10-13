@@ -35,87 +35,55 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇺🇸美国·391ms
-  type: vmess
-  server: 154.64.239.22
-  port: 26421
-  uuid: 9fa732d6-dcd6-47bb-c255-094bad71765d
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 🇨🇦加拿大·520ms
+- name: 🇰🇷韩国·506ms
+  type: hysteria2
+  server: 150-230-252-217.liao.kdns.fr
+  port: 50160
+  password: 9cfc9458e48c028ec03ff86ebc71c744
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇫🇮芬兰·536ms
   type: ss
-  server: 3.96.190.88
+  server: 185.239.141.248
+  port: 8388
+  cipher: aes-256-gcm
+  password: j_Z9yWqItCz_9yhD5YVY4w
+- name: 🇺🇸美国·618ms
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 21196
+  cipher: aes-256-gcm
+  password: 5af8b36d-14f6-44a3-ad02-c46acbbf47ba
+- name: 🇨🇦加拿大·641ms
+  type: ss
+  server: 99.79.45.227
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇺🇸美国·690ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇺🇸美国·820ms
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.best
-  sni: xship.top
-  skip-cert-verify: true
-- name: 🇨🇳中国·915ms
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
+- name: 🇨🇦加拿大·771ms
+  type: vless
+  server: 172.67.81.7
+  port: 8880
+  uuid: 2ced390a-4252-4541-8985-730f7a06bb45
   tls: false
-- name: 🇨🇦加拿大·1128ms
-  type: ss
-  server: 3.99.191.16
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇦🇺澳洲·1163ms
-  type: hysteria2
-  server: vpn-au-001.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: vpn-au-001.fastervpn.world
-  skip-cert-verify: true
-- name: 🇺🇸美国·1633ms
-  type: vless
-  server: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
-  port: 443
-  uuid: b8e59255-d392-c427-535d-bc1f8f444c4e
-  tls: true
-  servername: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
   network: ws
   ws-opts:
-    path: /ws/b8e59255-d392-c427-535d-bc1f8f444c4e
+    path: /pyip=ProxyIP.US.CMLiussss.net
     headers:
-      Host: e8439083-5b1f-4a9a-8003-9c143de96941.fly.dev
-- name: 🇯🇵日本·1726ms
-  type: hysteria2
-  server: open.2ml.bid
-  port: 443
-  password: my_super_password_123
-  sni: open.2ml.bid
-  skip-cert-verify: false
-- name: 🇺🇸美国·1797ms
+      Host: flat-butterfly-d503.411-d1e.workers.dev
+- name: 🇺🇸美国·2098ms
   type: vless
-  server: vodiwalkerpanel-production-a2bf.up.railway.app
+  server: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
   port: 443
-  uuid: 382603f1-4e48-a891-af91-e7640fd8efed
+  uuid: fe15a643-4c5e-e133-f560-3b79074162da
   tls: true
-  servername: vodiwalkerpanel-production-a2bf.up.railway.app
+  servername: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
   network: ws
   ws-opts:
-    path: /ws/382603f1-4e48-a891-af91-e7640fd8efed
+    path: /ws/fe15a643-4c5e-e133-f560-3b79074162da
     headers:
-      Host: vodiwalkerpanel-production-a2bf.up.railway.app
-- name: 🇨🇦加拿大·2541ms
+      Host: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
+- name: 🇨🇦加拿大·2347ms
   type: vless
   server: 162.159.128.96
   port: 443
@@ -124,10 +92,29 @@ proxies:
   servername: ws-japan-ga-01.xyy123.bid
   network: ws
   ws-opts:
-    path: /
     headers:
       Host: ws-japan-ga-01.xyy123.bid
-- name: 🇰🇷韩国·2546ms
+- name: 🇩🇪德国·3623ms
+  type: ss
+  server: 43.114.183.117
+  port: 443
+  cipher: 2022-blake3-chacha20-poly1305
+  password: d4M6fAj9Q07uK4HePntATUAs1KBceMzq8hGPy1AFxFA=
+- name: 🇧🇷巴西·3761ms
+  type: hysteria2
+  server: sweedenqfds777.qcloud.surf
+  port: 21223
+  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
+  sni: sweedenqfds777.qcloud.surf
+  skip-cert-verify: false
+- name: 🇨🇳中国·4233ms
+  type: vless
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  tls: false
+  network: tcp
+- name: 🇰🇷韩国·4881ms
   type: hysteria2
   server: 152.70.237.123
   port: 2053
@@ -139,36 +126,34 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸美国·391ms
-  - 🇨🇦加拿大·520ms
-  - 🇺🇸美国·690ms
-  - 🇺🇸美国·820ms
-  - 🇨🇳中国·915ms
-  - 🇨🇦加拿大·1128ms
-  - 🇦🇺澳洲·1163ms
-  - 🇺🇸美国·1633ms
-  - 🇯🇵日本·1726ms
-  - 🇺🇸美国·1797ms
-  - 🇨🇦加拿大·2541ms
-  - 🇰🇷韩国·2546ms
+  - 🇰🇷韩国·506ms
+  - 🇫🇮芬兰·536ms
+  - 🇺🇸美国·618ms
+  - 🇨🇦加拿大·641ms
+  - 🇨🇦加拿大·771ms
+  - 🇺🇸美国·2098ms
+  - 🇨🇦加拿大·2347ms
+  - 🇩🇪德国·3623ms
+  - 🇧🇷巴西·3761ms
+  - 🇨🇳中国·4233ms
+  - 🇰🇷韩国·4881ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸美国·391ms
-  - 🇨🇦加拿大·520ms
-  - 🇺🇸美国·690ms
-  - 🇺🇸美国·820ms
-  - 🇨🇳中国·915ms
-  - 🇨🇦加拿大·1128ms
-  - 🇦🇺澳洲·1163ms
-  - 🇺🇸美国·1633ms
-  - 🇯🇵日本·1726ms
-  - 🇺🇸美国·1797ms
-  - 🇨🇦加拿大·2541ms
-  - 🇰🇷韩国·2546ms
+  - 🇰🇷韩国·506ms
+  - 🇫🇮芬兰·536ms
+  - 🇺🇸美国·618ms
+  - 🇨🇦加拿大·641ms
+  - 🇨🇦加拿大·771ms
+  - 🇺🇸美国·2098ms
+  - 🇨🇦加拿大·2347ms
+  - 🇩🇪德国·3623ms
+  - 🇧🇷巴西·3761ms
+  - 🇨🇳中国·4233ms
+  - 🇰🇷韩国·4881ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
