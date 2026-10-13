@@ -35,125 +35,90 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇰🇷韩国·506ms
-  type: hysteria2
-  server: 150-230-252-217.liao.kdns.fr
-  port: 50160
-  password: 9cfc9458e48c028ec03ff86ebc71c744
-  sni: 127.0.0.1
-  skip-cert-verify: true
-- name: 🇫🇮芬兰·536ms
+- name: 🇫🇮芬兰·553ms
   type: ss
   server: 185.239.141.248
   port: 8388
   cipher: aes-256-gcm
   password: j_Z9yWqItCz_9yhD5YVY4w
-- name: 🇺🇸美国·618ms
+- name: 🇬🇧英国·557ms
   type: ss
-  server: ruot.ayucloudservices.nl
-  port: 21196
-  cipher: aes-256-gcm
-  password: 5af8b36d-14f6-44a3-ad02-c46acbbf47ba
-- name: 🇨🇦加拿大·641ms
-  type: ss
-  server: 99.79.45.227
+  server: 16.60.8.87
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇨🇦加拿大·771ms
-  type: vless
-  server: 172.67.81.7
-  port: 8880
-  uuid: 2ced390a-4252-4541-8985-730f7a06bb45
-  tls: false
-  network: ws
-  ws-opts:
-    path: /pyip=ProxyIP.US.CMLiussss.net
-    headers:
-      Host: flat-butterfly-d503.411-d1e.workers.dev
-- name: 🇺🇸美国·2098ms
-  type: vless
-  server: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
-  port: 443
-  uuid: fe15a643-4c5e-e133-f560-3b79074162da
-  tls: true
-  servername: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
-  network: ws
-  ws-opts:
-    path: /ws/fe15a643-4c5e-e133-f560-3b79074162da
-    headers:
-      Host: 04b51566-9333-492b-b680-8f80752411f9.fly.dev
-- name: 🇨🇦加拿大·2347ms
-  type: vless
-  server: 162.159.128.96
-  port: 443
-  uuid: f90e2825-6433-46b0-91a2-971f335b887a
-  tls: true
-  servername: ws-japan-ga-01.xyy123.bid
-  network: ws
-  ws-opts:
-    headers:
-      Host: ws-japan-ga-01.xyy123.bid
-- name: 🇩🇪德国·3623ms
+- name: 🇬🇧英国·630ms
   type: ss
-  server: 43.114.183.117
+  server: 3.10.142.119
   port: 443
-  cipher: 2022-blake3-chacha20-poly1305
-  password: d4M6fAj9Q07uK4HePntATUAs1KBceMzq8hGPy1AFxFA=
-- name: 🇧🇷巴西·3761ms
-  type: hysteria2
-  server: sweedenqfds777.qcloud.surf
-  port: 21223
-  password: 408c51e8-9246-483d-ba73-34ab4e202eb9
-  sni: sweedenqfds777.qcloud.surf
-  skip-cert-verify: false
-- name: 🇨🇳中国·4233ms
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇬🇧英国·971ms
   type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
+  server: lagad17.api3-max.ru
+  port: 443
+  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
+  tls: true
+  servername: lagad17.api3-max.ru
+  flow: xtls-rprx-vision
   network: tcp
-- name: 🇰🇷韩国·4881ms
-  type: hysteria2
-  server: 152.70.237.123
-  port: 2053
-  password: maintell
-  sni: 152.70.237.123
-  skip-cert-verify: true
+- name: 🇺🇸美国·1134ms
+  type: vless
+  server: laga19.api3-max.ru
+  port: 443
+  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
+  tls: true
+  servername: laga19.api3-max.ru
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇺🇸美国·1238ms
+  type: vless
+  server: laga20.api3-max.ru
+  port: 443
+  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
+  tls: true
+  servername: laga20.api3-max.ru
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇸🇬新加坡·1374ms
+  type: ss
+  server: 54.254.240.48
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
+- name: 🇺🇸美国·1521ms
+  type: ss
+  server: 18.118.139.14
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇰🇷韩国·506ms
-  - 🇫🇮芬兰·536ms
-  - 🇺🇸美国·618ms
-  - 🇨🇦加拿大·641ms
-  - 🇨🇦加拿大·771ms
-  - 🇺🇸美国·2098ms
-  - 🇨🇦加拿大·2347ms
-  - 🇩🇪德国·3623ms
-  - 🇧🇷巴西·3761ms
-  - 🇨🇳中国·4233ms
-  - 🇰🇷韩国·4881ms
+  - 🇫🇮芬兰·553ms
+  - 🇬🇧英国·557ms
+  - 🇬🇧英国·630ms
+  - 🇬🇧英国·971ms
+  - 🇺🇸美国·1134ms
+  - 🇺🇸美国·1238ms
+  - 🇸🇬新加坡·1374ms
+  - 🇺🇸美国·1521ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇰🇷韩国·506ms
-  - 🇫🇮芬兰·536ms
-  - 🇺🇸美国·618ms
-  - 🇨🇦加拿大·641ms
-  - 🇨🇦加拿大·771ms
-  - 🇺🇸美国·2098ms
-  - 🇨🇦加拿大·2347ms
-  - 🇩🇪德国·3623ms
-  - 🇧🇷巴西·3761ms
-  - 🇨🇳中国·4233ms
-  - 🇰🇷韩国·4881ms
+  - 🇫🇮芬兰·553ms
+  - 🇬🇧英国·557ms
+  - 🇬🇧英国·630ms
+  - 🇬🇧英国·971ms
+  - 🇺🇸美国·1134ms
+  - 🇺🇸美国·1238ms
+  - 🇸🇬新加坡·1374ms
+  - 🇺🇸美国·1521ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
