@@ -35,90 +35,211 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇫🇮芬兰·553ms
+- name: 🇨🇳中国·212ms
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 🇨🇦加拿大·403ms
+  type: vless
+  server: 172.64.150.28
+  port: 8880
+  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: vms.lifetime29.workers.dev
+- name: 🇨🇦加拿大·516ms
   type: ss
-  server: 185.239.141.248
-  port: 8388
-  cipher: aes-256-gcm
-  password: j_Z9yWqItCz_9yhD5YVY4w
-- name: 🇬🇧英国·557ms
-  type: ss
-  server: 16.60.8.87
+  server: 15.223.201.180
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇬🇧英国·630ms
-  type: ss
-  server: 3.10.142.119
-  port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
-- name: 🇬🇧英国·971ms
+- name: 🇧🇷巴西·770ms
+  type: trojan
+  server: de-bots4.h1cloud.net
+  port: 25267
+  password: happybirthdaydaniel
+  sni: t.me/fuckthewall
+  skip-cert-verify: true
+- name: 🇨🇦加拿大·814ms
   type: vless
-  server: lagad17.api3-max.ru
-  port: 443
-  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
-  tls: true
-  servername: lagad17.api3-max.ru
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇺🇸美国·1134ms
-  type: vless
-  server: laga19.api3-max.ru
-  port: 443
-  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
-  tls: true
-  servername: laga19.api3-max.ru
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇺🇸美国·1238ms
-  type: vless
-  server: laga20.api3-max.ru
-  port: 443
-  uuid: b8254d35-1cb0-4b74-8f7f-d2bc985196a0
-  tls: true
-  servername: laga20.api3-max.ru
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇸🇬新加坡·1374ms
-  type: ss
-  server: 54.254.240.48
+  server: 172.67.179.98
+  port: 8880
+  uuid: 75323b6f-184f-4d00-839d-323b8fc70221
+  tls: false
+  network: ws
+  ws-opts:
+    path: /pyip=ProxyIP.US.CMLiussss.net
+    headers:
+      Host: dry-sunset-f3c4.282.workers.dev
+- name: 🇺🇸美国·830ms
+  type: trojan
+  server: 23.149.28.8.sslip.io
   port: 8443
-  cipher: chacha20-ietf-poly1305
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-- name: 🇺🇸美国·1521ms
-  type: ss
-  server: 18.118.139.14
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  sni: 23.149.28.8.sslip.io
+  skip-cert-verify: true
+- name: 🇺🇸美国·1150ms
+  type: hysteria2
+  server: vpn-au-001.fastervpn.world
   port: 443
-  cipher: aes-256-cfb
-  password: amazonskr05
+  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
+  sni: 127.0.0.1
+  skip-cert-verify: true
+- name: 🇺🇸美国·1328ms
+  type: vless
+  server: 199.232.78.170
+  port: 443
+  uuid: XpnTeam-1
+  tls: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+- name: 🇩🇪德国·1414ms
+  type: vless
+  server: free.sahanwickramasinghe.me
+  port: 80
+  uuid: fcdb24e3-5e66-4c45-b89e-ac9441f4dcda
+  tls: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇩🇪德国·1423ms
+  type: hysteria2
+  server: hy9.shamanfun.ru
+  port: 1443
+  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
+  sni: hy9.shamanfun.ru
+  skip-cert-verify: false
+- name: 🇺🇸美国·1455ms
+  type: vless
+  server: 140.248.186.45
+  port: 443
+  uuid: XpnTeam-2
+  tls: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+- name: 🇨🇦加拿大·1527ms
+  type: vless
+  server: 104.18.42.54
+  port: 2083
+  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  tls: true
+  servername: newwk1.f1w.de5.net
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: newwk1.f1w.de5.net
+- name: 🇨🇦加拿大·2276ms
+  type: vless
+  server: centurylink.es
+  port: 8443
+  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
+  tls: true
+  servername: free.sahanwickramasinghe.me
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: free.sahanwickramasinghe.me
+- name: 🇯🇵日本·2402ms
+  type: hysteria2
+  server: 8.209.247.109
+  port: 443
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  skip-cert-verify: true
+- name: 🇨🇦加拿大·3086ms
+  type: vless
+  server: 104.19.44.174
+  port: 2083
+  uuid: 56e4896e-90a9-4fe0-8480-90d3d68b9928
+  tls: true
+  servername: go.iranfree.de5.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: go.iranfree.de5.net
+- name: 🇨🇦加拿大·4215ms
+  type: vless
+  server: 104.16.111.202
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇨🇳中国·4428ms
+  type: vless
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  tls: false
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇫🇮芬兰·553ms
-  - 🇬🇧英国·557ms
-  - 🇬🇧英国·630ms
-  - 🇬🇧英国·971ms
-  - 🇺🇸美国·1134ms
-  - 🇺🇸美国·1238ms
-  - 🇸🇬新加坡·1374ms
-  - 🇺🇸美国·1521ms
+  - 🇨🇳中国·212ms
+  - 🇨🇦加拿大·403ms
+  - 🇨🇦加拿大·516ms
+  - 🇧🇷巴西·770ms
+  - 🇨🇦加拿大·814ms
+  - 🇺🇸美国·830ms
+  - 🇺🇸美国·1150ms
+  - 🇺🇸美国·1328ms
+  - 🇩🇪德国·1414ms
+  - 🇩🇪德国·1423ms
+  - 🇺🇸美国·1455ms
+  - 🇨🇦加拿大·1527ms
+  - 🇨🇦加拿大·2276ms
+  - 🇯🇵日本·2402ms
+  - 🇨🇦加拿大·3086ms
+  - 🇨🇦加拿大·4215ms
+  - 🇨🇳中国·4428ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇫🇮芬兰·553ms
-  - 🇬🇧英国·557ms
-  - 🇬🇧英国·630ms
-  - 🇬🇧英国·971ms
-  - 🇺🇸美国·1134ms
-  - 🇺🇸美国·1238ms
-  - 🇸🇬新加坡·1374ms
-  - 🇺🇸美国·1521ms
+  - 🇨🇳中国·212ms
+  - 🇨🇦加拿大·403ms
+  - 🇨🇦加拿大·516ms
+  - 🇧🇷巴西·770ms
+  - 🇨🇦加拿大·814ms
+  - 🇺🇸美国·830ms
+  - 🇺🇸美国·1150ms
+  - 🇺🇸美国·1328ms
+  - 🇩🇪德国·1414ms
+  - 🇩🇪德国·1423ms
+  - 🇺🇸美国·1455ms
+  - 🇨🇦加拿大·1527ms
+  - 🇨🇦加拿大·2276ms
+  - 🇯🇵日本·2402ms
+  - 🇨🇦加拿大·3086ms
+  - 🇨🇦加拿大·4215ms
+  - 🇨🇳中国·4428ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
