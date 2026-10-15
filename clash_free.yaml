@@ -35,181 +35,26 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇧🇷巴西·180ms
-  type: ss
-  server: 191.223.221.53
-  port: 8388
-  cipher: aes-256-gcm
-  password: JuD6MNgtX3nVpCzFzXYVYjDTZ7nsmaTv
-- name: 🇯🇵日本·202ms
-  type: ss
-  server: 45.12.89.202
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: 1f24d145bf7c877f7e3140b7918eb9cd804b1576a96596f9
-- name: 🇰🇷韩国·361ms
-  type: hysteria2
-  server: 150-230-252-217.liao.kdns.fr
-  port: 50160
-  password: 9cfc9458e48c028ec03ff86ebc71c744
-  sni: 150-230-252-217.liao.kdns.fr
-  skip-cert-verify: false
-- name: 🇺🇸美国·428ms
-  type: vless
-  server: 136.175.179.94
-  port: 8444
-  uuid: eae4af7f-0a0c-4af9-8f5f-b7dd403e59d5
-  tls: false
-  network: tcp
-- name: 🇺🇸美国·546ms
-  type: vless
-  server: 3.20.126.177
-  port: 10101
-  uuid: VPNSaint
-  tls: false
-  network: tcp
-- name: 🇨🇳中国·605ms
-  type: vmess
-  server: 112.132.215.108
-  port: 50002
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  alterId: 64
-  cipher: auto
-  tls: false
-- name: 🇺🇸美国·661ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇭🇰香港·742ms
-  type: ss
-  server: 103.136.150.185
-  port: 8388
-  cipher: aes-256-gcm
-  password: gRhHs2gFCj5Pl7JC
-- name: 🇩🇪德国·848ms
-  type: hysteria2
-  server: hy9.shamanfun.ru
-  port: 1443
-  password: c635b5f6-b5ea-4e57-927f-75860b0cb984
-  sni: hy9.shamanfun.ru
-  skip-cert-verify: false
-- name: 🇪🇸西班牙·848ms
-  type: ss
-  server: 185.227.174.29
-  port: 8389
-  cipher: aes-256-gcm
-  password: EwUhOxemnPqaUvJgq4S8ug
-- name: 🇺🇸美国·939ms
-  type: hysteria2
-  server: vpn-au-001.fastervpn.world
-  port: 443
-  password: H7mP2xY9kJ4nQ8wR5tF6vB3z
-  sni: 'off'
-  skip-cert-verify: true
-- name: 🇧🇷巴西·979ms
+- name: 🇧🇷巴西·3471ms
   type: hysteria2
   server: finkawwwbroy5.qcloud.surf
   port: 20326
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
+  password: 4ad3dbf5-2005-4d96-b56c-a0ca9905cab6
+  sni: finkawwwbroy5.qcloud.surf
   skip-cert-verify: false
-- name: 🇺🇸美国·1186ms
-  type: vless
-  server: vodiwalkerpanel-production-919e.up.railway.app
-  port: 443
-  uuid: 996aca7b-2382-4c9a-a753-bf7753d65441
-  tls: true
-  servername: vodiwalkerpanel-production-919e.up.railway.app
-  network: ws
-  ws-opts:
-    path: /ws/996aca7b-2382-4c9a-a753-bf7753d65441
-    headers:
-      Host: vodiwalkerpanel-production-919e.up.railway.app
-- name: 🇭🇰香港·1276ms
-  type: hysteria2
-  server: hk2.xiaoliyu.cyou
-  port: 4433
-  password: 8b64b840-a48d-4ac0-b10f-8f7d7081a0f1
-  sni: hk2.xiaoliyu.cyou
-  skip-cert-verify: true
-- name: 🇯🇵日本·1489ms
-  type: trojan
-  server: 160.21.74.183
-  port: 8443
-  password: ZLNrfFIw6IXWvhFvGEWi4EcsWJ76ZiDh
-  sni: 160.21.74.183
-  skip-cert-verify: true
-- name: 🇧🇷巴西·2014ms
-  type: hysteria2
-  server: qcloudge1.exitvpn.shop
-  port: 20270
-  password: 8bd04756-3beb-4348-82c9-d35453df50ce
-  sni: qcloudge1.exitvpn.shop
-  skip-cert-verify: false
-- name: 🇯🇵日本·3447ms
-  type: vmess
-  server: oc.imfun.fun
-  port: 18112
-  uuid: ad45f8f6-0f0a-4cc4-b907-c4582407dc94
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 🇨🇳中国·3751ms
-  type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇧🇷巴西·180ms
-  - 🇯🇵日本·202ms
-  - 🇰🇷韩国·361ms
-  - 🇺🇸美国·428ms
-  - 🇺🇸美国·546ms
-  - 🇨🇳中国·605ms
-  - 🇺🇸美国·661ms
-  - 🇭🇰香港·742ms
-  - 🇩🇪德国·848ms
-  - 🇪🇸西班牙·848ms
-  - 🇺🇸美国·939ms
-  - 🇧🇷巴西·979ms
-  - 🇺🇸美国·1186ms
-  - 🇭🇰香港·1276ms
-  - 🇯🇵日本·1489ms
-  - 🇧🇷巴西·2014ms
-  - 🇯🇵日本·3447ms
-  - 🇨🇳中国·3751ms
+  - 🇧🇷巴西·3471ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇧🇷巴西·180ms
-  - 🇯🇵日本·202ms
-  - 🇰🇷韩国·361ms
-  - 🇺🇸美国·428ms
-  - 🇺🇸美国·546ms
-  - 🇨🇳中国·605ms
-  - 🇺🇸美国·661ms
-  - 🇭🇰香港·742ms
-  - 🇩🇪德国·848ms
-  - 🇪🇸西班牙·848ms
-  - 🇺🇸美国·939ms
-  - 🇧🇷巴西·979ms
-  - 🇺🇸美国·1186ms
-  - 🇭🇰香港·1276ms
-  - 🇯🇵日本·1489ms
-  - 🇧🇷巴西·2014ms
-  - 🇯🇵日本·3447ms
-  - 🇨🇳中国·3751ms
+  - 🇧🇷巴西·3471ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
