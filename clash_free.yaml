@@ -35,214 +35,31 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇨🇳中国·353ms
-  type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇺🇸美国·431ms
-  type: ss
-  server: ruot.ayucloudservices.nl
-  port: 40018
-  cipher: aes-128-gcm
-  password: c855b71e-f3c2-442a-9429-0844eb4346c5
-- name: 🇺🇸美国·695ms
-  type: ss
-  server: ruot.ayucloudservices.nl
-  port: 35193
-  cipher: aes-128-gcm
-  password: c855b71e-f3c2-442a-9429-0844eb4346c5
-- name: 🇨🇳中国·702ms
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇺🇸美国·764ms
-  type: ss
-  server: ruot.ayucloudservices.nl
-  port: 40006
-  cipher: aes-128-gcm
-  password: 30e9c7aa-d86d-4f0d-a0d6-9d0ddf3f5e42
-- name: 🇨🇦加拿大·982ms
+- name: 🇨🇦加拿大·1669ms
   type: vless
-  server: www.epicgames.com
-  port: 2095
-  uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40
-  tls: false
+  server: 188.114.98.0
+  port: 443
+  uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b
+  tls: true
+  servername: free.nadun.store
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: openapi.next-ai.us.ci
-- name: 🇨🇳中国·1058ms
-  type: vmess
-  server: v36.hdacd.com
-  port: 30836
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇨🇦加拿大·1581ms
-  type: vless
-  server: centurylink.es
-  port: 8443
-  uuid: c136a12c-4260-48a7-a1e6-fbda83a11045
-  tls: true
-  servername: free.sahanwickramasinghe.me
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: free.sahanwickramasinghe.me
-- name: 🇨🇦加拿大·2816ms
-  type: vless
-  server: 104.19.33.237
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇨🇦加拿大·2848ms
-  type: vless
-  server: 104.16.10.72
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇺🇸美国·3137ms
-  type: vless
-  server: 140.248.186.45
-  port: 443
-  uuid: XpnTeam-11
-  tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇨🇦加拿大·3177ms
-  type: vless
-  server: 104.17.50.227
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇧🇷巴西·3180ms
-  type: hysteria2
-  server: hy-se.bypassme.online
-  port: 443
-  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
-  sni: hy-se.bypassme.online
-  skip-cert-verify: false
-- name: 🇨🇳中国·3211ms
-  type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
-- name: 🇺🇸美国·3263ms
-  type: vless
-  server: 45.38.60.153
-  port: 2053
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  tls: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: lucasjow.us.ci
-- name: 🇨🇦加拿大·4525ms
-  type: vless
-  server: 104.16.10.197
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  tls: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🇨🇦加拿大·4540ms
-  type: vless
-  server: cctvhikvision.center
-  port: 2053
-  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
-  tls: true
-  servername: uwu.blueknightnet.qzz.io
-  network: ws
-  ws-opts:
-    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
-    headers:
-      Host: uwu.blueknightnet.qzz.io
+      Host: free.nadun.store
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇨🇳中国·353ms
-  - 🇺🇸美国·431ms
-  - 🇺🇸美国·695ms
-  - 🇨🇳中国·702ms
-  - 🇺🇸美国·764ms
-  - 🇨🇦加拿大·982ms
-  - 🇨🇳中国·1058ms
-  - 🇨🇦加拿大·1581ms
-  - 🇨🇦加拿大·2816ms
-  - 🇨🇦加拿大·2848ms
-  - 🇺🇸美国·3137ms
-  - 🇨🇦加拿大·3177ms
-  - 🇧🇷巴西·3180ms
-  - 🇨🇳中国·3211ms
-  - 🇺🇸美国·3263ms
-  - 🇨🇦加拿大·4525ms
-  - 🇨🇦加拿大·4540ms
+  - 🇨🇦加拿大·1669ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇳中国·353ms
-  - 🇺🇸美国·431ms
-  - 🇺🇸美国·695ms
-  - 🇨🇳中国·702ms
-  - 🇺🇸美国·764ms
-  - 🇨🇦加拿大·982ms
-  - 🇨🇳中国·1058ms
-  - 🇨🇦加拿大·1581ms
-  - 🇨🇦加拿大·2816ms
-  - 🇨🇦加拿大·2848ms
-  - 🇺🇸美国·3137ms
-  - 🇨🇦加拿大·3177ms
-  - 🇧🇷巴西·3180ms
-  - 🇨🇳中国·3211ms
-  - 🇺🇸美国·3263ms
-  - 🇨🇦加拿大·4525ms
-  - 🇨🇦加拿大·4540ms
+  - 🇨🇦加拿大·1669ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
