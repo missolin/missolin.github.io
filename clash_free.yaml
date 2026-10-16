@@ -35,67 +35,41 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇷🇺俄罗斯·585ms
+- name: 🇨🇳中国·353ms
+  type: vmess
+  server: v6.hdacd.com
+  port: 30806
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
+  tls: false
+- name: 🇺🇸美国·431ms
   type: ss
-  server: 194.87.196.107
-  port: 18443
-  cipher: aes-256-gcm
-  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
-- name: 🇺🇸美国·596ms
-  type: vless
-  server: 66.235.200.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
+  server: ruot.ayucloudservices.nl
+  port: 40018
+  cipher: aes-128-gcm
+  password: c855b71e-f3c2-442a-9429-0844eb4346c5
+- name: 🇺🇸美国·695ms
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 35193
+  cipher: aes-128-gcm
+  password: c855b71e-f3c2-442a-9429-0844eb4346c5
+- name: 🇨🇳中国·702ms
+  type: vmess
+  server: v4.hdacd.com
+  port: 30804
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  alterId: 2
+  cipher: auto
   tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime47.workers.dev
-- name: 🌐未知·617ms
-  type: vless
-  server: 154.218.15.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime47.workers.dev
-- name: 🇺🇸美国·849ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇺🇸美国·866ms
-  type: trojan
-  server: 66.23.203.21
-  port: 59689
-  password: ae7eb4dwyaz25pxwgq59
-  skip-cert-verify: true
-- name: 🇯🇵日本·930ms
-  type: hysteria2
-  server: 8.209.247.109
-  port: 443
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  sni: bing.com
-  skip-cert-verify: true
-- name: 🇫🇷法国·1001ms
-  type: vless
-  server: 31.57.108.207
-  port: 443
-  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
-  tls: true
-  servername: cdn.topingr.ir
-  network: ws
-  ws-opts:
-    path: /gropcdn
-    headers:
-      Host: cdn.topingr.ir
-- name: 🇨🇦加拿大·1067ms
+- name: 🇺🇸美国·764ms
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 40006
+  cipher: aes-128-gcm
+  password: 30e9c7aa-d86d-4f0d-a0d6-9d0ddf3f5e42
+- name: 🇨🇦加拿大·982ms
   type: vless
   server: www.epicgames.com
   port: 2095
@@ -106,49 +80,7 @@ proxies:
     path: /
     headers:
       Host: openapi.next-ai.us.ci
-- name: 🇧🇷巴西·1277ms
-  type: trojan
-  server: 201.10.90.81
-  port: 443
-  password: u93yPGuY2zgIsisJZKS2QzJzg
-  sni: hl-freedom-2.undef.network
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·1291ms
-  type: vless
-  server: cdn.topingr.ir
-  port: 443
-  uuid: 497f5381-3533-4c6a-939c-66eb3a7de108
-  tls: true
-  servername: cdn.topingr.ir
-  network: ws
-  ws-opts:
-    path: /gropcdn
-    headers:
-      Host: cdn.topingr.ir
-- name: 🇮🇹意大利·1297ms
-  type: vless
-  server: 43.249.72.254
-  port: 443
-  uuid: f02e4193-8d89-452f-93d7-c6b133e82b9e
-  tls: true
-  servername: default.ssl.fastly.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: henzoo.global.ssl.fastly.net
-- name: 🇺🇸美国·1452ms
-  type: vless
-  server: 103.133.1.160
-  port: 80
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-  tls: false
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: soft-shadow-1e33.xicav73335.workers.dev
-- name: 🇭🇰香港·1569ms
+- name: 🇨🇳中国·1058ms
   type: vmess
   server: v36.hdacd.com
   port: 30836
@@ -156,55 +88,7 @@ proxies:
   alterId: 2
   cipher: auto
   tls: false
-- name: 🇭🇰香港·1732ms
-  type: vmess
-  server: v4.hdacd.com
-  port: 30804
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇨🇦加拿大·1845ms
-  type: vless
-  server: 104.17.210.74
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇨🇦加拿大·2287ms
-  type: vless
-  server: 104.16.111.202
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇭🇰香港·2365ms
-  type: vmess
-  server: v29.hdacd.com
-  port: 30829
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇭🇰香港·3112ms
-  type: vmess
-  server: v6.hdacd.com
-  port: 30806
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  alterId: 2
-  cipher: auto
-  tls: false
-- name: 🇨🇦加拿大·4068ms
+- name: 🇨🇦加拿大·1581ms
   type: vless
   server: centurylink.es
   port: 8443
@@ -216,55 +100,149 @@ proxies:
     path: /
     headers:
       Host: free.sahanwickramasinghe.me
+- name: 🇨🇦加拿大·2816ms
+  type: vless
+  server: 104.19.33.237
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇨🇦加拿大·2848ms
+  type: vless
+  server: 104.16.10.72
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇺🇸美国·3137ms
+  type: vless
+  server: 140.248.186.45
+  port: 443
+  uuid: XpnTeam-11
+  tls: true
+  servername: ssl.fastly.com
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: Appxdn.global.ssl.fastly.net
+- name: 🇨🇦加拿大·3177ms
+  type: vless
+  server: 104.17.50.227
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇧🇷巴西·3180ms
+  type: hysteria2
+  server: hy-se.bypassme.online
+  port: 443
+  password: e625f8ef-f935-4c7d-a259-0f154b6842fd
+  sni: hy-se.bypassme.online
+  skip-cert-verify: false
+- name: 🇨🇳中国·3211ms
+  type: vless
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  tls: false
+  network: tcp
+- name: 🇺🇸美国·3263ms
+  type: vless
+  server: 45.38.60.153
+  port: 2053
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  tls: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: lucasjow.us.ci
+- name: 🇨🇦加拿大·4525ms
+  type: vless
+  server: 104.16.10.197
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  tls: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🇨🇦加拿大·4540ms
+  type: vless
+  server: cctvhikvision.center
+  port: 2053
+  uuid: aa5d861a-7799-41a7-bdf4-7a6414cf98fd
+  tls: true
+  servername: uwu.blueknightnet.qzz.io
+  network: ws
+  ws-opts:
+    path: /@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net--@BlueKnight_net
+    headers:
+      Host: uwu.blueknightnet.qzz.io
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇷🇺俄罗斯·585ms
-  - 🇺🇸美国·596ms
-  - 🌐未知·617ms
-  - 🇺🇸美国·849ms
-  - 🇺🇸美国·866ms
-  - 🇯🇵日本·930ms
-  - 🇫🇷法国·1001ms
-  - 🇨🇦加拿大·1067ms
-  - 🇧🇷巴西·1277ms
-  - 🇳🇱荷兰·1291ms
-  - 🇮🇹意大利·1297ms
-  - 🇺🇸美国·1452ms
-  - 🇭🇰香港·1569ms
-  - 🇭🇰香港·1732ms
-  - 🇨🇦加拿大·1845ms
-  - 🇨🇦加拿大·2287ms
-  - 🇭🇰香港·2365ms
-  - 🇭🇰香港·3112ms
-  - 🇨🇦加拿大·4068ms
+  - 🇨🇳中国·353ms
+  - 🇺🇸美国·431ms
+  - 🇺🇸美国·695ms
+  - 🇨🇳中国·702ms
+  - 🇺🇸美国·764ms
+  - 🇨🇦加拿大·982ms
+  - 🇨🇳中国·1058ms
+  - 🇨🇦加拿大·1581ms
+  - 🇨🇦加拿大·2816ms
+  - 🇨🇦加拿大·2848ms
+  - 🇺🇸美国·3137ms
+  - 🇨🇦加拿大·3177ms
+  - 🇧🇷巴西·3180ms
+  - 🇨🇳中国·3211ms
+  - 🇺🇸美国·3263ms
+  - 🇨🇦加拿大·4525ms
+  - 🇨🇦加拿大·4540ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇷🇺俄罗斯·585ms
-  - 🇺🇸美国·596ms
-  - 🌐未知·617ms
-  - 🇺🇸美国·849ms
-  - 🇺🇸美国·866ms
-  - 🇯🇵日本·930ms
-  - 🇫🇷法国·1001ms
-  - 🇨🇦加拿大·1067ms
-  - 🇧🇷巴西·1277ms
-  - 🇳🇱荷兰·1291ms
-  - 🇮🇹意大利·1297ms
-  - 🇺🇸美国·1452ms
-  - 🇭🇰香港·1569ms
-  - 🇭🇰香港·1732ms
-  - 🇨🇦加拿大·1845ms
-  - 🇨🇦加拿大·2287ms
-  - 🇭🇰香港·2365ms
-  - 🇭🇰香港·3112ms
-  - 🇨🇦加拿大·4068ms
+  - 🇨🇳中国·353ms
+  - 🇺🇸美国·431ms
+  - 🇺🇸美国·695ms
+  - 🇨🇳中国·702ms
+  - 🇺🇸美国·764ms
+  - 🇨🇦加拿大·982ms
+  - 🇨🇳中国·1058ms
+  - 🇨🇦加拿大·1581ms
+  - 🇨🇦加拿大·2816ms
+  - 🇨🇦加拿大·2848ms
+  - 🇺🇸美国·3137ms
+  - 🇨🇦加拿大·3177ms
+  - 🇧🇷巴西·3180ms
+  - 🇨🇳中国·3211ms
+  - 🇺🇸美国·3263ms
+  - 🇨🇦加拿大·4525ms
+  - 🇨🇦加拿大·4540ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
