@@ -35,21 +35,124 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇨🇦加拿大·3007ms
+- name: 🇬🇧英国·487ms
   type: vless
-  server: 104.18.35.15
+  server: 18.169.146.8
+  port: 22222
+  uuid: e4514801-0d5a-42ba-869f-39bd605aef9e
+  tls: false
+  network: tcp
+- name: 🇺🇸美国·519ms
+  type: ss
+  server: 185.215.132.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇿🇦南非·550ms
+  type: ss
+  server: 185.230.230.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸美国·552ms
+  type: ss
+  server: 193.151.160.9
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸美国·556ms
+  type: ss
+  server: 193.151.163.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸美国·558ms
+  type: ss
+  server: 185.215.132.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇿捷克·592ms
+  type: ss
+  server: 45.86.51.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·598ms
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·607ms
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·610ms
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·664ms
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·665ms
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·675ms
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇯🇵日本·1149ms
+  type: vless
+  server: bounded-crammed.video-streams.org
   port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  uuid: 01b3cd91-21d6-494a-8af3-e3093914f5f8
   tls: true
-  servername: lucasjow.us.ci
+  servername: bounded-crammed.video-streams.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: bounded-crammed.video-streams.org
+- name: 🇯🇵日本·1888ms
+  type: vless
+  server: 161.34.33.205
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: lucasjow.us.ci
-- name: 🇯🇵日本·3375ms
+      Host: u.srilankangrill.online
+- name: 🇯🇵日本·2547ms
   type: vless
-  server: 43.170.8.95
+  server: 45.153.246.5
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇨🇦加拿大·3661ms
+  type: vless
+  server: 172.67.217.240
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
@@ -59,30 +162,60 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇨🇳中国·3436ms
-  type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
+- name: 🇯🇵日本·4885ms
+  type: trojan
+  server: 45.32.52.173
+  port: 8886
+  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
+  sni: 45.32.52.173
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇨🇦加拿大·3007ms
-  - 🇯🇵日本·3375ms
-  - 🇨🇳中国·3436ms
+  - 🇬🇧英国·487ms
+  - 🇺🇸美国·519ms
+  - 🇿🇦南非·550ms
+  - 🇺🇸美国·552ms
+  - 🇺🇸美国·556ms
+  - 🇺🇸美国·558ms
+  - 🇨🇿捷克·592ms
+  - 🇳🇱荷兰·598ms
+  - 🇳🇱荷兰·607ms
+  - 🇳🇱荷兰·610ms
+  - 🇳🇱荷兰·664ms
+  - 🇳🇱荷兰·665ms
+  - 🇳🇱荷兰·675ms
+  - 🇯🇵日本·1149ms
+  - 🇯🇵日本·1888ms
+  - 🇯🇵日本·2547ms
+  - 🇨🇦加拿大·3661ms
+  - 🇯🇵日本·4885ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇨🇦加拿大·3007ms
-  - 🇯🇵日本·3375ms
-  - 🇨🇳中国·3436ms
+  - 🇬🇧英国·487ms
+  - 🇺🇸美国·519ms
+  - 🇿🇦南非·550ms
+  - 🇺🇸美国·552ms
+  - 🇺🇸美国·556ms
+  - 🇺🇸美国·558ms
+  - 🇨🇿捷克·592ms
+  - 🇳🇱荷兰·598ms
+  - 🇳🇱荷兰·607ms
+  - 🇳🇱荷兰·610ms
+  - 🇳🇱荷兰·664ms
+  - 🇳🇱荷兰·665ms
+  - 🇳🇱荷兰·675ms
+  - 🇯🇵日本·1149ms
+  - 🇯🇵日本·1888ms
+  - 🇯🇵日本·2547ms
+  - 🇨🇦加拿大·3661ms
+  - 🇯🇵日本·4885ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
