@@ -35,83 +35,31 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇸🇬新加坡·209ms
+- name: 🇨🇦加拿大·3007ms
   type: vless
-  server: 13.212.217.197
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-- name: 🇯🇵日本·255ms
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-- name: 🇺🇸美国·596ms
-  type: vless
-  server: 100.54.27.217
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-- name: 🇷🇺俄罗斯·634ms
-  type: ss
-  server: 176.32.33.143
-  port: 18443
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-- name: 🇺🇸美国·671ms
-  type: vless
-  server: 44.251.76.224
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-- name: 🇺🇸美国·881ms
-  type: vless
-  server: 162.159.250.29
+  server: 104.18.35.15
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   tls: true
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    path: /
     headers:
       Host: lucasjow.us.ci
-- name: 🇸🇬新加坡·1211ms
-  type: trojan
-  server: 139.180.146.200
-  port: 8886
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  skip-cert-verify: true
-- name: 🇨🇦加拿大·1466ms
+- name: 🇯🇵日本·3375ms
   type: vless
-  server: speedtest.org
-  port: 8443
-  uuid: c3571d81-38bd-44a8-9b75-5af8a125fc42
+  server: 43.170.8.95
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  servername: pbsjv.megalionzone-vexina.sbs
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /bala
+    path: /tyxyws
     headers:
-      Host: pbsjv.megalionzone-vexina.sbs
-- name: 🇯🇵日本·1651ms
-  type: hysteria2
-  server: 8.209.247.109
-  port: 443
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  skip-cert-verify: true
-- name: 🇯🇵日本·1832ms
-  type: trojan
-  server: 45.32.52.173
-  port: 8886
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  sni: 45.32.52.173
-  skip-cert-verify: true
-- name: 🇨🇳中国·3342ms
+      Host: jp3.yohototo.top
+- name: 🇨🇳中国·3436ms
   type: vless
   server: us22.sofast.live
   port: 58011
@@ -123,34 +71,18 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇸🇬新加坡·209ms
-  - 🇯🇵日本·255ms
-  - 🇺🇸美国·596ms
-  - 🇷🇺俄罗斯·634ms
-  - 🇺🇸美国·671ms
-  - 🇺🇸美国·881ms
-  - 🇸🇬新加坡·1211ms
-  - 🇨🇦加拿大·1466ms
-  - 🇯🇵日本·1651ms
-  - 🇯🇵日本·1832ms
-  - 🇨🇳中国·3342ms
+  - 🇨🇦加拿大·3007ms
+  - 🇯🇵日本·3375ms
+  - 🇨🇳中国·3436ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇸🇬新加坡·209ms
-  - 🇯🇵日本·255ms
-  - 🇺🇸美国·596ms
-  - 🇷🇺俄罗斯·634ms
-  - 🇺🇸美国·671ms
-  - 🇺🇸美国·881ms
-  - 🇸🇬新加坡·1211ms
-  - 🇨🇦加拿大·1466ms
-  - 🇯🇵日本·1651ms
-  - 🇯🇵日本·1832ms
-  - 🇨🇳中国·3342ms
+  - 🇨🇦加拿大·3007ms
+  - 🇯🇵日本·3375ms
+  - 🇨🇳中国·3436ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
