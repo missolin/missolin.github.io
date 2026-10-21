@@ -35,46 +35,37 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇺🇸美国·426ms
-  type: vmess
-  server: 23.27.47.67
-  port: 26781
-  uuid: c8e76bdc-374f-48b0-dc49-1c6cd138ea06
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 🇫🇷法国·439ms
+- name: 🇺🇸美国·227ms
   type: ss
-  server: 95.215.201.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·541ms
+  server: ruot.ayucloudservices.nl
+  port: 40015
+  cipher: aes-128-gcm
+  password: 585f0e10-7b51-4f2e-a13d-479b045171bd
+- name: 🇺🇸美国·398ms
   type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·567ms
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·918ms
-  type: trojan
-  server: us3.dedushka.top
+  server: 176.122.177.140
   port: 443
-  password: 4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA
-  sni: us3.dedushka.top
-  skip-cert-verify: false
-- name: 🇸🇬新加坡·1149ms
-  type: trojan
-  server: 139.180.146.200
-  port: 8886
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·4232ms
+  cipher: 2022-blake3-aes-128-gcm
+  password: iCV7KreiPg3BR4k500isPA==
+- name: 🇺🇸美国·757ms
+  type: ss
+  server: ruot.ayucloudservices.nl
+  port: 22078
+  cipher: aes-256-gcm
+  password: 585f0e10-7b51-4f2e-a13d-479b045171bd
+- name: 🇨🇦加拿大·1177ms
+  type: vless
+  server: 172.67.79.160
+  port: 2087
+  uuid: a4a951b9-901d-4db8-8a7d-6df82c4b5c23
+  tls: true
+  servername: cvhpyn.pages.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cvhpyn.pages.dev
+- name: 🇳🇱荷兰·3404ms
   type: ss
   server: 202.50.253.81
   port: 19999
@@ -85,26 +76,22 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸美国·426ms
-  - 🇫🇷法国·439ms
-  - 🇳🇱荷兰·541ms
-  - 🇳🇱荷兰·567ms
-  - 🇺🇸美国·918ms
-  - 🇸🇬新加坡·1149ms
-  - 🇳🇱荷兰·4232ms
+  - 🇺🇸美国·227ms
+  - 🇺🇸美国·398ms
+  - 🇺🇸美国·757ms
+  - 🇨🇦加拿大·1177ms
+  - 🇳🇱荷兰·3404ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸美国·426ms
-  - 🇫🇷法国·439ms
-  - 🇳🇱荷兰·541ms
-  - 🇳🇱荷兰·567ms
-  - 🇺🇸美国·918ms
-  - 🇸🇬新加坡·1149ms
-  - 🇳🇱荷兰·4232ms
+  - 🇺🇸美国·227ms
+  - 🇺🇸美国·398ms
+  - 🇺🇸美国·757ms
+  - 🇨🇦加拿大·1177ms
+  - 🇳🇱荷兰·3404ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
