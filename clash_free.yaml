@@ -35,73 +35,40 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🌐未知·414ms
-  type: vless
-  server: 45.80.110.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: 🇬🇧英国·502ms
-  type: ss
-  server: 82.38.31.169
-  port: 443
-  cipher: chacha20-ietf-poly1305
-  password: oZIoA69Q8yhcQV8ka3Pa3A
-- name: 🇳🇱荷兰·576ms
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·576ms·2
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 - name: 🇳🇱荷兰·577ms
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·581ms
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·585ms
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🌐未知·588ms
-  type: vless
-  server: 45.194.53.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime19.workers.dev
-- name: 🇳🇱荷兰·592ms
   type: ss
   server: 202.50.253.72
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🌐未知·595ms
+- name: 🇬🇧英国·578ms
+  type: ss
+  server: 82.38.31.169
+  port: 443
+  cipher: chacha20-ietf-poly1305
+  password: oZIoA69Q8yhcQV8ka3Pa3A
+- name: 🇳🇱荷兰·601ms
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸美国·615ms
+  type: trojan
+  server: 23.149.28.8.sslip.io
+  port: 8443
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  sni: 23.149.28.8.sslip.io
+  skip-cert-verify: true
+- name: 🇳🇱荷兰·626ms
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🌐未知·1220ms
   type: vless
-  server: 108.165.152.30
+  server: 62.72.166.30
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -109,42 +76,23 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime61.workers.dev
-- name: 🇳🇱荷兰·596ms
+      Host: vms.lifetime40.workers.dev
+- name: 🇳🇱荷兰·1402ms
   type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇹🇷土耳其·619ms
-  type: vmess
-  server: free.ertebatgoostar.ir
-  port: 443
-  uuid: c9eab439-53bf-46e4-ba58-fc368ae1ee8c
-  alterId: 0
-  cipher: auto
-  tls: false
-- name: 🌐未知·648ms
-  type: vless
-  server: 45.80.110.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime51.workers.dev
-- name: 🇲🇾马来·702ms
+- name: 🇲🇾马来·1717ms
   type: trojan
   server: 47.250.84.25
   port: 443
   password: 5931134d1cde66bf83a54acdfebe7ab2
-  sni: moltbot.doctoroyy.net
+  sni: 47.250.84.25
   skip-cert-verify: true
-- name: 🌐未知·728ms
+- name: 🇦🇺澳洲·1856ms
   type: vless
-  server: 80.93.202.40
+  server: 103.169.142.30
   port: 8880
   uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
   tls: false
@@ -152,117 +100,20 @@ proxies:
   ws-opts:
     path: /
     headers:
-      Host: vms.lifetime02.workers.dev
-- name: 🌐未知·754ms
-  type: vless
-  server: 155.46.167.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    headers:
-      Host: vms.lifetime50.workers.dev
-- name: 🌐未知·763ms
-  type: vless
-  server: 185.148.107.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime55.workers.dev
-- name: 🌐未知·792ms
-  type: vless
-  server: 139.64.235.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: 🌐未知·795ms
-  type: vless
-  server: 92.53.189.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime19.workers.dev
-- name: 🌐未知·818ms
-  type: vless
-  server: 23.227.39.30
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime17.workers.dev
-- name: 🇺🇸美国·1022ms
-  type: hysteria2
-  server: starlink-ft.251313.xyz
-  port: 443
-  password: https://xship.top
-  sni: xship.top
-  skip-cert-verify: true
-- name: 🇯🇵日本·1333ms
-  type: trojan
-  server: 45.32.52.173
-  port: 8886
-  password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
-  sni: 45.32.52.173
-  skip-cert-verify: true
-- name: 🇸🇬新加坡·1426ms
-  type: vless
-  server: 43.174.195.1
-  port: 443
-  uuid: 24916ad0-847d-4522-9e17-f4347dee57fd
-  tls: true
-  servername: kv.074167.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kv.074167.xyz
-- name: 🌐未知·1595ms
-  type: vless
-  server: 89.116.180.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vms.lifetime09.workers.dev
-- name: 🌐未知·1693ms
-  type: vless
-  server: 185.162.229.50
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  tls: false
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime61.workers.dev
-- name: 🇨🇳中国·2675ms
-  type: vless
-  server: jp.sofast.live
-  port: 52683
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  tls: false
-  network: tcp
-- name: 🇨🇳中国·2921ms
+      Host: vms.lifetime38.workers.dev
+- name: 🇳🇱荷兰·2415ms
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·3820ms
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇳中国·3848ms
   type: vless
   server: us22.sofast.live
   port: 58011
@@ -274,66 +125,36 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🌐未知·414ms
-  - 🇬🇧英国·502ms
-  - 🇳🇱荷兰·576ms
-  - 🇳🇱荷兰·576ms·2
   - 🇳🇱荷兰·577ms
-  - 🇳🇱荷兰·581ms
-  - 🇳🇱荷兰·585ms
-  - 🌐未知·588ms
-  - 🇳🇱荷兰·592ms
-  - 🌐未知·595ms
-  - 🇳🇱荷兰·596ms
-  - 🇹🇷土耳其·619ms
-  - 🌐未知·648ms
-  - 🇲🇾马来·702ms
-  - 🌐未知·728ms
-  - 🌐未知·754ms
-  - 🌐未知·763ms
-  - 🌐未知·792ms
-  - 🌐未知·795ms
-  - 🌐未知·818ms
-  - 🇺🇸美国·1022ms
-  - 🇯🇵日本·1333ms
-  - 🇸🇬新加坡·1426ms
-  - 🌐未知·1595ms
-  - 🌐未知·1693ms
-  - 🇨🇳中国·2675ms
-  - 🇨🇳中国·2921ms
+  - 🇬🇧英国·578ms
+  - 🇳🇱荷兰·601ms
+  - 🇺🇸美国·615ms
+  - 🇳🇱荷兰·626ms
+  - 🌐未知·1220ms
+  - 🇳🇱荷兰·1402ms
+  - 🇲🇾马来·1717ms
+  - 🇦🇺澳洲·1856ms
+  - 🇳🇱荷兰·2415ms
+  - 🇳🇱荷兰·3820ms
+  - 🇨🇳中国·3848ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🌐未知·414ms
-  - 🇬🇧英国·502ms
-  - 🇳🇱荷兰·576ms
-  - 🇳🇱荷兰·576ms·2
   - 🇳🇱荷兰·577ms
-  - 🇳🇱荷兰·581ms
-  - 🇳🇱荷兰·585ms
-  - 🌐未知·588ms
-  - 🇳🇱荷兰·592ms
-  - 🌐未知·595ms
-  - 🇳🇱荷兰·596ms
-  - 🇹🇷土耳其·619ms
-  - 🌐未知·648ms
-  - 🇲🇾马来·702ms
-  - 🌐未知·728ms
-  - 🌐未知·754ms
-  - 🌐未知·763ms
-  - 🌐未知·792ms
-  - 🌐未知·795ms
-  - 🌐未知·818ms
-  - 🇺🇸美国·1022ms
-  - 🇯🇵日本·1333ms
-  - 🇸🇬新加坡·1426ms
-  - 🌐未知·1595ms
-  - 🌐未知·1693ms
-  - 🇨🇳中国·2675ms
-  - 🇨🇳中国·2921ms
+  - 🇬🇧英国·578ms
+  - 🇳🇱荷兰·601ms
+  - 🇺🇸美国·615ms
+  - 🇳🇱荷兰·626ms
+  - 🌐未知·1220ms
+  - 🇳🇱荷兰·1402ms
+  - 🇲🇾马来·1717ms
+  - 🇦🇺澳洲·1856ms
+  - 🇳🇱荷兰·2415ms
+  - 🇳🇱荷兰·3820ms
+  - 🇨🇳中国·3848ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
