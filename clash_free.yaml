@@ -35,131 +35,146 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇺🇸美国·464ms
+- name: 🇰🇷韩国·280ms
   type: vless
-  server: 64.118.156.138
-  port: 14081
-  uuid: 531ce91b-f477-4c15-b68f-948a3eea2f70
-  tls: false
-  network: tcp
-- name: 🇺🇸美国·474ms
-  type: vless
-  server: 34.220.149.187
+  server: 54.180.133.191
   port: 443
   uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
   tls: false
   network: http
-- name: 🇷🇺俄罗斯·652ms
-  type: ss
-  server: 195.133.23.50
-  port: 18443
-  cipher: aes-256-gcm
-  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
-- name: 🇸🇬新加坡·1217ms
-  type: hysteria2
-  server: 13.212.245.120
-  port: 443
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇰🇷韩国·1283ms
-  type: hysteria2
-  server: 13.125.13.26
-  port: 443
-  password: 7e68e32f-8015-4f37-9082-70e8b0b58043
-  sni: www.bing.com
-  skip-cert-verify: true
-- name: 🇰🇷韩国·1670ms
-  type: ss
-  server: 43.201.148.241
-  port: 2096
-  cipher: chacha20-ietf-poly1305
-  password: bf5129f1-31f5-4edf-a07a-27ec31b26c1d
-- name: 🇭🇰香港·2233ms
-  type: trojan
-  server: tjxg.m2k699.com
-  port: 24999
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  sni: www.itunes.com
-  skip-cert-verify: true
-- name: 🇭🇰香港·2253ms
-  type: trojan
-  server: tjjnd.m2k699.com
-  port: 24999
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  sni: www.itunes.com
-  skip-cert-verify: true
-- name: 🇭🇰香港·2262ms
-  type: trojan
-  server: tjmlxy.m2k699.com
-  port: 24999
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  sni: www.itunes.com
-  skip-cert-verify: true
-- name: 🇭🇰香港·2469ms
-  type: trojan
-  server: tjyg.m2k699.com
-  port: 24999
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  sni: www.itunes.com
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·2568ms
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇸🇬新加坡·2621ms
-  type: trojan
-  server: tjxjp.m2k699.com
-  port: 24999
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  sni: www.itunes.com
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·2706ms
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇭🇰香港·2709ms
-  type: trojan
-  server: tjterq.m2k699.com
-  port: 24999
-  password: 29086912-33e4-4e06-ba2b-60f1a195864f
-  sni: www.itunes.com
-  skip-cert-verify: true
-- name: 🇩🇪德国·2758ms
+- name: 🌐未知·447ms
   type: vless
-  server: 5.175.205.190
-  port: 27774
-  uuid: 653137c6-474e-4a3d-9a20-5a5afb3d4a4f
-  tls: false
+  server: hk013.zestapp778.com
+  port: 59746
+  uuid: 99fa1d27-b252-4cba-b04d-50c3d0873700
+  tls: true
+  servername: hk013.zestapp778.com
   network: tcp
-- name: 🇯🇵日本·2795ms
+- name: 🇳🇱荷兰·475ms
+  type: vless
+  server: 188.164.248.181
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  tls: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🇯🇵日本·487ms
   type: trojan
   server: 45.32.52.173
   port: 8886
   password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437
   sni: 45.32.52.173
   skip-cert-verify: true
-- name: 🇭🇰香港·2832ms
+- name: 🇫🇷法国·593ms
+  type: ss
+  server: ger1.4ebur.app
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: kBQA4ihPCmDzgdEd2RCu6A
+- name: 🇳🇱荷兰·640ms
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇷🇺俄罗斯·722ms
+  type: ss
+  server: 195.133.23.50
+  port: 18443
+  cipher: aes-256-gcm
+  password: Lpq5UPVHtQYiuB9jEUNc2WkeIYCUH9DE
+- name: 🇨🇦加拿大·844ms
+  type: vless
+  server: 104.17.60.109
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  tls: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🇨🇦加拿大·879ms
+  type: vless
+  server: 104.17.173.208
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  tls: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🇸🇬新加坡·893ms
+  type: trojan
+  server: tjxjp.m2k699.com
+  port: 24999
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
+- name: 🇩🇪德国·985ms
+  type: vless
+  server: 5.175.205.190
+  port: 27774
+  uuid: 653137c6-474e-4a3d-9a20-5a5afb3d4a4f
+  tls: false
+  network: tcp
+- name: 🇨🇦加拿大·1145ms
+  type: vless
+  server: 104.17.182.41
+  port: 443
+  uuid: f6a015b4-4783-4f2a-a01b-39f281ba5d07
+  tls: true
+  servername: cf.5208877.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: cf.5208877.xyz
+- name: 🇭🇰香港·1235ms
   type: trojan
   server: tjadly.m2k699.com
   port: 24999
   password: 29086912-33e4-4e06-ba2b-60f1a195864f
   sni: www.itunes.com
   skip-cert-verify: true
-- name: 🇨🇳中国·3486ms
+- name: 🇭🇰香港·1335ms
+  type: trojan
+  server: tjjnd.m2k699.com
+  port: 24999
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
+- name: 🇭🇰香港·1340ms
+  type: trojan
+  server: tjyg.m2k699.com
+  port: 24999
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
+- name: 🇭🇰香港·1340ms·2
+  type: trojan
+  server: tjterq.m2k699.com
+  port: 24999
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
+- name: 🇭🇰香港·1345ms
+  type: trojan
+  server: tjmlxy.m2k699.com
+  port: 24999
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
+- name: 🇨🇦加拿大·1373ms
   type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
-- name: 🇨🇦加拿大·4399ms
-  type: vless
-  server: 104.19.48.107
+  server: 104.16.10.84
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
@@ -169,71 +184,157 @@ proxies:
     path: /tyxyws
     headers:
       Host: jp3.yohototo.top
-- name: 🇳🇱荷兰·4825ms
+- name: 🇭🇰香港·1407ms
+  type: trojan
+  server: tjxg.m2k699.com
+  port: 24999
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
+- name: 🇭🇰香港·1576ms
+  type: trojan
+  server: tjyn.m2k699.com
+  port: 24999
+  password: 29086912-33e4-4e06-ba2b-60f1a195864f
+  sni: www.itunes.com
+  skip-cert-verify: true
+- name: 🇭🇰香港·1636ms
+  type: hysteria2
+  server: 31.57.248.176
+  port: 50160
+  password: b0917015b656b3dd2286b5633af0c5c1
+  sni: www.bing.com%23%e9%a6%83%e5%9a%9f%e9%a6%83%e5%9a%a2%7chk%7c%40wxgqlfx%7c147
+  skip-cert-verify: true
+- name: 🇨🇳中国·1785ms
+  type: vless
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  tls: false
+  network: tcp
+- name: 🇺🇸美国·1841ms
+  type: vless
+  server: ph001.zestapp778.com
+  port: 15656
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  tls: true
+  servername: ph001.zestapp778.com
+  network: tcp
+- name: 🇨🇦加拿大·1993ms
+  type: vless
+  server: 104.17.169.222
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  tls: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🇳🇱荷兰·2524ms
   type: ss
-  server: 202.50.253.54
+  server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·4830ms
+- name: 🇨🇦加拿大·2887ms
+  type: vless
+  server: 104.16.10.56
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇳🇱荷兰·3226ms
   type: ss
-  server: 202.50.253.81
+  server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦加拿大·3851ms
+  type: vless
+  server: 104.19.33.237
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸美国·464ms
-  - 🇺🇸美国·474ms
-  - 🇷🇺俄罗斯·652ms
-  - 🇸🇬新加坡·1217ms
-  - 🇰🇷韩国·1283ms
-  - 🇰🇷韩国·1670ms
-  - 🇭🇰香港·2233ms
-  - 🇭🇰香港·2253ms
-  - 🇭🇰香港·2262ms
-  - 🇭🇰香港·2469ms
-  - 🇳🇱荷兰·2568ms
-  - 🇸🇬新加坡·2621ms
-  - 🇳🇱荷兰·2706ms
-  - 🇭🇰香港·2709ms
-  - 🇩🇪德国·2758ms
-  - 🇯🇵日本·2795ms
-  - 🇭🇰香港·2832ms
-  - 🇨🇳中国·3486ms
-  - 🇨🇦加拿大·4399ms
-  - 🇳🇱荷兰·4825ms
-  - 🇳🇱荷兰·4830ms
+  - 🇰🇷韩国·280ms
+  - 🌐未知·447ms
+  - 🇳🇱荷兰·475ms
+  - 🇯🇵日本·487ms
+  - 🇫🇷法国·593ms
+  - 🇳🇱荷兰·640ms
+  - 🇷🇺俄罗斯·722ms
+  - 🇨🇦加拿大·844ms
+  - 🇨🇦加拿大·879ms
+  - 🇸🇬新加坡·893ms
+  - 🇩🇪德国·985ms
+  - 🇨🇦加拿大·1145ms
+  - 🇭🇰香港·1235ms
+  - 🇭🇰香港·1335ms
+  - 🇭🇰香港·1340ms
+  - 🇭🇰香港·1340ms·2
+  - 🇭🇰香港·1345ms
+  - 🇨🇦加拿大·1373ms
+  - 🇭🇰香港·1407ms
+  - 🇭🇰香港·1576ms
+  - 🇭🇰香港·1636ms
+  - 🇨🇳中国·1785ms
+  - 🇺🇸美国·1841ms
+  - 🇨🇦加拿大·1993ms
+  - 🇳🇱荷兰·2524ms
+  - 🇨🇦加拿大·2887ms
+  - 🇳🇱荷兰·3226ms
+  - 🇨🇦加拿大·3851ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸美国·464ms
-  - 🇺🇸美国·474ms
-  - 🇷🇺俄罗斯·652ms
-  - 🇸🇬新加坡·1217ms
-  - 🇰🇷韩国·1283ms
-  - 🇰🇷韩国·1670ms
-  - 🇭🇰香港·2233ms
-  - 🇭🇰香港·2253ms
-  - 🇭🇰香港·2262ms
-  - 🇭🇰香港·2469ms
-  - 🇳🇱荷兰·2568ms
-  - 🇸🇬新加坡·2621ms
-  - 🇳🇱荷兰·2706ms
-  - 🇭🇰香港·2709ms
-  - 🇩🇪德国·2758ms
-  - 🇯🇵日本·2795ms
-  - 🇭🇰香港·2832ms
-  - 🇨🇳中国·3486ms
-  - 🇨🇦加拿大·4399ms
-  - 🇳🇱荷兰·4825ms
-  - 🇳🇱荷兰·4830ms
+  - 🇰🇷韩国·280ms
+  - 🌐未知·447ms
+  - 🇳🇱荷兰·475ms
+  - 🇯🇵日本·487ms
+  - 🇫🇷法国·593ms
+  - 🇳🇱荷兰·640ms
+  - 🇷🇺俄罗斯·722ms
+  - 🇨🇦加拿大·844ms
+  - 🇨🇦加拿大·879ms
+  - 🇸🇬新加坡·893ms
+  - 🇩🇪德国·985ms
+  - 🇨🇦加拿大·1145ms
+  - 🇭🇰香港·1235ms
+  - 🇭🇰香港·1335ms
+  - 🇭🇰香港·1340ms
+  - 🇭🇰香港·1340ms·2
+  - 🇭🇰香港·1345ms
+  - 🇨🇦加拿大·1373ms
+  - 🇭🇰香港·1407ms
+  - 🇭🇰香港·1576ms
+  - 🇭🇰香港·1636ms
+  - 🇨🇳中国·1785ms
+  - 🇺🇸美国·1841ms
+  - 🇨🇦加拿大·1993ms
+  - 🇳🇱荷兰·2524ms
+  - 🇨🇦加拿大·2887ms
+  - 🇳🇱荷兰·3226ms
+  - 🇨🇦加拿大·3851ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
