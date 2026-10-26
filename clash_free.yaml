@@ -35,109 +35,111 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇯🇵日本·379ms
+- name: 🇨🇳中国·230ms
+  type: vmess
+  server: 112.132.215.108
+  port: 50002
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  alterId: 64
+  cipher: auto
+  tls: false
+- name: 🇰🇷韩国·310ms
+  type: vless
+  server: 112.169.175.199
+  port: 31157
+  uuid: bd2fb303-b4c7-49af-a8e3-5c6f11b005dd
+  tls: false
+  network: none
+- name: 🇨🇦加拿大·339ms
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  tls: false
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🇦🇪阿联酋·419ms
   type: ss
-  server: 154.36.158.197
+  server: 89.125.70.179
   port: 8388
   cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-- name: 🇰🇷韩国·504ms
+  password: wv22qjroeYlDUUDh
+- name: 🇺🇸美国·509ms
   type: vless
-  server: 13.125.179.47
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
+  server: 169.128.83.4
+  port: 57259
+  uuid: a1962f23-f8f8-412d-f2ce-3361e7b72889
   tls: false
-  network: http
-- name: 🇪🇸西班牙·881ms
-  type: vless
-  server: 15.217.220.144
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-- name: 🇳🇱荷兰·966ms
+  network: tcp
+- name: 🇺🇸美国·567ms
+  type: ss
+  server: us.betterandbetter.cloud
+  port: 8443
+  cipher: chacha20-ietf-poly1305
+  password: BetterProxy2026!
+- name: 🇳🇱荷兰·577ms
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·605ms
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇷🇺俄罗斯·617ms
+  type: ss
+  server: 91.206.92.238
+  port: 18443
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+- name: 🇳🇱荷兰·653ms
   type: ss
   server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇧🇷巴西·1015ms
-  type: vless
-  server: 179.254.115.126
-  port: 8443
-  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
-  tls: true
-  servername: de7.pad-sservice.lat
-  flow: xtls-rprx-vision
-  network: tcp
-- name: 🇬🇧英国·1092ms
+- name: 🇳🇱荷兰·658ms
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇷🇺俄罗斯·742ms
+  type: ss
+  server: 195.133.5.107
+  port: 18443
+  cipher: aes-256-gcm
+  password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p
+- name: 🇺🇸美国·786ms
+  type: hysteria2
+  server: 13.143.232.62
+  port: 4443
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: nl1.obxodvpn.us
+  skip-cert-verify: false
+- name: 🇬🇧英国·799ms
   type: hysteria2
   server: 2.27.205.87
   port: 4443
   password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
   sni: nl5.shvpn.ru
   skip-cert-verify: false
-- name: 🇹🇼台湾·1143ms
-  type: trojan
-  server: kw119.zxmm.eu.org
-  port: 20031
-  password: 00a72bf349e6479b
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·1187ms
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪阿联酋·1201ms
+- name: 🇺🇸美国·805ms
   type: hysteria2
-  server: forshynewh.duckdns.org
+  server: promo3.betust.net
   port: 443
-  password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
-  sni: forshynewh.duckdns.org
+  password: 94c2b91777f8de3a5bc12d2a91b732c2
+  sni: promo3.betust.net
   skip-cert-verify: false
-- name: 🇳🇱荷兰·1215ms
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇦🇪阿联酋·1328ms
-  type: hysteria2
-  server: 217.60.72.225
-  port: 443
-  password: 329e13e4-ee7c-4802-ac72-5fcab79c2402
-  sni: forshynewh.duckdns.org
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·1455ms
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·1545ms
+- name: 🇨🇦加拿大·820ms
   type: vless
-  server: 18.213.218.149
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-- name: 🇳🇱荷兰·1838ms
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·2060ms
-  type: vless
-  server: 44.201.37.147
-  port: 443
-  uuid: 7060231d-b9ba-495f-a218-bf427940cf3e
-  tls: false
-  network: http
-- name: 🇨🇦加拿大·2112ms
-  type: vless
-  server: 104.17.127.42
+  server: 162.159.152.154
   port: 443
   uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   tls: true
@@ -147,107 +149,266 @@ proxies:
     path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
       Host: tamoai.ccwu.cc
-- name: 🇺🇦乌克兰·2128ms
-  type: hysteria2
-  server: 87.76.211.161
+- name: 🇨🇦加拿大·916ms
+  type: vless
+  server: 104.19.146.104
   port: 443
-  password: 1953e43b-605c-4262-83eb-41a80646b801
-  sni: fastlinkdownload.song69.fun
-  skip-cert-verify: false
-- name: 🇧🇷巴西·2341ms
-  type: ss
-  server: 177.202.111.22
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇳🇱荷兰·2400ms
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·2425ms
-  type: hysteria2
-  server: promo3.betust.net
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  tls: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🇲🇾马来·959ms
+  type: trojan
+  server: 47.250.84.25
   port: 443
-  password: 94c2b91777f8de3a5bc12d2a91b732c2
-  sni: promo3.betust.net
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  sni: 47.250.84.25
+  skip-cert-verify: true
+- name: 🇬🇧英国·1053ms
+  type: hysteria2
+  server: nl5.shvpn.ru
+  port: 4443
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  sni: nl5.shvpn.ru
   skip-cert-verify: false
-- name: 🇳🇱荷兰·3001ms
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇧🇷巴西·3759ms
-  type: ss
-  server: 177.202.111.18
-  port: 56137
-  cipher: chacha20-ietf-poly1305
-  password: uvKNudV-N8AUCrykPiyznA
-- name: 🇳🇱荷兰·4779ms
+- name: 🇬🇧英国·1081ms
+  type: hysteria2
+  server: 31.77.8.55
+  port: 4443
+  password: c0242d1b-db7a-4dcf-95ff-e10a3ef1c1a3
+  sni: de5.shvpn.ru
+  skip-cert-verify: false
+- name: 🇫🇷法国·1111ms
+  type: hysteria2
+  server: 195.177.94.166
+  port: 443
+  password: 4b1be712-774c-4b65-8491-a3339e124a70
+  sni: fr2-cl3.happy-glonaris.top
+  skip-cert-verify: false
+- name: 🇸🇬新加坡·1268ms
+  type: vless
+  server: v2.drsachi.com
+  port: 443
+  uuid: 270c3fa5-0293-4d68-875c-6cdc3bdc5b84
+  tls: false
+  network: ws
+- name: 🇺🇸美国·1282ms
+  type: vless
+  server: 152.53.170.163
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  servername: usa2.pad-sservice.lat
+  network: ws
+  ws-opts:
+    path: /usa2-1
+    headers:
+      Host: usa2.pad-service.com
+- name: 🇧🇷巴西·1333ms
+  type: vless
+  server: 179.254.115.126
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  servername: de7.pad-sservice.lat
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇧🇷巴西·1347ms
+  type: vless
+  server: de7.pad-sservice.lat
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  servername: de7.pad-sservice.lat
+  flow: xtls-rprx-vision
+  network: tcp
+- name: 🇧🇪比利时·1391ms
+  type: vless
+  server: 150.251.141.60
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  servername: nl4.1.pad-sservice.lat
+  network: ws
+  ws-opts:
+    path: /NL4W
+    headers:
+      Host: nl4.1.pad-service.com
+- name: 🇳🇱荷兰·1396ms
   type: ss
   server: 202.50.253.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸美国·1412ms
+  type: vless
+  server: usa2.pad-sservice.lat
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  servername: usa2.pad-sservice.lat
+  network: ws
+  ws-opts:
+    path: /usa2-1
+    headers:
+      Host: usa2.pad-service.com
+- name: 🇦🇹奥地利·1632ms
+  type: vless
+  server: au2.pad-sservice.lat
+  port: 8443
+  uuid: 2b0e5676-fb62-4bf0-9607-6e7818421e8e
+  tls: true
+  servername: au2.pad-sservice.lat
+  network: ws
+  ws-opts:
+    path: /A11U
+    headers:
+      Host: au2.pad-service.com
+- name: 🇳🇱荷兰·1684ms
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦加拿大·2154ms
+  type: vless
+  server: 104.17.158.34
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  tls: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🇺🇸美国·2207ms
+  type: hysteria2
+  server: nlll.obxodvpn.us
+  port: 4443
+  password: 146d567c-6335-4e63-a8aa-7ec068642440
+  sni: nl1.obxodvpn.us
+  skip-cert-verify: false
+- name: 🌐未知·2598ms
+  type: vless
+  server: 152.175.8.52
+  port: 59746
+  uuid: 99fa1d27-b252-4cba-b04d-50c3d0873700
+  tls: true
+  servername: hk013.zestapp778.com
+  network: tcp
+- name: 🇨🇳中国·2601ms
+  type: vless
+  server: jp.sofast.live
+  port: 52683
+  uuid: 399b6b23-cc40-4831-a494-61948e2df133
+  tls: false
+  network: tcp
+- name: 🇨🇦加拿大·3023ms
+  type: vless
+  server: 104.17.173.208
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  tls: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐未知·3132ms
+  type: ss
+  server: mojif.fusetea.ir
+  port: 2089
+  cipher: chacha20-ietf-poly1305
+  password: OCYghwX3MNcK2myvperXNaInKT-gmknf
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇯🇵日本·379ms
-  - 🇰🇷韩国·504ms
-  - 🇪🇸西班牙·881ms
-  - 🇳🇱荷兰·966ms
-  - 🇧🇷巴西·1015ms
-  - 🇬🇧英国·1092ms
-  - 🇹🇼台湾·1143ms
-  - 🇳🇱荷兰·1187ms
-  - 🇦🇪阿联酋·1201ms
-  - 🇳🇱荷兰·1215ms
-  - 🇦🇪阿联酋·1328ms
-  - 🇳🇱荷兰·1455ms
-  - 🇺🇸美国·1545ms
-  - 🇳🇱荷兰·1838ms
-  - 🇺🇸美国·2060ms
-  - 🇨🇦加拿大·2112ms
-  - 🇺🇦乌克兰·2128ms
-  - 🇧🇷巴西·2341ms
-  - 🇳🇱荷兰·2400ms
-  - 🇺🇸美国·2425ms
-  - 🇳🇱荷兰·3001ms
-  - 🇧🇷巴西·3759ms
-  - 🇳🇱荷兰·4779ms
+  - 🇨🇳中国·230ms
+  - 🇰🇷韩国·310ms
+  - 🇨🇦加拿大·339ms
+  - 🇦🇪阿联酋·419ms
+  - 🇺🇸美国·509ms
+  - 🇺🇸美国·567ms
+  - 🇳🇱荷兰·577ms
+  - 🇳🇱荷兰·605ms
+  - 🇷🇺俄罗斯·617ms
+  - 🇳🇱荷兰·653ms
+  - 🇳🇱荷兰·658ms
+  - 🇷🇺俄罗斯·742ms
+  - 🇺🇸美国·786ms
+  - 🇬🇧英国·799ms
+  - 🇺🇸美国·805ms
+  - 🇨🇦加拿大·820ms
+  - 🇨🇦加拿大·916ms
+  - 🇲🇾马来·959ms
+  - 🇬🇧英国·1053ms
+  - 🇬🇧英国·1081ms
+  - 🇫🇷法国·1111ms
+  - 🇸🇬新加坡·1268ms
+  - 🇺🇸美国·1282ms
+  - 🇧🇷巴西·1333ms
+  - 🇧🇷巴西·1347ms
+  - 🇧🇪比利时·1391ms
+  - 🇳🇱荷兰·1396ms
+  - 🇺🇸美国·1412ms
+  - 🇦🇹奥地利·1632ms
+  - 🇳🇱荷兰·1684ms
+  - 🇨🇦加拿大·2154ms
+  - 🇺🇸美国·2207ms
+  - 🌐未知·2598ms
+  - 🇨🇳中国·2601ms
+  - 🇨🇦加拿大·3023ms
+  - 🌐未知·3132ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵日本·379ms
-  - 🇰🇷韩国·504ms
-  - 🇪🇸西班牙·881ms
-  - 🇳🇱荷兰·966ms
-  - 🇧🇷巴西·1015ms
-  - 🇬🇧英国·1092ms
-  - 🇹🇼台湾·1143ms
-  - 🇳🇱荷兰·1187ms
-  - 🇦🇪阿联酋·1201ms
-  - 🇳🇱荷兰·1215ms
-  - 🇦🇪阿联酋·1328ms
-  - 🇳🇱荷兰·1455ms
-  - 🇺🇸美国·1545ms
-  - 🇳🇱荷兰·1838ms
-  - 🇺🇸美国·2060ms
-  - 🇨🇦加拿大·2112ms
-  - 🇺🇦乌克兰·2128ms
-  - 🇧🇷巴西·2341ms
-  - 🇳🇱荷兰·2400ms
-  - 🇺🇸美国·2425ms
-  - 🇳🇱荷兰·3001ms
-  - 🇧🇷巴西·3759ms
-  - 🇳🇱荷兰·4779ms
+  - 🇨🇳中国·230ms
+  - 🇰🇷韩国·310ms
+  - 🇨🇦加拿大·339ms
+  - 🇦🇪阿联酋·419ms
+  - 🇺🇸美国·509ms
+  - 🇺🇸美国·567ms
+  - 🇳🇱荷兰·577ms
+  - 🇳🇱荷兰·605ms
+  - 🇷🇺俄罗斯·617ms
+  - 🇳🇱荷兰·653ms
+  - 🇳🇱荷兰·658ms
+  - 🇷🇺俄罗斯·742ms
+  - 🇺🇸美国·786ms
+  - 🇬🇧英国·799ms
+  - 🇺🇸美国·805ms
+  - 🇨🇦加拿大·820ms
+  - 🇨🇦加拿大·916ms
+  - 🇲🇾马来·959ms
+  - 🇬🇧英国·1053ms
+  - 🇬🇧英国·1081ms
+  - 🇫🇷法国·1111ms
+  - 🇸🇬新加坡·1268ms
+  - 🇺🇸美国·1282ms
+  - 🇧🇷巴西·1333ms
+  - 🇧🇷巴西·1347ms
+  - 🇧🇪比利时·1391ms
+  - 🇳🇱荷兰·1396ms
+  - 🇺🇸美国·1412ms
+  - 🇦🇹奥地利·1632ms
+  - 🇳🇱荷兰·1684ms
+  - 🇨🇦加拿大·2154ms
+  - 🇺🇸美国·2207ms
+  - 🌐未知·2598ms
+  - 🇨🇳中国·2601ms
+  - 🇨🇦加拿大·3023ms
+  - 🌐未知·3132ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
