@@ -35,196 +35,157 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇩🇪德国·489ms
-  type: vmess
-  server: 91.107.128.44
-  port: 36812
-  uuid: 6cdfc27b-a0cc-4ea1-802a-e98552be430d
-  alterId: 0
-  cipher: auto
+- name: 🇰🇷韩国·394ms
+  type: vless
+  server: 112.169.175.199
+  port: 31157
+  uuid: bd2fb303-b4c7-49af-a8e3-5c6f11b005dd
   tls: false
-- name: 🇩🇪德国·558ms
-  type: ss
-  server: 91.107.128.44
-  port: 53185
-  cipher: 2022-blake3-aes-256-gcm
-  password: U/jVh1z5NQ0cFCiCeLLxNAFBjmLBo/ECQ0dICfRFLbQ=:cZkXr9v4dFpHUetNse9xo72JumvR4N2GLz3bxiEh6Rk=
-- name: 🇨🇦加拿大·581ms
+  network: none
+- name: 🇨🇦加拿大·523ms
   type: ss
   server: 3.99.147.49
   port: 443
   cipher: aes-256-cfb
   password: amazonskr05
-- name: 🇳🇱荷兰·622ms
+- name: 🇷🇺俄罗斯·559ms
+  type: vless
+  server: 171.22.119.74
+  port: 8447
+  uuid: 6aed42ba-cd2d-4671-87d9-c949b6876888
+  tls: false
+  network: tcp
+- name: 🇳🇱荷兰·579ms
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·592ms
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·637ms
   type: ss
   server: 202.50.253.72
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·773ms
-  type: trojan
-  server: 164.92.73.218
-  port: 8931
-  password: rBLqkQqyTSvlgMHCtTtkhaTNpmtMmYEY
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇺🇸美国·799ms
-  type: trojan
-  server: 45.32.140.119
-  port: 9304
-  password: dyuDoaYEEhbHTfUgfJHUjNVHlDENejfh
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇺🇸美国·858ms
-  type: trojan
-  server: 137.184.178.208
-  port: 4804
-  password: WCwRcLxlKIeyXKHkppTmQIGXeRfIYYmE
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇺🇸美国·864ms
-  type: trojan
-  server: 24.199.106.240
-  port: 9998
-  password: hRtaKtsQkpklmssQDbbWRCNawDGdJePw
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇬🇧英国·944ms
-  type: hysteria2
-  server: swe2.obxodvpn.us
-  port: 4443
-  password: 146d567c-6335-4e63-a8aa-7ec068642440
-  sni: nl1.obxodvpn.us
-  skip-cert-verify: false
-- name: 🇺🇸美国·952ms
-  type: trojan
-  server: 149.28.214.139
-  port: 7604
-  password: rBLqkQqyTSvlgMHCtTtkhaTNpmtMmYEY
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇺🇸美国·1045ms
-  type: trojan
-  server: 147.182.203.237
-  port: 6022
-  password: gFvNUrRsTHhqCcbsvfWdTRBdssefWdfH
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·1121ms
+- name: 🇳🇱荷兰·643ms
   type: ss
-  server: 202.50.253.36
+  server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇬🇧英国·1289ms
-  type: hysteria2
-  server: jap2.nexfile.net
-  port: 4444
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  sni: jap2.nexfile.net
-  skip-cert-verify: false
-- name: 🇺🇸美国·1559ms
-  type: hysteria2
-  server: bl2.nexfile.net
-  port: 4444
-  password: 10be1dad-9952-4c5e-aa30-db435f69b727
-  sni: bl2.nexfile.net
-  skip-cert-verify: false
-- name: 🇺🇸美国·1728ms
-  type: trojan
-  server: 64.23.151.246
-  port: 7801
-  password: pftneFPgqpHQSUcCDhJqXuqrcHjptQhT
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·1748ms
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·1819ms
+- name: 🇺🇸美国·735ms
   type: hysteria2
   server: 167.148.201.99
   port: 443
   password: 7c9c7f52-5a8c-43e0-b6d1-c8552289f230
   sni: us.mi11o4ka.com
   skip-cert-verify: false
-- name: 🌐未知·1843ms
-  type: vless
-  server: 199.232.78.170
+- name: 🇺🇸美国·758ms
+  type: hysteria2
+  server: us.mi11o4ka.com
   port: 443
-  uuid: XpnTeam-56
-  tls: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: Appxdn.global.ssl.fastly.net
-- name: 🇫🇷法国·1862ms
+  password: 7c9c7f52-5a8c-43e0-b6d1-c8552289f230
+  sni: us.mi11o4ka.com
+  skip-cert-verify: false
+- name: 🇸🇬新加坡·760ms
+  type: ss
+  server: ams1.rvpn.app
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: x2A6AsyZ-rAllz0wbKHzWA
+- name: 🇺🇸美国·770ms
+  type: hysteria2
+  server: us01zl.poke-mon.xyz
+  port: 20000
+  password: 2b70632e-476c-44ee-bed6-c8e4d4f8fe9b
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇩🇪德国·803ms
+  type: ss
+  server: dns22.m3hrzd.ir
+  port: 1349
+  cipher: chacha20-ietf-poly1305
+  password: LzEeLj2OP0DQmpPDtVTazdGC0cHcT0Kn
+- name: 🇫🇷法国·811ms
+  type: hysteria2
+  server: 195.177.94.166
+  port: 443
+  password: 4b1be712-774c-4b65-8491-a3339e124a70
+  sni: fr2-cl3.happy-glonaris.top
+  skip-cert-verify: false
+- name: 🇩🇪德国·840ms
+  type: ss
+  server: dns22.m3hrzd.ir
+  port: 1348
+  cipher: chacha20-ietf-poly1305
+  password: LzEeLj2OP0DQmpPDtVTazdGC0cHcT0Kn
+- name: 🇺🇸美国·909ms
+  type: hysteria2
+  server: bl2.nexfile.net
+  port: 4444
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  skip-cert-verify: false
+- name: 🇫🇷法国·955ms
   type: hysteria2
   server: fr2-cl3.happy-glonaris.top
   port: 443
   password: 4b1be712-774c-4b65-8491-a3339e124a70
   sni: fr2-cl3.happy-glonaris.top
   skip-cert-verify: false
-- name: 🇮🇱以色列·2214ms
-  type: trojan
-  server: 64.176.163.182
+- name: 🇺🇸美国·999ms
+  type: hysteria2
+  server: bl3.nexfile.net
+  port: 4444
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  skip-cert-verify: false
+- name: 🇺🇸美国·1033ms
+  type: hysteria2
+  server: starlink-ft.251313.xyz
   port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: exploreeducationsectoropportunitiestodayandadvancecareers.com
+  password: https://xship.2fa.cat
+  sni: xship.top
+  skip-cert-verify: true
+- name: 🇺🇸美国·1045ms
+  type: hysteria2
+  server: 144.31.239.226
+  port: 4444
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  sni: fl2.nexfile.net
+  skip-cert-verify: true
+- name: 🇬🇧英国·1175ms
+  type: hysteria2
+  server: 31.77.29.74
+  port: 4444
+  password: 10be1dad-9952-4c5e-aa30-db435f69b727
+  sni: jap2.nexfile.net
   skip-cert-verify: false
-- name: 🇳🇱荷兰·2311ms
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·2520ms
-  type: trojan
-  server: 144.126.223.93
-  port: 8911
-  password: pCgkPBgBBpKdPLeRyFSgXXjeiQeNiCLm
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·2548ms
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·2572ms
-  type: trojan
-  server: 209.38.66.47
-  port: 6105
-  password: mMIywuxBtHHOAwAkkpwiCmBXIlKOysGv
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇺🇸美国·2957ms
-  type: trojan
-  server: 66.163.122.7
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: www.searchnationwidecareerchangehelperandguidancetoday.com
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·3635ms
+- name: 🇳🇱荷兰·1820ms
   type: ss
   server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·4155ms
-  type: trojan
-  server: 45.32.135.70
-  port: 9213
-  password: WCwRcLxlKIeyXKHkppTmQIGXeRfIYYmE
-  sni: hotspot-unlimited.com
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·4198ms
+- name: 🇨🇦加拿大·2085ms
+  type: vless
+  server: 104.21.34.106
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇳🇱荷兰·4426ms
   type: ss
-  server: 202.50.253.18
+  server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -233,68 +194,58 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇩🇪德国·489ms
-  - 🇩🇪德国·558ms
-  - 🇨🇦加拿大·581ms
-  - 🇳🇱荷兰·622ms
-  - 🇺🇸美国·773ms
-  - 🇺🇸美国·799ms
-  - 🇺🇸美国·858ms
-  - 🇺🇸美国·864ms
-  - 🇬🇧英国·944ms
-  - 🇺🇸美国·952ms
+  - 🇰🇷韩国·394ms
+  - 🇨🇦加拿大·523ms
+  - 🇷🇺俄罗斯·559ms
+  - 🇳🇱荷兰·579ms
+  - 🇳🇱荷兰·592ms
+  - 🇳🇱荷兰·637ms
+  - 🇳🇱荷兰·643ms
+  - 🇺🇸美国·735ms
+  - 🇺🇸美国·758ms
+  - 🇸🇬新加坡·760ms
+  - 🇺🇸美国·770ms
+  - 🇩🇪德国·803ms
+  - 🇫🇷法国·811ms
+  - 🇩🇪德国·840ms
+  - 🇺🇸美国·909ms
+  - 🇫🇷法国·955ms
+  - 🇺🇸美国·999ms
+  - 🇺🇸美国·1033ms
   - 🇺🇸美国·1045ms
-  - 🇳🇱荷兰·1121ms
-  - 🇬🇧英国·1289ms
-  - 🇺🇸美国·1559ms
-  - 🇺🇸美国·1728ms
-  - 🇳🇱荷兰·1748ms
-  - 🇺🇸美国·1819ms
-  - 🌐未知·1843ms
-  - 🇫🇷法国·1862ms
-  - 🇮🇱以色列·2214ms
-  - 🇳🇱荷兰·2311ms
-  - 🇺🇸美国·2520ms
-  - 🇳🇱荷兰·2548ms
-  - 🇺🇸美国·2572ms
-  - 🇺🇸美国·2957ms
-  - 🇳🇱荷兰·3635ms
-  - 🇺🇸美国·4155ms
-  - 🇳🇱荷兰·4198ms
+  - 🇬🇧英国·1175ms
+  - 🇳🇱荷兰·1820ms
+  - 🇨🇦加拿大·2085ms
+  - 🇳🇱荷兰·4426ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇩🇪德国·489ms
-  - 🇩🇪德国·558ms
-  - 🇨🇦加拿大·581ms
-  - 🇳🇱荷兰·622ms
-  - 🇺🇸美国·773ms
-  - 🇺🇸美国·799ms
-  - 🇺🇸美国·858ms
-  - 🇺🇸美国·864ms
-  - 🇬🇧英国·944ms
-  - 🇺🇸美国·952ms
+  - 🇰🇷韩国·394ms
+  - 🇨🇦加拿大·523ms
+  - 🇷🇺俄罗斯·559ms
+  - 🇳🇱荷兰·579ms
+  - 🇳🇱荷兰·592ms
+  - 🇳🇱荷兰·637ms
+  - 🇳🇱荷兰·643ms
+  - 🇺🇸美国·735ms
+  - 🇺🇸美国·758ms
+  - 🇸🇬新加坡·760ms
+  - 🇺🇸美国·770ms
+  - 🇩🇪德国·803ms
+  - 🇫🇷法国·811ms
+  - 🇩🇪德国·840ms
+  - 🇺🇸美国·909ms
+  - 🇫🇷法国·955ms
+  - 🇺🇸美国·999ms
+  - 🇺🇸美国·1033ms
   - 🇺🇸美国·1045ms
-  - 🇳🇱荷兰·1121ms
-  - 🇬🇧英国·1289ms
-  - 🇺🇸美国·1559ms
-  - 🇺🇸美国·1728ms
-  - 🇳🇱荷兰·1748ms
-  - 🇺🇸美国·1819ms
-  - 🌐未知·1843ms
-  - 🇫🇷法国·1862ms
-  - 🇮🇱以色列·2214ms
-  - 🇳🇱荷兰·2311ms
-  - 🇺🇸美国·2520ms
-  - 🇳🇱荷兰·2548ms
-  - 🇺🇸美国·2572ms
-  - 🇺🇸美国·2957ms
-  - 🇳🇱荷兰·3635ms
-  - 🇺🇸美国·4155ms
-  - 🇳🇱荷兰·4198ms
+  - 🇬🇧英国·1175ms
+  - 🇳🇱荷兰·1820ms
+  - 🇨🇦加拿大·2085ms
+  - 🇳🇱荷兰·4426ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
