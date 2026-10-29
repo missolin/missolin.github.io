@@ -35,132 +35,25 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇯🇵日本·188ms
-  type: ss
-  server: 154.36.158.197
-  port: 8388
-  cipher: aes-256-gcm
-  password: BeaUf9c0AEWH40Pu
-- name: 🇨🇦加拿大·322ms
-  type: vless
-  server: 104.18.35.86
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  tls: false
-  servername: hhlfy.twiladaphne.ndjp.net
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🇰🇷韩国·364ms
-  type: vless
-  server: 112.169.175.199
-  port: 31157
-  uuid: bd2fb303-b4c7-49af-a8e3-5c6f11b005dd
-  tls: false
-  network: none
-- name: 🇳🇱荷兰·555ms
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·557ms
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·578ms
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·590ms
+- name: 🇳🇱荷兰·655ms
   type: ss
   server: 202.50.253.99
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·611ms
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·618ms
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·649ms
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·816ms
-  type: trojan
-  server: 216.152.147.93
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-- name: 🇺🇸美国·835ms
-  type: hysteria2
-  server: 129.153.97.46
-  port: 443
-  password: JDGu0PjxlEWSFJN
-  sni: www.microsoft.com
-  skip-cert-verify: true
-- name: 🇺🇸美国·864ms
-  type: trojan
-  server: 216.152.147.48
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: courses.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-- name: 🇺🇸美国·1105ms
-  type: trojan
-  server: 169.197.140.224
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.discoverfreshgraduatejobsstartyourprofessionaljourney.com
-  skip-cert-verify: false
-- name: 🇺🇸美国·1247ms
-  type: trojan
-  server: 216.152.147.152
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·1607ms
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1627ms
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·1671ms
+- name: 🇺🇸美国·1683ms
   type: vless
-  server: 103.133.1.160
-  port: 80
-  uuid: eaf76557-2219-4799-8171-d7020adfefd0
-  tls: false
+  server: 199.232.78.160
+  port: 443
+  uuid: XpnTeam-61
+  tls: true
+  servername: ssl.fastly.com
   network: ws
   ws-opts:
-    path: /ws
+    path: /
     headers:
-      Host: soft-shadow-1e33.xicav73335.workers.dev
-- name: 🇺🇦乌克兰·1957ms
+      Host: Appxdn.global.ssl.fastly.net
+- name: 🇺🇦乌克兰·2198ms
   type: vless
   server: 92.113.107.120
   port: 443
@@ -172,152 +65,23 @@ proxies:
     path: /ws
     headers:
       Host: indigostar.click
-- name: 🇨🇦加拿大·2085ms
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇬🇧英国·2086ms
-  type: vless
-  server: en001.zestapp778.com
-  port: 44559
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: en001.zestapp778.com
-  network: raw
-- name: 🇫🇷法国·2175ms
-  type: vless
-  server: w.geogame.ir
-  port: 2053
-  uuid: fbda2834-b1e7-4148-afb9-deda31036a30
-  tls: true
-  servername: w.geogame.ir
-  network: tcp
-- name: 🇺🇸美国·2247ms
-  type: trojan
-  server: 216.152.147.201
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: resources.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-- name: 🌐未知·2586ms
-  type: vless
-  server: 155.212.240.10
-  port: 443
-  uuid: f27b6f65-6e59-4f89-b929-afa397ca587f
-  tls: true
-  servername: n.bitpulse.me
-  network: ws
-  ws-opts:
-    path: /019bcbad-3813-7cce-8786-3ac0e418f128?ed=2560
-    headers:
-      Host: n.bitpulse.me
-- name: 🇳🇱荷兰·2586ms
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇳中国·2964ms
-  type: vless
-  server: jp.sofast.live
-  port: 52683
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  tls: false
-  network: tcp
-- name: 🇰🇷韩国·3062ms
-  type: trojan
-  server: kr002.zestapp778.com
-  port: 48851
-  password: 5t6i121em5lkmsmk
-  sni: kr002.zestapp778.com
-  skip-cert-verify: true
-- name: 🇨🇦加拿大·3234ms
-  type: vless
-  server: 104.16.10.56
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇯🇵日本·188ms
-  - 🇨🇦加拿大·322ms
-  - 🇰🇷韩国·364ms
-  - 🇳🇱荷兰·555ms
-  - 🇳🇱荷兰·557ms
-  - 🇳🇱荷兰·578ms
-  - 🇳🇱荷兰·590ms
-  - 🇳🇱荷兰·611ms
-  - 🇳🇱荷兰·618ms
-  - 🇳🇱荷兰·649ms
-  - 🇺🇸美国·816ms
-  - 🇺🇸美国·835ms
-  - 🇺🇸美国·864ms
-  - 🇺🇸美国·1105ms
-  - 🇺🇸美国·1247ms
-  - 🇳🇱荷兰·1607ms
-  - 🇳🇱荷兰·1627ms
-  - 🇺🇸美国·1671ms
-  - 🇺🇦乌克兰·1957ms
-  - 🇨🇦加拿大·2085ms
-  - 🇬🇧英国·2086ms
-  - 🇫🇷法国·2175ms
-  - 🇺🇸美国·2247ms
-  - 🌐未知·2586ms
-  - 🇳🇱荷兰·2586ms
-  - 🇨🇳中国·2964ms
-  - 🇰🇷韩国·3062ms
-  - 🇨🇦加拿大·3234ms
+  - 🇳🇱荷兰·655ms
+  - 🇺🇸美国·1683ms
+  - 🇺🇦乌克兰·2198ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇯🇵日本·188ms
-  - 🇨🇦加拿大·322ms
-  - 🇰🇷韩国·364ms
-  - 🇳🇱荷兰·555ms
-  - 🇳🇱荷兰·557ms
-  - 🇳🇱荷兰·578ms
-  - 🇳🇱荷兰·590ms
-  - 🇳🇱荷兰·611ms
-  - 🇳🇱荷兰·618ms
-  - 🇳🇱荷兰·649ms
-  - 🇺🇸美国·816ms
-  - 🇺🇸美国·835ms
-  - 🇺🇸美国·864ms
-  - 🇺🇸美国·1105ms
-  - 🇺🇸美国·1247ms
-  - 🇳🇱荷兰·1607ms
-  - 🇳🇱荷兰·1627ms
-  - 🇺🇸美国·1671ms
-  - 🇺🇦乌克兰·1957ms
-  - 🇨🇦加拿大·2085ms
-  - 🇬🇧英国·2086ms
-  - 🇫🇷法国·2175ms
-  - 🇺🇸美国·2247ms
-  - 🌐未知·2586ms
-  - 🇳🇱荷兰·2586ms
-  - 🇨🇳中国·2964ms
-  - 🇰🇷韩国·3062ms
-  - 🇨🇦加拿大·3234ms
+  - 🇳🇱荷兰·655ms
+  - 🇺🇸美国·1683ms
+  - 🇺🇦乌克兰·2198ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
