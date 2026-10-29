@@ -35,13 +35,139 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇳🇱荷兰·655ms
+- name: 🇨🇦加拿大·514ms
   type: ss
-  server: 202.50.253.99
+  server: 16.54.253.154
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸美国·544ms
+  type: ss
+  server: 54.237.60.0
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸美国·569ms
+  type: ss
+  server: 130.94.16.109
+  port: 8388
+  cipher: 2022-blake3-aes-128-gcm
+  password: CNongHrmKObCxalqw4w0Hw==
+- name: 🇨🇦加拿大·588ms
+  type: ss
+  server: 35.183.129.117
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇳🇱荷兰·590ms
+  type: ss
+  server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·1683ms
+- name: 🇺🇸美国·622ms
+  type: ss
+  server: 54.91.51.67
+  port: 443
+  cipher: aes-256-cfb
+  password: amazonskr05
+- name: 🇺🇸美国·759ms
+  type: vless
+  server: 38.76.180.144
+  port: 1443
+  uuid: d98b67d4-024a-4bba-91e2-e6ebece6df11
+  tls: false
+  network: ws
+  ws-opts:
+    path: /vless-ws
+    headers:
+      Host: 38.76.180.144
+- name: 🇺🇸美国·887ms
+  type: trojan
+  server: mx001.zestapp778.com
+  port: 15083
+  password: 5t6i121em5lkmsmk
+  sni: mx001.zestapp778.com
+  skip-cert-verify: false
+- name: 🇺🇸美国·1075ms
+  type: trojan
+  server: 216.152.147.79
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: blog.connectingpeoplewithgreatjobs.com
+  skip-cert-verify: false
+- name: 🇺🇸美国·1086ms
+  type: hysteria2
+  server: 129.153.97.46
+  port: 443
+  password: JDGu0PjxlEWSFJN
+  sni: www.microsoft.com
+  skip-cert-verify: true
+- name: 🇩🇪德国·1188ms
+  type: trojan
+  server: 193.108.119.15
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: courses.iloverussia2026.com
+  skip-cert-verify: false
+- name: 🇺🇸美国·1191ms
+  type: vless
+  server: us007.zestapp778.com
+  port: 18580
+  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
+  tls: true
+  network: tcp
+- name: 🇳🇱荷兰·1284ms
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸美国·1299ms
+  type: vless
+  server: 8.39.125.54
+  port: 443
+  uuid: cf92529d-9c4a-4d71-ab87-ae784a2da6bb
+  tls: true
+  servername: gy-cffc5-node-project-lb5p6r204ts3xuoz.pages.dev
+  network: ws
+  ws-opts:
+    path: /jump.html/about/proxyip=ProxyIP.KR.CMLiussss.net?ed=2560
+    headers:
+      Host: gy-cffc5-node-project-lb5p6r204ts3xuoz.pages.dev
+- name: 🇳🇱荷兰·1401ms
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·1768ms
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇭瑞士·1785ms
+  type: trojan
+  server: 208.69.78.60
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: cdn.yourultimateprofessionalcareerhub.com
+  skip-cert-verify: false
+- name: 🇺🇸美国·1822ms
+  type: trojan
+  server: 169.197.140.171
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: cdn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  skip-cert-verify: false
+- name: 🇳🇱荷兰·2368ms
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸美国·2379ms
   type: vless
   server: 199.232.78.160
   port: 443
@@ -53,35 +179,135 @@ proxies:
     path: /
     headers:
       Host: Appxdn.global.ssl.fastly.net
-- name: 🇺🇦乌克兰·2198ms
+- name: 🇳🇱荷兰·2686ms
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇮🇳印度·3109ms
+  type: trojan
+  server: in002.zestapp778.com
+  port: 42733
+  password: 5t6i121em5lkmsmk
+  sni: in002.zestapp778.com
+  skip-cert-verify: false
+- name: 🇳🇱荷兰·3566ms
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·3723ms
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·3726ms
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦加拿大·3939ms
   type: vless
-  server: 92.113.107.120
+  server: 104.21.33.59
   port: 443
-  uuid: dbda40e2-25b5-416c-8d35-56d07e8dcdbc
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   tls: true
-  servername: indigostar.click
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /ws
+    path: /tyxyws
     headers:
-      Host: indigostar.click
+      Host: jp3.yohototo.top
+- name: 🇨🇦加拿大·4366ms
+  type: vless
+  server: n04.jinggai.online
+  port: 8443
+  uuid: 91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a
+  tls: true
+  servername: n04.jinggai.online
+  network: ws
+  ws-opts:
+    path: /nvl-n04-ws/e0577fe8fd7c8823
+    headers:
+      Host: n04.jinggai.online
+- name: 🇩🇪德国·4995ms
+  type: trojan
+  server: 193.108.119.96
+  port: 443
+  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
+  sni: learn.iloverussia2026.com
+  skip-cert-verify: false
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇳🇱荷兰·655ms
-  - 🇺🇸美国·1683ms
-  - 🇺🇦乌克兰·2198ms
+  - 🇨🇦加拿大·514ms
+  - 🇺🇸美国·544ms
+  - 🇺🇸美国·569ms
+  - 🇨🇦加拿大·588ms
+  - 🇳🇱荷兰·590ms
+  - 🇺🇸美国·622ms
+  - 🇺🇸美国·759ms
+  - 🇺🇸美国·887ms
+  - 🇺🇸美国·1075ms
+  - 🇺🇸美国·1086ms
+  - 🇩🇪德国·1188ms
+  - 🇺🇸美国·1191ms
+  - 🇳🇱荷兰·1284ms
+  - 🇺🇸美国·1299ms
+  - 🇳🇱荷兰·1401ms
+  - 🇳🇱荷兰·1768ms
+  - 🇨🇭瑞士·1785ms
+  - 🇺🇸美国·1822ms
+  - 🇳🇱荷兰·2368ms
+  - 🇺🇸美国·2379ms
+  - 🇳🇱荷兰·2686ms
+  - 🇮🇳印度·3109ms
+  - 🇳🇱荷兰·3566ms
+  - 🇳🇱荷兰·3723ms
+  - 🇳🇱荷兰·3726ms
+  - 🇨🇦加拿大·3939ms
+  - 🇨🇦加拿大·4366ms
+  - 🇩🇪德国·4995ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇳🇱荷兰·655ms
-  - 🇺🇸美国·1683ms
-  - 🇺🇦乌克兰·2198ms
+  - 🇨🇦加拿大·514ms
+  - 🇺🇸美国·544ms
+  - 🇺🇸美国·569ms
+  - 🇨🇦加拿大·588ms
+  - 🇳🇱荷兰·590ms
+  - 🇺🇸美国·622ms
+  - 🇺🇸美国·759ms
+  - 🇺🇸美国·887ms
+  - 🇺🇸美国·1075ms
+  - 🇺🇸美国·1086ms
+  - 🇩🇪德国·1188ms
+  - 🇺🇸美国·1191ms
+  - 🇳🇱荷兰·1284ms
+  - 🇺🇸美国·1299ms
+  - 🇳🇱荷兰·1401ms
+  - 🇳🇱荷兰·1768ms
+  - 🇨🇭瑞士·1785ms
+  - 🇺🇸美国·1822ms
+  - 🇳🇱荷兰·2368ms
+  - 🇺🇸美国·2379ms
+  - 🇳🇱荷兰·2686ms
+  - 🇮🇳印度·3109ms
+  - 🇳🇱荷兰·3566ms
+  - 🇳🇱荷兰·3723ms
+  - 🇳🇱荷兰·3726ms
+  - 🇨🇦加拿大·3939ms
+  - 🇨🇦加拿大·4366ms
+  - 🇩🇪德国·4995ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
