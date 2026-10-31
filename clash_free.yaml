@@ -35,333 +35,44 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇳🇱荷兰·726ms
+- name: 🇳🇱荷兰·577ms
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·621ms
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·648ms
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·720ms
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·859ms
   type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇩🇪德国·1388ms
-  type: trojan
-  server: 202.61.226.121
-  port: 8443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇧🇷巴西·1521ms
-  type: trojan
-  server: 179.255.99.31
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇧🇷巴西·1531ms
-  type: trojan
-  server: 179.255.127.92
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇯🇵日本·1548ms
-  type: trojan
-  server: 208.68.180.204
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇺🇦乌克兰·1557ms
-  type: trojan
-  server: 173.242.51.189
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇧🇪比利时·1596ms
-  type: trojan
-  server: 35.241.172.224
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇧🇷巴西·1770ms
-  type: trojan
-  server: 179.255.126.253
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇺🇸美国·1823ms
-  type: trojan
-  server: 206.223.244.33
-  port: 8443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇦🇪阿联酋·1842ms
+- name: 🇦🇪阿联酋·974ms
   type: hysteria2
   server: 217.60.73.56
   port: 443
   password: 69e41e64-a832-471a-b740-94577ca85520
   sni: forshynewh.duckdns.org
   skip-cert-verify: false
-- name: 🇧🇬保加利亚·1986ms
-  type: trojan
-  server: 185.82.218.224
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇺🇸美国·2062ms
-  type: trojan
-  server: 23.246.154.144
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇧🇷巴西·2124ms
-  type: trojan
-  server: 179.255.127.209
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇳🇱荷兰·2192ms
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·2204ms
-  type: trojan
-  server: 153.56.171.216
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇧🇷巴西·2386ms
-  type: trojan
-  server: 179.255.132.69
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇺🇸美国·2408ms
-  type: trojan
-  server: 202.50.55.76
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇦🇪阿联酋·2446ms
-  type: trojan
-  server: 89.36.137.173
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🌐未知·2461ms
-  type: trojan
-  server: 93.86.12.49
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇧🇷巴西·2546ms
-  type: trojan
-  server: 179.255.136.143
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇳🇱荷兰·2550ms
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇦加拿大·2622ms
-  type: trojan
-  server: 172.67.74.177
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇺🇸美国·2669ms
-  type: vless
-  server: 8.47.69.60
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  tls: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🇳🇱荷兰·2674ms
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇦加拿大·2677ms
-  type: trojan
-  server: 198.41.216.1
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇧🇷巴西·2683ms
-  type: trojan
-  server: 179.255.115.22
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇩🇪德国·2709ms
-  type: trojan
-  server: 213.165.55.4
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇧🇷巴西·2841ms
-  type: trojan
-  server: 179.253.241.115
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇲🇾马来·3036ms
-  type: trojan
-  server: 47.250.84.25
-  port: 443
-  password: 5931134d1cde66bf83a54acdfebe7ab2
-  sni: 47.250.84.25
-  skip-cert-verify: true
-- name: 🇨🇦加拿大·3046ms
-  type: trojan
-  server: 172.64.153.224
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇩🇪德国·3186ms
+- name: 🇩🇪德国·1007ms
   type: trojan
   server: 178.104.197.49
   port: 2053
@@ -373,9 +84,16 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- name: 🇯🇵日本·3197ms
+- name: 🇲🇾马来·1019ms
   type: trojan
-  server: 52.194.44.56
+  server: 47.250.84.25
+  port: 443
+  password: 5931134d1cde66bf83a54acdfebe7ab2
+  sni: 47.250.84.25
+  skip-cert-verify: true
+- name: 🇨🇦加拿大·1139ms
+  type: trojan
+  server: 172.64.153.224
   port: 443
   password: humanity
   sni: www.cordweave.com
@@ -385,9 +103,9 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- name: 🌐未知·3217ms
+- name: 🇳🇱荷兰·1170ms
   type: trojan
-  server: 93.85.236.9
+  server: 153.56.171.216
   port: 443
   password: humanity
   sni: www.cordweave.com
@@ -397,7 +115,55 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- name: 🇺🇸美国·3559ms
+- name: 🇨🇦加拿大·1194ms
+  type: trojan
+  server: 172.64.151.20
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇩🇪德国·1207ms
+  type: trojan
+  server: 202.61.226.121
+  port: 8443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇷巴西·1258ms
+  type: trojan
+  server: 179.255.102.54
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇫🇮芬兰·1290ms
+  type: trojan
+  server: 78.40.209.33
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇺🇸美国·1332ms
   type: trojan
   server: 82.26.198.25
   port: 443
@@ -409,7 +175,13 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- name: 🇨🇦加拿大·3791ms
+- name: 🇳🇱荷兰·1335ms
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦加拿大·1433ms
   type: trojan
   server: 104.16.240.177
   port: 443
@@ -421,86 +193,7 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- name: 🇸🇪瑞典·3875ms
-  type: trojan
-  server: 77.221.139.114
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇪🇸西班牙·4038ms
-  type: trojan
-  server: 185.114.72.31
-  port: 8443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇨🇦加拿大·4112ms
-  type: vless
-  server: 104.16.10.185
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇨🇦加拿大·4146ms
-  type: vless
-  server: 104.16.10.72
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇧🇪比利时·4153ms
-  type: trojan
-  server: 141.98.233.6
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🇨🇳中国·4269ms
-  type: vless
-  server: jp.sofast.live
-  port: 52683
-  uuid: 399b6b23-cc40-4831-a494-61948e2df133
-  tls: false
-  network: tcp
-- name: 🇧🇷巴西·4367ms
-  type: trojan
-  server: 179.255.111.93
-  port: 443
-  password: humanity
-  sni: www.cordweave.com
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /assignment
-    headers:
-      Host: www.cordweave.com
-- name: 🌐未知·4401ms
+- name: 🌐未知·1551ms
   type: trojan
   server: 188.255.156.209
   port: 443
@@ -512,120 +205,303 @@ proxies:
     path: /assignment
     headers:
       Host: www.cordweave.com
-- name: 🇳🇱荷兰·4438ms
+- name: 🌐未知·1614ms
+  type: trojan
+  server: 194.135.119.82
+  port: 2053
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇳🇱荷兰·1766ms
   type: ss
   server: 202.50.253.63
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇳中国·4623ms
+- name: 🇨🇳中国·2622ms
   type: vless
   server: us22.sofast.live
   port: 58011
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   tls: false
   network: tcp
+- name: 🇺🇸美国·3297ms
+  type: trojan
+  server: 23.149.28.8.sslip.io
+  port: 8443
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  sni: 23.149.28.8.sslip.io
+  skip-cert-verify: true
+- name: 🇧🇷巴西·3559ms
+  type: trojan
+  server: 179.255.132.69
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇷巴西·3643ms
+  type: trojan
+  server: 179.255.111.93
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇷巴西·3683ms
+  type: trojan
+  server: 179.255.127.92
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇷巴西·3738ms
+  type: trojan
+  server: 179.255.136.143
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇷巴西·3811ms
+  type: trojan
+  server: 179.255.127.209
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇷巴西·3869ms
+  type: trojan
+  server: 179.255.126.253
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇯🇵日本·3881ms
+  type: trojan
+  server: 208.68.180.204
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇺🇸美国·3958ms
+  type: trojan
+  server: 23.246.154.144
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇷巴西·4042ms
+  type: trojan
+  server: 179.255.99.31
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🌐未知·4475ms
+  type: trojan
+  server: 93.86.12.49
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇬保加利亚·4484ms
+  type: trojan
+  server: 185.82.218.224
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇷巴西·4516ms
+  type: trojan
+  server: 179.255.115.22
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇺🇦乌克兰·4543ms
+  type: trojan
+  server: 173.242.51.189
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇷巴西·4546ms
+  type: trojan
+  server: 179.253.241.115
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
+- name: 🇧🇪比利时·4620ms
+  type: trojan
+  server: 141.98.233.6
+  port: 443
+  password: humanity
+  sni: www.cordweave.com
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /assignment
+    headers:
+      Host: www.cordweave.com
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇳🇱荷兰·726ms
-  - 🇩🇪德国·1388ms
-  - 🇧🇷巴西·1521ms
-  - 🇧🇷巴西·1531ms
-  - 🇯🇵日本·1548ms
-  - 🇺🇦乌克兰·1557ms
-  - 🇧🇪比利时·1596ms
-  - 🇧🇷巴西·1770ms
-  - 🇺🇸美国·1823ms
-  - 🇦🇪阿联酋·1842ms
-  - 🇧🇬保加利亚·1986ms
-  - 🇺🇸美国·2062ms
-  - 🇧🇷巴西·2124ms
-  - 🇳🇱荷兰·2192ms
-  - 🇳🇱荷兰·2204ms
-  - 🇧🇷巴西·2386ms
-  - 🇺🇸美国·2408ms
-  - 🇦🇪阿联酋·2446ms
-  - 🌐未知·2461ms
-  - 🇧🇷巴西·2546ms
-  - 🇳🇱荷兰·2550ms
-  - 🇨🇦加拿大·2622ms
-  - 🇺🇸美国·2669ms
-  - 🇳🇱荷兰·2674ms
-  - 🇨🇦加拿大·2677ms
-  - 🇧🇷巴西·2683ms
-  - 🇩🇪德国·2709ms
-  - 🇧🇷巴西·2841ms
-  - 🇲🇾马来·3036ms
-  - 🇨🇦加拿大·3046ms
-  - 🇩🇪德国·3186ms
-  - 🇯🇵日本·3197ms
-  - 🌐未知·3217ms
-  - 🇺🇸美国·3559ms
-  - 🇨🇦加拿大·3791ms
-  - 🇸🇪瑞典·3875ms
-  - 🇪🇸西班牙·4038ms
-  - 🇨🇦加拿大·4112ms
-  - 🇨🇦加拿大·4146ms
-  - 🇧🇪比利时·4153ms
-  - 🇨🇳中国·4269ms
-  - 🇧🇷巴西·4367ms
-  - 🌐未知·4401ms
-  - 🇳🇱荷兰·4438ms
-  - 🇨🇳中国·4623ms
+  - 🇳🇱荷兰·577ms
+  - 🇳🇱荷兰·621ms
+  - 🇳🇱荷兰·648ms
+  - 🇳🇱荷兰·720ms
+  - 🇳🇱荷兰·859ms
+  - 🇦🇪阿联酋·974ms
+  - 🇩🇪德国·1007ms
+  - 🇲🇾马来·1019ms
+  - 🇨🇦加拿大·1139ms
+  - 🇳🇱荷兰·1170ms
+  - 🇨🇦加拿大·1194ms
+  - 🇩🇪德国·1207ms
+  - 🇧🇷巴西·1258ms
+  - 🇫🇮芬兰·1290ms
+  - 🇺🇸美国·1332ms
+  - 🇳🇱荷兰·1335ms
+  - 🇨🇦加拿大·1433ms
+  - 🌐未知·1551ms
+  - 🌐未知·1614ms
+  - 🇳🇱荷兰·1766ms
+  - 🇨🇳中国·2622ms
+  - 🇺🇸美国·3297ms
+  - 🇧🇷巴西·3559ms
+  - 🇧🇷巴西·3643ms
+  - 🇧🇷巴西·3683ms
+  - 🇧🇷巴西·3738ms
+  - 🇧🇷巴西·3811ms
+  - 🇧🇷巴西·3869ms
+  - 🇯🇵日本·3881ms
+  - 🇺🇸美国·3958ms
+  - 🇧🇷巴西·4042ms
+  - 🌐未知·4475ms
+  - 🇧🇬保加利亚·4484ms
+  - 🇧🇷巴西·4516ms
+  - 🇺🇦乌克兰·4543ms
+  - 🇧🇷巴西·4546ms
+  - 🇧🇪比利时·4620ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇳🇱荷兰·726ms
-  - 🇩🇪德国·1388ms
-  - 🇧🇷巴西·1521ms
-  - 🇧🇷巴西·1531ms
-  - 🇯🇵日本·1548ms
-  - 🇺🇦乌克兰·1557ms
-  - 🇧🇪比利时·1596ms
-  - 🇧🇷巴西·1770ms
-  - 🇺🇸美国·1823ms
-  - 🇦🇪阿联酋·1842ms
-  - 🇧🇬保加利亚·1986ms
-  - 🇺🇸美国·2062ms
-  - 🇧🇷巴西·2124ms
-  - 🇳🇱荷兰·2192ms
-  - 🇳🇱荷兰·2204ms
-  - 🇧🇷巴西·2386ms
-  - 🇺🇸美国·2408ms
-  - 🇦🇪阿联酋·2446ms
-  - 🌐未知·2461ms
-  - 🇧🇷巴西·2546ms
-  - 🇳🇱荷兰·2550ms
-  - 🇨🇦加拿大·2622ms
-  - 🇺🇸美国·2669ms
-  - 🇳🇱荷兰·2674ms
-  - 🇨🇦加拿大·2677ms
-  - 🇧🇷巴西·2683ms
-  - 🇩🇪德国·2709ms
-  - 🇧🇷巴西·2841ms
-  - 🇲🇾马来·3036ms
-  - 🇨🇦加拿大·3046ms
-  - 🇩🇪德国·3186ms
-  - 🇯🇵日本·3197ms
-  - 🌐未知·3217ms
-  - 🇺🇸美国·3559ms
-  - 🇨🇦加拿大·3791ms
-  - 🇸🇪瑞典·3875ms
-  - 🇪🇸西班牙·4038ms
-  - 🇨🇦加拿大·4112ms
-  - 🇨🇦加拿大·4146ms
-  - 🇧🇪比利时·4153ms
-  - 🇨🇳中国·4269ms
-  - 🇧🇷巴西·4367ms
-  - 🌐未知·4401ms
-  - 🇳🇱荷兰·4438ms
-  - 🇨🇳中国·4623ms
+  - 🇳🇱荷兰·577ms
+  - 🇳🇱荷兰·621ms
+  - 🇳🇱荷兰·648ms
+  - 🇳🇱荷兰·720ms
+  - 🇳🇱荷兰·859ms
+  - 🇦🇪阿联酋·974ms
+  - 🇩🇪德国·1007ms
+  - 🇲🇾马来·1019ms
+  - 🇨🇦加拿大·1139ms
+  - 🇳🇱荷兰·1170ms
+  - 🇨🇦加拿大·1194ms
+  - 🇩🇪德国·1207ms
+  - 🇧🇷巴西·1258ms
+  - 🇫🇮芬兰·1290ms
+  - 🇺🇸美国·1332ms
+  - 🇳🇱荷兰·1335ms
+  - 🇨🇦加拿大·1433ms
+  - 🌐未知·1551ms
+  - 🌐未知·1614ms
+  - 🇳🇱荷兰·1766ms
+  - 🇨🇳中国·2622ms
+  - 🇺🇸美国·3297ms
+  - 🇧🇷巴西·3559ms
+  - 🇧🇷巴西·3643ms
+  - 🇧🇷巴西·3683ms
+  - 🇧🇷巴西·3738ms
+  - 🇧🇷巴西·3811ms
+  - 🇧🇷巴西·3869ms
+  - 🇯🇵日本·3881ms
+  - 🇺🇸美国·3958ms
+  - 🇧🇷巴西·4042ms
+  - 🌐未知·4475ms
+  - 🇧🇬保加利亚·4484ms
+  - 🇧🇷巴西·4516ms
+  - 🇺🇦乌克兰·4543ms
+  - 🇧🇷巴西·4546ms
+  - 🇧🇪比利时·4620ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
