@@ -35,137 +35,580 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇳🇱荷兰·591ms
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·628ms
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·912ms
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·926ms
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·1079ms
+- name: 🇨🇦加拿大·792ms
   type: trojan
-  server: 169.197.140.218
+  server: 172.64.229.7
   port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: learn.discoverfreshgraduatejobsstartyourprofessionaljourney.com
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
   skip-cert-verify: false
-- name: 🇳🇱荷兰·1086ms
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇭🇰香港·1108ms
-  type: ss
-  server: xunlinknode.csdjhajkshdjkas.com
-  port: 40006
-  cipher: chacha20-ietf-poly1305
-  password: 28789988-887e-4e41-83cd-27bbfb7999ad
-- name: 🇳🇱荷兰·1382ms
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇦加拿大·1851ms
-  type: vless
-  server: 104.16.0.1
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
-- name: 🇨🇳中国·2371ms
-  type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
-- name: 🇳🇱荷兰·2718ms
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·3318ms
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·3857ms
+      Host: api.85s.me
+- name: 🇧🇷巴西·798ms
+  type: trojan
+  server: 179.255.141.28
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇺🇸美国·805ms
+  type: trojan
+  server: 64.186.224.154
+  port: 10962
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇧🇷巴西·867ms
+  type: trojan
+  server: 179.255.102.237
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇨🇦加拿大·874ms
+  type: trojan
+  server: 104.19.0.5
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇨🇦加拿大·953ms
+  type: trojan
+  server: 104.17.0.3
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇩🇪德国·1014ms
+  type: trojan
+  server: 82.139.236.254
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇺🇸美国·1051ms
+  type: trojan
+  server: 38.207.178.173
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇺🇸美国·1051ms·2
+  type: trojan
+  server: 45.139.193.156
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇺🇸美国·1149ms
+  type: hysteria2
+  server: 13.143.189.144
+  port: 4444
+  password: a35c508f-4d5d-4531-842e-6e9d43c762c0
+  sni: pl2.nexfile.net
+  skip-cert-verify: false
+- name: 🇸🇬新加坡·1221ms
+  type: trojan
+  server: 45.127.34.109
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇨🇦加拿大·1268ms
+  type: trojan
+  server: 104.21.0.4
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇳🇱荷兰·1434ms
   type: ss
   server: 202.50.253.18
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·4707ms
+- name: 🇸🇬新加坡·1539ms
+  type: trojan
+  server: 172.104.57.237
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇺🇸美国·1680ms
+  type: trojan
+  server: 69.8.133.223
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇨🇦加拿大·1887ms
+  type: trojan
+  server: 104.25.0.2
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇨🇦加拿大·1904ms
+  type: trojan
+  server: 104.21.0.2
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇧🇷巴西·1912ms
+  type: trojan
+  server: 179.255.103.84
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇭🇰香港·1935ms
+  type: trojan
+  server: 47.75.104.211
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇳🇱荷兰·1972ms
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦加拿大·2146ms
+  type: vless
+  server: 903.rtgpu.com
+  port: 443
+  uuid: c6438331-a79b-4471-fd5e-42c2eeac29fa
+  tls: true
+  servername: 903.rtgpu.com
+  network: ws
+  ws-opts:
+    path: /nmd2
+    headers:
+      Host: 903.rtgpu.com
+- name: 🇯🇵日本·2221ms
+  type: trojan
+  server: 13.158.86.30
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇧🇷巴西·2402ms
+  type: trojan
+  server: 179.255.136.237
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇧🇷巴西·2596ms
+  type: trojan
+  server: 179.253.239.20
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇳🇱荷兰·2807ms
+  type: ss
+  server: 202.50.253.54
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇧🇷巴西·2817ms
+  type: trojan
+  server: 179.255.141.59
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇳🇱荷兰·2836ms
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦加拿大·2849ms
+  type: trojan
+  server: 104.21.0.1
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇯🇵日本·2994ms
+  type: trojan
+  server: 54.249.160.228
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇧🇷巴西·3043ms
+  type: trojan
+  server: 179.253.238.240
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇧🇷巴西·3240ms
+  type: trojan
+  server: 179.255.99.7
+  port: 8443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇨🇦加拿大·3343ms
+  type: trojan
+  server: 104.21.0.5
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇨🇦加拿大·3498ms
+  type: trojan
+  server: 104.21.0.3
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇨🇦加拿大·3508ms
+  type: trojan
+  server: 104.26.0.6
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇭🇰香港·3565ms
+  type: trojan
+  server: 103.3.26.26
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇯🇵日本·3606ms
+  type: trojan
+  server: 172.238.22.178
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇳🇱荷兰·3626ms
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·3685ms
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇧🇷巴西·4034ms
+  type: trojan
+  server: 179.253.231.22
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇳🇱荷兰·4176ms
   type: ss
   server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇧🇷巴西·4189ms
+  type: trojan
+  server: 179.253.231.141
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇳🇱荷兰·4544ms
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦加拿大·4594ms
+  type: trojan
+  server: 104.21.0.7
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
+- name: 🇸🇬新加坡·4646ms
+  type: trojan
+  server: 172.236.139.181
+  port: 443
+  password: 8deb189a-3aed-4865-843b-b72dae954c46
+  sni: api.85s.me
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: api.85s.me
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇳🇱荷兰·591ms
-  - 🇳🇱荷兰·628ms
-  - 🇳🇱荷兰·912ms
-  - 🇳🇱荷兰·926ms
-  - 🇺🇸美国·1079ms
-  - 🇳🇱荷兰·1086ms
-  - 🇭🇰香港·1108ms
-  - 🇳🇱荷兰·1382ms
-  - 🇨🇦加拿大·1851ms
-  - 🇨🇳中国·2371ms
-  - 🇳🇱荷兰·2718ms
-  - 🇳🇱荷兰·3318ms
-  - 🇳🇱荷兰·3857ms
-  - 🇳🇱荷兰·4707ms
+  - 🇨🇦加拿大·792ms
+  - 🇧🇷巴西·798ms
+  - 🇺🇸美国·805ms
+  - 🇧🇷巴西·867ms
+  - 🇨🇦加拿大·874ms
+  - 🇨🇦加拿大·953ms
+  - 🇩🇪德国·1014ms
+  - 🇺🇸美国·1051ms
+  - 🇺🇸美国·1051ms·2
+  - 🇺🇸美国·1149ms
+  - 🇸🇬新加坡·1221ms
+  - 🇨🇦加拿大·1268ms
+  - 🇳🇱荷兰·1434ms
+  - 🇸🇬新加坡·1539ms
+  - 🇺🇸美国·1680ms
+  - 🇨🇦加拿大·1887ms
+  - 🇨🇦加拿大·1904ms
+  - 🇧🇷巴西·1912ms
+  - 🇭🇰香港·1935ms
+  - 🇳🇱荷兰·1972ms
+  - 🇨🇦加拿大·2146ms
+  - 🇯🇵日本·2221ms
+  - 🇧🇷巴西·2402ms
+  - 🇧🇷巴西·2596ms
+  - 🇳🇱荷兰·2807ms
+  - 🇧🇷巴西·2817ms
+  - 🇳🇱荷兰·2836ms
+  - 🇨🇦加拿大·2849ms
+  - 🇯🇵日本·2994ms
+  - 🇧🇷巴西·3043ms
+  - 🇧🇷巴西·3240ms
+  - 🇨🇦加拿大·3343ms
+  - 🇨🇦加拿大·3498ms
+  - 🇨🇦加拿大·3508ms
+  - 🇭🇰香港·3565ms
+  - 🇯🇵日本·3606ms
+  - 🇳🇱荷兰·3626ms
+  - 🇳🇱荷兰·3685ms
+  - 🇧🇷巴西·4034ms
+  - 🇳🇱荷兰·4176ms
+  - 🇧🇷巴西·4189ms
+  - 🇳🇱荷兰·4544ms
+  - 🇨🇦加拿大·4594ms
+  - 🇸🇬新加坡·4646ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇳🇱荷兰·591ms
-  - 🇳🇱荷兰·628ms
-  - 🇳🇱荷兰·912ms
-  - 🇳🇱荷兰·926ms
-  - 🇺🇸美国·1079ms
-  - 🇳🇱荷兰·1086ms
-  - 🇭🇰香港·1108ms
-  - 🇳🇱荷兰·1382ms
-  - 🇨🇦加拿大·1851ms
-  - 🇨🇳中国·2371ms
-  - 🇳🇱荷兰·2718ms
-  - 🇳🇱荷兰·3318ms
-  - 🇳🇱荷兰·3857ms
-  - 🇳🇱荷兰·4707ms
+  - 🇨🇦加拿大·792ms
+  - 🇧🇷巴西·798ms
+  - 🇺🇸美国·805ms
+  - 🇧🇷巴西·867ms
+  - 🇨🇦加拿大·874ms
+  - 🇨🇦加拿大·953ms
+  - 🇩🇪德国·1014ms
+  - 🇺🇸美国·1051ms
+  - 🇺🇸美国·1051ms·2
+  - 🇺🇸美国·1149ms
+  - 🇸🇬新加坡·1221ms
+  - 🇨🇦加拿大·1268ms
+  - 🇳🇱荷兰·1434ms
+  - 🇸🇬新加坡·1539ms
+  - 🇺🇸美国·1680ms
+  - 🇨🇦加拿大·1887ms
+  - 🇨🇦加拿大·1904ms
+  - 🇧🇷巴西·1912ms
+  - 🇭🇰香港·1935ms
+  - 🇳🇱荷兰·1972ms
+  - 🇨🇦加拿大·2146ms
+  - 🇯🇵日本·2221ms
+  - 🇧🇷巴西·2402ms
+  - 🇧🇷巴西·2596ms
+  - 🇳🇱荷兰·2807ms
+  - 🇧🇷巴西·2817ms
+  - 🇳🇱荷兰·2836ms
+  - 🇨🇦加拿大·2849ms
+  - 🇯🇵日本·2994ms
+  - 🇧🇷巴西·3043ms
+  - 🇧🇷巴西·3240ms
+  - 🇨🇦加拿大·3343ms
+  - 🇨🇦加拿大·3498ms
+  - 🇨🇦加拿大·3508ms
+  - 🇭🇰香港·3565ms
+  - 🇯🇵日本·3606ms
+  - 🇳🇱荷兰·3626ms
+  - 🇳🇱荷兰·3685ms
+  - 🇧🇷巴西·4034ms
+  - 🇳🇱荷兰·4176ms
+  - 🇧🇷巴西·4189ms
+  - 🇳🇱荷兰·4544ms
+  - 🇨🇦加拿大·4594ms
+  - 🇸🇬新加坡·4646ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
