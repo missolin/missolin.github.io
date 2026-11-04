@@ -35,128 +35,7 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇺🇸美国·659ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·1098ms
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1107ms
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1108ms
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1150ms
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1161ms
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1266ms
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1334ms
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1341ms
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1381ms
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇦加拿大·1495ms
-  type: vless
-  server: 104.19.178.244
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇨🇦加拿大·1540ms
-  type: vless
-  server: 104.24.0.184
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇨🇦加拿大·1586ms
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: 5b374761-e26c-4117-8af8-5c637992fcbf
-  tls: true
-  servername: vls.baiyi.cloudns.org
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: vls.baiyi.cloudns.org
-- name: 🇨🇦加拿大·1718ms
-  type: vless
-  server: 104.16.10.199
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇨🇦加拿大·2107ms
-  type: vless
-  server: 104.21.5.75
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇨🇦加拿大·2241ms
+- name: 🇨🇦加拿大·1487ms
   type: vless
   server: 104.16.10.233
   port: 443
@@ -168,46 +47,9 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇳🇱荷兰·2812ms
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇳中国·2997ms
+- name: 🇨🇦加拿大·1743ms
   type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
-- name: 🇨🇦加拿大·3062ms
-  type: vless
-  server: 104.21.1.150
-  port: 2087
-  uuid: 55d9ec38-1b8a-454b-981a-6acfe8f56d8c
-  tls: true
-  servername: fu.baiproxy.us.ci
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: fu.baiproxy.us.ci
-- name: 🇺🇸美国·3457ms
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🇨🇦加拿大·3492ms
-  type: vless
-  server: 104.16.10.10
+  server: 104.16.156.227
   port: 443
   uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
   tls: true
@@ -217,19 +59,7 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇨🇦加拿大·3647ms
-  type: vless
-  server: ld.235231.xyz
-  port: 443
-  uuid: 65d3f9b3-d289-4a8e-9c87-90bba156de30
-  tls: true
-  servername: ld.235231.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ld.235231.xyz
-- name: 🇨🇦加拿大·3862ms
+- name: 🇨🇦加拿大·1750ms
   type: vless
   server: 104.16.10.234
   port: 443
@@ -241,7 +71,31 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇨🇦加拿大·4013ms
+- name: 🇺🇸美国·1814ms
+  type: vless
+  server: 141.193.213.20
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  tls: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇺🇸美国·1958ms
+  type: vless
+  server: news.zoom.us
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  tls: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇨🇦加拿大·2185ms
   type: vless
   server: 104.16.10.235
   port: 443
@@ -253,79 +107,122 @@ proxies:
     path: /
     headers:
       Host: u.srilankangrill.online
-- name: 🇩🇪德国·4139ms
-  type: trojan
-  server: 144.31.64.59
+- name: 🇨🇦加拿大·2219ms
+  type: vless
+  server: 104.21.5.75
   port: 443
-  password: 8deb189a-3aed-4865-843b-b72dae954c46
-  sni: api.85s.me
-  skip-cert-verify: false
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
   network: ws
   ws-opts:
     path: /
     headers:
-      Host: api.85s.me
+      Host: u.srilankangrill.online
+- name: 🇨🇦加拿大·2424ms
+  type: vless
+  server: 104.24.0.184
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇨🇦加拿大·2476ms
+  type: vless
+  server: 104.16.10.199
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇺🇸美国·2733ms
+  type: vless
+  server: 141.193.213.21
+  port: 8443
+  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
+  tls: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇨🇦加拿大·2981ms
+  type: vless
+  server: 104.19.178.244
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇨🇦加拿大·3038ms
+  type: vless
+  server: 104.16.10.10
+  port: 443
+  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
+  tls: true
+  servername: u.srilankangrill.online
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: u.srilankangrill.online
+- name: 🇨🇳中国·3383ms
+  type: vless
+  server: us22.sofast.live
+  port: 58011
+  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
+  tls: false
+  network: tcp
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇺🇸美国·659ms
-  - 🇳🇱荷兰·1098ms
-  - 🇳🇱荷兰·1107ms
-  - 🇳🇱荷兰·1108ms
-  - 🇳🇱荷兰·1150ms
-  - 🇳🇱荷兰·1161ms
-  - 🇳🇱荷兰·1266ms
-  - 🇳🇱荷兰·1334ms
-  - 🇳🇱荷兰·1341ms
-  - 🇳🇱荷兰·1381ms
-  - 🇨🇦加拿大·1495ms
-  - 🇨🇦加拿大·1540ms
-  - 🇨🇦加拿大·1586ms
-  - 🇨🇦加拿大·1718ms
-  - 🇨🇦加拿大·2107ms
-  - 🇨🇦加拿大·2241ms
-  - 🇳🇱荷兰·2812ms
-  - 🇨🇳中国·2997ms
-  - 🇨🇦加拿大·3062ms
-  - 🇺🇸美国·3457ms
-  - 🇨🇦加拿大·3492ms
-  - 🇨🇦加拿大·3647ms
-  - 🇨🇦加拿大·3862ms
-  - 🇨🇦加拿大·4013ms
-  - 🇩🇪德国·4139ms
+  - 🇨🇦加拿大·1487ms
+  - 🇨🇦加拿大·1743ms
+  - 🇨🇦加拿大·1750ms
+  - 🇺🇸美国·1814ms
+  - 🇺🇸美国·1958ms
+  - 🇨🇦加拿大·2185ms
+  - 🇨🇦加拿大·2219ms
+  - 🇨🇦加拿大·2424ms
+  - 🇨🇦加拿大·2476ms
+  - 🇺🇸美国·2733ms
+  - 🇨🇦加拿大·2981ms
+  - 🇨🇦加拿大·3038ms
+  - 🇨🇳中国·3383ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇺🇸美国·659ms
-  - 🇳🇱荷兰·1098ms
-  - 🇳🇱荷兰·1107ms
-  - 🇳🇱荷兰·1108ms
-  - 🇳🇱荷兰·1150ms
-  - 🇳🇱荷兰·1161ms
-  - 🇳🇱荷兰·1266ms
-  - 🇳🇱荷兰·1334ms
-  - 🇳🇱荷兰·1341ms
-  - 🇳🇱荷兰·1381ms
-  - 🇨🇦加拿大·1495ms
-  - 🇨🇦加拿大·1540ms
-  - 🇨🇦加拿大·1586ms
-  - 🇨🇦加拿大·1718ms
-  - 🇨🇦加拿大·2107ms
-  - 🇨🇦加拿大·2241ms
-  - 🇳🇱荷兰·2812ms
-  - 🇨🇳中国·2997ms
-  - 🇨🇦加拿大·3062ms
-  - 🇺🇸美国·3457ms
-  - 🇨🇦加拿大·3492ms
-  - 🇨🇦加拿大·3647ms
-  - 🇨🇦加拿大·3862ms
-  - 🇨🇦加拿大·4013ms
-  - 🇩🇪德国·4139ms
+  - 🇨🇦加拿大·1487ms
+  - 🇨🇦加拿大·1743ms
+  - 🇨🇦加拿大·1750ms
+  - 🇺🇸美国·1814ms
+  - 🇺🇸美国·1958ms
+  - 🇨🇦加拿大·2185ms
+  - 🇨🇦加拿大·2219ms
+  - 🇨🇦加拿大·2424ms
+  - 🇨🇦加拿大·2476ms
+  - 🇺🇸美国·2733ms
+  - 🇨🇦加拿大·2981ms
+  - 🇨🇦加拿大·3038ms
+  - 🇨🇳中国·3383ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
