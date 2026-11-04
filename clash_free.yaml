@@ -35,270 +35,75 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇳🇱荷兰·609ms
+- name: 🇯🇵日本·247ms
   type: ss
-  server: 202.50.253.27
-  port: 19999
+  server: 154.36.158.197
+  port: 8388
   cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·716ms
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·721ms
+  password: BeaUf9c0AEWH40Pu
+- name: 🇳🇱荷兰·601ms
   type: ss
   server: 202.50.253.81
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·865ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇷🇺俄罗斯·1010ms
-  type: ss
-  server: 46.17.46.27
-  port: 18443
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-- name: 🇳🇱荷兰·1466ms
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1540ms
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1682ms
+- name: 🇳🇱荷兰·619ms
   type: ss
   server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1838ms
+- name: 🇳🇱荷兰·627ms
   type: ss
-  server: 202.50.253.99
+  server: 202.50.253.36
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·2396ms
+- name: 🇳🇱荷兰·644ms
   type: ss
-  server: 202.50.253.18
+  server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🌐未知·2720ms
-  type: vless
-  server: 104.24.0.184
+- name: 🇮🇳印度·1280ms
+  type: hysteria2
+  server: 144.24.109.215
+  port: 51000
+  password: d105c6ae-621b-47c1-b85b-075fd6a39aca
+  sni: cn.cremedelamer.com
+  skip-cert-verify: true
+- name: 🇺🇸美国·2217ms
+  type: hysteria2
+  server: starlink-ft.251313.xyz
   port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐未知·2734ms
-  type: vless
-  server: 141.193.213.20
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐未知·2870ms
-  type: vless
-  server: 104.16.156.227
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐未知·3109ms
-  type: vless
-  server: 141.193.213.21
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐未知·3203ms
-  type: vless
-  server: news.zoom.us
-  port: 8443
-  uuid: 29c3dd6b-b164-40ca-a0d5-f06aca52a8b2
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐未知·3274ms
-  type: vless
-  server: 104.16.10.10
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐未知·3275ms
-  type: vless
-  server: 104.19.178.244
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐未知·3292ms
-  type: vless
-  server: 104.21.5.75
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐未知·3870ms
-  type: vless
-  server: fast.145779.xyz
-  port: 2053
-  uuid: e3149c82-00f6-4227-b2c0-b78f1dd81279
-  tls: true
-  servername: fast.145779.xyz
-  network: ws
-  ws-opts:
-    path: /ws-tesla
-    headers:
-      Host: fast.145779.xyz
-- name: 🇨🇳中国·3882ms
-  type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
-- name: 🇺🇸美国·4054ms
-  type: trojan
-  server: 216.152.147.74
-  port: 443
-  password: 0ab6c98dae3b48e8b9c4a776b6c9c19a
-  sni: api.connectingpeoplewithgreatjobs.com
-  skip-cert-verify: false
-- name: 🌐未知·4772ms
-  type: vless
-  server: 104.16.10.235
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
-- name: 🌐未知·4851ms
-  type: vless
-  server: 104.16.10.234
-  port: 443
-  uuid: b8d8a5b0-867f-4491-b4e4-30edc04bb10e
-  tls: true
-  servername: u.srilankangrill.online
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: u.srilankangrill.online
+  password: https://xship.top
+  sni: xship.top
+  skip-cert-verify: true
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇳🇱荷兰·609ms
-  - 🇳🇱荷兰·716ms
-  - 🇳🇱荷兰·721ms
-  - 🇺🇸美国·865ms
-  - 🇷🇺俄罗斯·1010ms
-  - 🇳🇱荷兰·1466ms
-  - 🇳🇱荷兰·1540ms
-  - 🇳🇱荷兰·1682ms
-  - 🇳🇱荷兰·1838ms
-  - 🇳🇱荷兰·2396ms
-  - 🌐未知·2720ms
-  - 🌐未知·2734ms
-  - 🌐未知·2870ms
-  - 🌐未知·3109ms
-  - 🌐未知·3203ms
-  - 🌐未知·3274ms
-  - 🌐未知·3275ms
-  - 🌐未知·3292ms
-  - 🌐未知·3870ms
-  - 🇨🇳中国·3882ms
-  - 🇺🇸美国·4054ms
-  - 🌐未知·4772ms
-  - 🌐未知·4851ms
+  - 🇯🇵日本·247ms
+  - 🇳🇱荷兰·601ms
+  - 🇳🇱荷兰·619ms
+  - 🇳🇱荷兰·627ms
+  - 🇳🇱荷兰·644ms
+  - 🇮🇳印度·1280ms
+  - 🇺🇸美国·2217ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇳🇱荷兰·609ms
-  - 🇳🇱荷兰·716ms
-  - 🇳🇱荷兰·721ms
-  - 🇺🇸美国·865ms
-  - 🇷🇺俄罗斯·1010ms
-  - 🇳🇱荷兰·1466ms
-  - 🇳🇱荷兰·1540ms
-  - 🇳🇱荷兰·1682ms
-  - 🇳🇱荷兰·1838ms
-  - 🇳🇱荷兰·2396ms
-  - 🌐未知·2720ms
-  - 🌐未知·2734ms
-  - 🌐未知·2870ms
-  - 🌐未知·3109ms
-  - 🌐未知·3203ms
-  - 🌐未知·3274ms
-  - 🌐未知·3275ms
-  - 🌐未知·3292ms
-  - 🌐未知·3870ms
-  - 🇨🇳中国·3882ms
-  - 🇺🇸美国·4054ms
-  - 🌐未知·4772ms
-  - 🌐未知·4851ms
+  - 🇯🇵日本·247ms
+  - 🇳🇱荷兰·601ms
+  - 🇳🇱荷兰·619ms
+  - 🇳🇱荷兰·627ms
+  - 🇳🇱荷兰·644ms
+  - 🇮🇳印度·1280ms
+  - 🇺🇸美国·2217ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
