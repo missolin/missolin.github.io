@@ -35,122 +35,106 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇳🇱荷兰·586ms
-  type: ss
-  server: 202.50.253.90
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·611ms
+- name: 🇳🇱荷兰·575ms
   type: ss
   server: 202.50.253.63
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·720ms
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·776ms
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·834ms
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1562ms
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·1581ms
-  type: hysteria2
-  server: 186.246.18.62
-  port: 443
-  password: f4b80b26-b6d4-49a6-a460-f50efb7a457c
-  sni: hy.cardlist24.shop
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·1641ms
+- name: 🇳🇱荷兰·611ms
   type: ss
   server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·2663ms
+- name: 🇳🇱荷兰·612ms
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·616ms
+  type: ss
+  server: 202.50.253.90
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·675ms
   type: ss
   server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·2881ms
-  type: vless
-  server: 162.159.254.3
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🇨🇳中国·4099ms
-  type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
-- name: 🌐未知·4915ms
-  type: vless
-  server: 152.175.6.229
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: hk010.zestapp778.com
+- name: 🇳🇱荷兰·691ms
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·768ms
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇺🇸美国·792ms
+  type: trojan
+  server: 23.149.28.8.sslip.io
+  port: 8443
+  password: 78c6cf8f30399bad3f63f15a9600a8ef
+  sni: 23.149.28.8.sslip.io
+  skip-cert-verify: true
+- name: 🇯🇵日本·1077ms
+  type: ss
+  server: 154.36.158.197
+  port: 8388
+  cipher: aes-256-gcm
+  password: BeaUf9c0AEWH40Pu
+- name: 🇳🇱荷兰·1741ms
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·2491ms
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇳🇱荷兰·586ms
+  - 🇳🇱荷兰·575ms
   - 🇳🇱荷兰·611ms
-  - 🇳🇱荷兰·720ms
-  - 🇳🇱荷兰·776ms
-  - 🇳🇱荷兰·834ms
-  - 🇳🇱荷兰·1562ms
-  - 🇺🇸美国·1581ms
-  - 🇳🇱荷兰·1641ms
-  - 🇳🇱荷兰·2663ms
-  - 🇺🇸美国·2881ms
-  - 🇨🇳中国·4099ms
-  - 🌐未知·4915ms
+  - 🇳🇱荷兰·612ms
+  - 🇳🇱荷兰·616ms
+  - 🇳🇱荷兰·675ms
+  - 🇳🇱荷兰·691ms
+  - 🇳🇱荷兰·768ms
+  - 🇺🇸美国·792ms
+  - 🇯🇵日本·1077ms
+  - 🇳🇱荷兰·1741ms
+  - 🇳🇱荷兰·2491ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇳🇱荷兰·586ms
+  - 🇳🇱荷兰·575ms
   - 🇳🇱荷兰·611ms
-  - 🇳🇱荷兰·720ms
-  - 🇳🇱荷兰·776ms
-  - 🇳🇱荷兰·834ms
-  - 🇳🇱荷兰·1562ms
-  - 🇺🇸美国·1581ms
-  - 🇳🇱荷兰·1641ms
-  - 🇳🇱荷兰·2663ms
-  - 🇺🇸美国·2881ms
-  - 🇨🇳中国·4099ms
-  - 🌐未知·4915ms
+  - 🇳🇱荷兰·612ms
+  - 🇳🇱荷兰·616ms
+  - 🇳🇱荷兰·675ms
+  - 🇳🇱荷兰·691ms
+  - 🇳🇱荷兰·768ms
+  - 🇺🇸美国·792ms
+  - 🇯🇵日本·1077ms
+  - 🇳🇱荷兰·1741ms
+  - 🇳🇱荷兰·2491ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
