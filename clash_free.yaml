@@ -35,133 +35,187 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🌐未知·368ms
-  type: vless
-  server: 152.175.6.229
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: hk010.zestapp778.com
-- name: 🇳🇱荷兰·605ms
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·638ms
+- name: 🇳🇱荷兰·589ms
   type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·689ms
+- name: 🇳🇱荷兰·590ms
+  type: ss
+  server: 202.50.253.99
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·593ms
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·593ms·2
+  type: ss
+  server: 202.50.253.81
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·640ms
   type: ss
   server: 202.50.253.27
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇷🇺俄罗斯·717ms
-  type: ss
-  server: 46.17.47.58
-  port: 18443
-  cipher: aes-256-gcm
-  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
-- name: 🇺🇸美国·719ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·771ms
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1144ms
+- name: 🇳🇱荷兰·640ms·2
   type: ss
   server: 202.50.253.45
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇳中国·1175ms
+- name: 🇷🇺俄罗斯·655ms
+  type: ss
+  server: 46.17.47.58
+  port: 18443
+  cipher: aes-256-gcm
+  password: cCMJgJTA3BA489YUYrFq7XHXSiSpWlLa
+- name: 🇺🇸美国·693ms
+  type: ss
+  server: 88.216.254.18
+  port: 1080
+  cipher: chacha20-ietf-poly1305
+  password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
+- name: 🇳🇱荷兰·709ms
+  type: ss
+  server: 202.50.253.18
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·825ms
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇯🇵日本·1024ms
+  type: hysteria2
+  server: 8.209.247.109
+  port: 443
+  password: usqmqUKJFIlCmvkCNSY64L3k
+  sni: bing.com
+  skip-cert-verify: true
+- name: 🇳🇱荷兰·1667ms
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇳中国·1885ms
   type: vless
   server: us22.sofast.live
   port: 58011
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   tls: false
   network: tcp
-- name: 🇺🇸美国·1958ms
+- name: 🇨🇦加拿大·1998ms
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇨🇦加拿大·2150ms
+  type: vless
+  server: 104.17.50.227
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇳🇱荷兰·2433ms
   type: ss
-  server: 88.216.254.18
-  port: 1080
-  cipher: chacha20-ietf-poly1305
-  password: V7WLaYdujkwnj6xxXq-2BSxGWEcSJtTA
-- name: 🇳🇱荷兰·2475ms
-  type: ss
-  server: 202.50.253.63
+  server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇭🇰香港·3684ms
-  type: hysteria2
-  server: 31.57.248.176
-  port: 50160
-  password: b0917015b656b3dd2286b5633af0c5c1
-  sni: www.bing.com%23%e9%a6%83%e5%9a%9f%e9%a6%83%e5%9a%a2%7chk%7c%40wxgqlfx%7c147
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·3941ms
-  type: ss
-  server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·3946ms
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇨🇦加拿大·4479ms
+  type: vless
+  server: 104.16.10.185
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🇨🇦加拿大·4503ms
+  type: vless
+  server: 104.21.70.21
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  tls: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🌐未知·368ms
-  - 🇳🇱荷兰·605ms
-  - 🇳🇱荷兰·638ms
-  - 🇳🇱荷兰·689ms
-  - 🇷🇺俄罗斯·717ms
-  - 🇺🇸美国·719ms
-  - 🇳🇱荷兰·771ms
-  - 🇳🇱荷兰·1144ms
-  - 🇨🇳中国·1175ms
-  - 🇺🇸美国·1958ms
-  - 🇳🇱荷兰·2475ms
-  - 🇭🇰香港·3684ms
-  - 🇳🇱荷兰·3941ms
-  - 🇳🇱荷兰·3946ms
+  - 🇳🇱荷兰·589ms
+  - 🇳🇱荷兰·590ms
+  - 🇳🇱荷兰·593ms
+  - 🇳🇱荷兰·593ms·2
+  - 🇳🇱荷兰·640ms
+  - 🇳🇱荷兰·640ms·2
+  - 🇷🇺俄罗斯·655ms
+  - 🇺🇸美国·693ms
+  - 🇳🇱荷兰·709ms
+  - 🇳🇱荷兰·825ms
+  - 🇯🇵日本·1024ms
+  - 🇳🇱荷兰·1667ms
+  - 🇨🇳中国·1885ms
+  - 🇨🇦加拿大·1998ms
+  - 🇨🇦加拿大·2150ms
+  - 🇳🇱荷兰·2433ms
+  - 🇨🇦加拿大·4479ms
+  - 🇨🇦加拿大·4503ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🌐未知·368ms
-  - 🇳🇱荷兰·605ms
-  - 🇳🇱荷兰·638ms
-  - 🇳🇱荷兰·689ms
-  - 🇷🇺俄罗斯·717ms
-  - 🇺🇸美国·719ms
-  - 🇳🇱荷兰·771ms
-  - 🇳🇱荷兰·1144ms
-  - 🇨🇳中国·1175ms
-  - 🇺🇸美国·1958ms
-  - 🇳🇱荷兰·2475ms
-  - 🇭🇰香港·3684ms
-  - 🇳🇱荷兰·3941ms
-  - 🇳🇱荷兰·3946ms
+  - 🇳🇱荷兰·589ms
+  - 🇳🇱荷兰·590ms
+  - 🇳🇱荷兰·593ms
+  - 🇳🇱荷兰·593ms·2
+  - 🇳🇱荷兰·640ms
+  - 🇳🇱荷兰·640ms·2
+  - 🇷🇺俄罗斯·655ms
+  - 🇺🇸美国·693ms
+  - 🇳🇱荷兰·709ms
+  - 🇳🇱荷兰·825ms
+  - 🇯🇵日本·1024ms
+  - 🇳🇱荷兰·1667ms
+  - 🇨🇳中国·1885ms
+  - 🇨🇦加拿大·1998ms
+  - 🇨🇦加拿大·2150ms
+  - 🇳🇱荷兰·2433ms
+  - 🇨🇦加拿大·4479ms
+  - 🇨🇦加拿大·4503ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
