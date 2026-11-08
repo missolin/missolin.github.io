@@ -35,149 +35,100 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇳🇱荷兰·590ms
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·628ms
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·656ms
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·703ms
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·755ms
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·783ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·1478ms
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1770ms
-  type: ss
-  server: 202.50.253.54
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇯🇵日本·1832ms
-  type: hysteria2
-  server: 8.209.247.109
-  port: 443
-  password: usqmqUKJFIlCmvkCNSY64L3k
-  sni: bing.com
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·1944ms
+- name: 🇳🇱荷兰·670ms
   type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇸🇬新加坡·2566ms
-  type: hysteria2
-  server: 84.32.23.76
-  port: 20443
-  password: 4fa0ca1b-0742-419d-8fd2-3f698e06b206
-  sni: hy530899.w-mebel.pro
-  skip-cert-verify: false
-- name: 🇳🇱荷兰·3233ms
+- name: 🇳🇱荷兰·671ms
   type: ss
-  server: 202.50.253.81
+  server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇩🇪德国·3621ms
-  type: vless
-  server: 62.106.75.86
+- name: 🇳🇱荷兰·896ms
+  type: ss
+  server: 202.50.253.63
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·1503ms
+  type: ss
+  server: 202.50.253.36
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇳🇱荷兰·2219ms
+  type: ss
+  server: 202.50.253.72
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇪阿联酋·2884ms
+  type: hysteria2
+  server: 89.125.214.221
+  port: 19455
+  password: 190edece-2750-454c-b766-0570fc32deca
+  sni: mshvpn.online
+  skip-cert-verify: false
+- name: 🇳🇱荷兰·3788ms
+  type: ss
+  server: 202.50.253.27
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
+- name: 🇦🇺澳洲·3945ms
+  type: trojan
+  server: au.tronsg.com
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  tls: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐未知·4653ms
-  type: vless
-  server: 152.175.6.229
-  port: 31884
-  uuid: e9a8144e-5237-488a-afb1-9ca3d8d54c80
-  tls: true
-  servername: hk010.zestapp778.com
-  network: tcp
-- name: 🇨🇳中国·4720ms
+  password: Trojan@82164024
+  sni: au.tronsg.com
+  skip-cert-verify: false
+- name: 🇨🇳中国·4052ms
   type: vless
   server: us22.sofast.live
   port: 58011
   uuid: 0afc6426-606c-48e7-bd70-3c424a416842
   tls: false
   network: tcp
+- name: 🇳🇱荷兰·4581ms
+  type: ss
+  server: 202.50.253.45
+  port: 19999
+  cipher: aes-256-gcm
+  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇳🇱荷兰·590ms
-  - 🇳🇱荷兰·628ms
-  - 🇳🇱荷兰·656ms
-  - 🇳🇱荷兰·703ms
-  - 🇳🇱荷兰·755ms
-  - 🇺🇸美国·783ms
-  - 🇳🇱荷兰·1478ms
-  - 🇳🇱荷兰·1770ms
-  - 🇯🇵日本·1832ms
-  - 🇳🇱荷兰·1944ms
-  - 🇸🇬新加坡·2566ms
-  - 🇳🇱荷兰·3233ms
-  - 🇩🇪德国·3621ms
-  - 🌐未知·4653ms
-  - 🇨🇳中国·4720ms
+  - 🇳🇱荷兰·670ms
+  - 🇳🇱荷兰·671ms
+  - 🇳🇱荷兰·896ms
+  - 🇳🇱荷兰·1503ms
+  - 🇳🇱荷兰·2219ms
+  - 🇦🇪阿联酋·2884ms
+  - 🇳🇱荷兰·3788ms
+  - 🇦🇺澳洲·3945ms
+  - 🇨🇳中国·4052ms
+  - 🇳🇱荷兰·4581ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇳🇱荷兰·590ms
-  - 🇳🇱荷兰·628ms
-  - 🇳🇱荷兰·656ms
-  - 🇳🇱荷兰·703ms
-  - 🇳🇱荷兰·755ms
-  - 🇺🇸美国·783ms
-  - 🇳🇱荷兰·1478ms
-  - 🇳🇱荷兰·1770ms
-  - 🇯🇵日本·1832ms
-  - 🇳🇱荷兰·1944ms
-  - 🇸🇬新加坡·2566ms
-  - 🇳🇱荷兰·3233ms
-  - 🇩🇪德国·3621ms
-  - 🌐未知·4653ms
-  - 🇨🇳中国·4720ms
+  - 🇳🇱荷兰·670ms
+  - 🇳🇱荷兰·671ms
+  - 🇳🇱荷兰·896ms
+  - 🇳🇱荷兰·1503ms
+  - 🇳🇱荷兰·2219ms
+  - 🇦🇪阿联酋·2884ms
+  - 🇳🇱荷兰·3788ms
+  - 🇦🇺澳洲·3945ms
+  - 🇨🇳中国·4052ms
+  - 🇳🇱荷兰·4581ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
