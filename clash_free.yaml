@@ -35,77 +35,15 @@ dns:
     geosite:
     - gfw
 proxies:
-- name: 🇳🇱荷兰·590ms
-  type: ss
-  server: 202.50.253.18
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·609ms
+- name: 🇳🇱荷兰·536ms
   type: ss
   server: 202.50.253.90
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·699ms
-  type: ss
-  server: 202.50.253.63
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇺🇸美国·812ms
-  type: trojan
-  server: 23.149.28.8.sslip.io
-  port: 8443
-  password: 78c6cf8f30399bad3f63f15a9600a8ef
-  sni: 23.149.28.8.sslip.io
-  skip-cert-verify: true
-- name: 🇳🇱荷兰·1012ms
-  type: ss
-  server: 202.50.253.36
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1104ms
-  type: ss
-  server: 202.50.253.99
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1118ms
-  type: ss
-  server: 202.50.253.72
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1482ms
-  type: ss
-  server: 202.50.253.27
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·1570ms
+- name: 🇳🇱荷兰·581ms
   type: ss
   server: 202.50.253.81
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇳🇱荷兰·2051ms
-  type: ss
-  server: 202.50.253.45
-  port: 19999
-  cipher: aes-256-gcm
-  password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
-- name: 🇨🇳中国·2189ms
-  type: vless
-  server: us22.sofast.live
-  port: 58011
-  uuid: 0afc6426-606c-48e7-bd70-3c424a416842
-  tls: false
-  network: tcp
-- name: 🇳🇱荷兰·3491ms
-  type: ss
-  server: 202.50.253.54
   port: 19999
   cipher: aes-256-gcm
   password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=
@@ -114,36 +52,16 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - 🇳🇱荷兰·590ms
-  - 🇳🇱荷兰·609ms
-  - 🇳🇱荷兰·699ms
-  - 🇺🇸美国·812ms
-  - 🇳🇱荷兰·1012ms
-  - 🇳🇱荷兰·1104ms
-  - 🇳🇱荷兰·1118ms
-  - 🇳🇱荷兰·1482ms
-  - 🇳🇱荷兰·1570ms
-  - 🇳🇱荷兰·2051ms
-  - 🇨🇳中国·2189ms
-  - 🇳🇱荷兰·3491ms
+  - 🇳🇱荷兰·536ms
+  - 🇳🇱荷兰·581ms
 - name: ♻️ 自动选择
   type: url-test
   url: http://cp.cloudflare.com/generate_204
   interval: 300
   tolerance: 100
   proxies:
-  - 🇳🇱荷兰·590ms
-  - 🇳🇱荷兰·609ms
-  - 🇳🇱荷兰·699ms
-  - 🇺🇸美国·812ms
-  - 🇳🇱荷兰·1012ms
-  - 🇳🇱荷兰·1104ms
-  - 🇳🇱荷兰·1118ms
-  - 🇳🇱荷兰·1482ms
-  - 🇳🇱荷兰·1570ms
-  - 🇳🇱荷兰·2051ms
-  - 🇨🇳中国·2189ms
-  - 🇳🇱荷兰·3491ms
+  - 🇳🇱荷兰·536ms
+  - 🇳🇱荷兰·581ms
 - name: 🐟 漏网之鱼
   type: select
   proxies:
